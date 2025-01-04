@@ -1,0 +1,107 @@
+site_name: Quant Wiki
+site_url: https://quant-wiki.com
+site_author: LLMQuant Team
+site_description: A comprehensive quantitative trading and finance wiki
+
+# Repository
+repo_name: LLMQuant/quant-wiki
+repo_url: https://github.com/LLMQuant/quant-wiki
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 LLMQuant Team
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  # - git-revision-date-localized:
+      # type: datetime
+
+# Extra CSS and JavaScript
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Installation: getting-started/installation.md
+  - Quantitative Analysis:
+    - Basic Concepts: quant/basics.md
+    - Strategies: quant/strategies.md
+  - API Documentation:
+    - Overview: api/overview.md
+    - Reference: api/reference.md
+  - Chatbot:
+    - Overview: chatbot/overview.md
+
+
+extra:
+  social:  # This is the social links section.
+    # - icon: fontawesome/brands/github  # Use the Font Awesome icon name.
+      # link: https://github.com/your-username  # Replace with your GitHub username.
+      # name:  Visit me on GitHub # 用于 accessibility 的名字
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/llmquant/
+    - icon: fontawesome/solid/globe
+      link: https://llmquant.com
