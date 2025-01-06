@@ -48,5 +48,7 @@ jobs:
     # 6) 通过 rsync 部署
     - name: Deploy to server
       run: |
-        rsync -avz --delete /github/workspace/site/ \
+        rsync -avz --delete site/ \
+          --exclude='.user.ini' \
+          --exclude='.htaccess' \
           ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/www/wwwroot/wiki/
