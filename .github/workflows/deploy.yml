@@ -32,4 +32,4 @@ jobs:
       run: |
         mkdir -p ~/.ssh
         ssh-keyscan -p ${{ secrets.SERVER_PORT || '22' }} ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
-        rsync -e 'ssh -p ${{ secrets.SERVER_PORT || '22' }}' -avz --delete /github/workspace/site/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/www/wwwroot/wiki/
+        rsync -avz --delete /github/workspace/site/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/www/wwwroot/wiki/
