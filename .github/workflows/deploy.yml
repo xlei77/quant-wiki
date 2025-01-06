@@ -30,23 +30,14 @@ jobs:
 
     - name: Debug SSH
       run: |
-        # 1) 查看当前已加载的 SSH key 列表
         ssh-add -l || echo "No SSH key loaded"
-
-        # 2) 测试与服务器的 SSH 连接，输出详细 debug 日志
-        #    '-o StrictHostKeyChecking=no' 可以临时忽略 known_hosts，或你也可以保留 ssh-keyscan
         ssh -vvv -o StrictHostKeyChecking=no -p ${{ secrets.SERVER_PORT || '22' }} \
           ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} exit
-
-        # 3) 如果上面的命令也失败，就能在日志里看到更详细的调试信息
 
     - name: List SSH folder
       run: |
         echo "==> Listing ~/.ssh directory..."
         ls -la ~/.ssh || echo "~/.ssh not found"
-
-        # 如果你在其他步骤里手动写入了 id_rsa，也可检查其权限: 
-        # stat ~/.ssh/id_rsa || true
 
     - name: Deploy to server
       run: |
