@@ -48,5 +48,5 @@ jobs:
     # 6) 通过 rsync 部署
     - name: Deploy to server
       run: |
-        rsync -avz --delete site/ \
+        rsync -avz --delete /github/workspace/site/ \
           ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/www/wwwroot/wiki/
