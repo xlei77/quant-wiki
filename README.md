@@ -5,7 +5,7 @@
 
 the wikipedia for quantitative research.
 
-## Content
+## **Content**
 
 > [!IMPORTANT]
 > 等待内容完善中...
