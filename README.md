@@ -24,7 +24,7 @@ the wikipedia for quantitative research.
 首先拉取代码，然后进入项目目录。
 
 ```bash
-git clone https://github.com/quant-wiki/quant-wiki.git
+git clone https://github.com/LLMQuant/quant-wiki.git
 cd quant-wiki
 ```
 
