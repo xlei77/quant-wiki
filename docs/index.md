@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# 欢迎访问Quant-Wiki，我们目标是成为最具影响力的中文量化知识贡献平台
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
