@@ -1,5 +1,8 @@
 # Quant-Wiki
 
+<img width="829" alt="image" src="https://github.com/user-attachments/assets/65cf8941-dc6b-4064-9f99-2669b986a1e8" />
+
+
 > [!NOTE]
 > 本项目正在开发中，欢迎大家参与贡献。
 
