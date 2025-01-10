@@ -3,7 +3,7 @@ name: Build and Deploy MkDocs
 on:
   push:
     branches:
-      - main  # 或你的主分支
+      - master  # 或你的主分支
 
 jobs:
   build-and-deploy:
