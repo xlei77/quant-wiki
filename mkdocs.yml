@@ -1,4 +1,4 @@
-site_name: Quant Wiki
+site_name: Quant Wiki 中文量化百科
 site_url: https://quant-wiki.com
 site_author: LLMQuant Team
 site_description: A comprehensive quantitative trading and finance wiki
@@ -11,9 +11,63 @@ edit_uri: edit/main/docs/
 # Copyright
 copyright: Copyright &copy; 2024 LLMQuant Team
 
+
+# Navigation
+nav:
+  - 简介: 
+    - 关于项目: index.md
+    - 如何参与: contribute.md
+    - 常见问题: FAQ.md
+    - 关于LLMQuant社区: about.md
+    - 社区其他项目: other.md
+    - 加入我们: join.md
+  - 基本概念:
+    - 知识框架: basic/framework.md
+    - 金融术语: basic/index.md
+    - 量化行话: basic/lingo.md
+  - 入门教程: 
+    - 夏普比率: start/sharpe.md
+    - 期权定价: start/option.md
+    - 波动率: start/volatility.md
+    - 代资产组合理论: start/mpt-markowitz.md
+  - 量化前沿:
+    - Strategies: advanced/strategies.md
+  - 量化策略库:  
+    - Overview: strat/overview.md
+    - 事件驱动型: strat/event-driven.md
+    - 趋势型: strat/trend-following.md
+    - 统计套利型: strat/stat-arb.md
+    - 九个热门策略: strat/nine-strategies.md
+    - Point72策略: strat/point72-idea.md
+  - AI+量化:  
+    - 使用大语言模型揭露企业年报中掩盖的坏消息: ai/report.md
+    - Reference: ai/reference.md
+  - 量化图书馆:
+    - Overview: library/overview.md
+    - Reference: library/reference.md
+  - 行业内幕:
+    - 量化策略库: industry/overview.md
+    - 量化策略库参考: industry/reference.md
+  - 求职专区:
+    - Overview: api/overview.md
+    - Reference: api/reference.md
+  - Chatbot:
+    - Overview: chatbot/overview.md
+
+extra_css:
+  - stylesheets/extra.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+
 # Configuration
 theme:
   name: material
+  logo: asset/quant-wiki.svg # logo 图标
+  favicon: asset/quant-wiki.svg # 网页标签图标
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: LXGW WenKai Mono TC
+    code: Roboto Mono
   language: zh
   features:
     - navigation.instant
@@ -36,6 +90,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    
 
 # Extensions
 markdown_extensions:
@@ -80,20 +135,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-# Navigation
-nav:
-  - Home: index.md
-  - Getting Started:
-    - Introduction: getting-started/introduction.md
-    - Installation: getting-started/installation.md
-  - Quantitative Analysis:
-    - Basic Concepts: quant/basics.md
-    - Strategies: quant/strategies.md
-  - API Documentation:
-    - Overview: api/overview.md
-    - Reference: api/reference.md
-  - Chatbot:
-    - Overview: chatbot/overview.md
 
 
 extra:

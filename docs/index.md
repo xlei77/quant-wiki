@@ -1,17 +1,14 @@
-# 欢迎访问Quant-Wiki，我们目标是成为最具影响力的中文量化知识贡献平台
+# 欢迎访问Quant Wiki 中文量化百科
+<img width="829" alt="image" src="https://github.com/user-attachments/assets/6d3b37b3-1bf3-4452-9833-f864c597c00d" />
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
+量化投资（Quantitative Investing，简称 Quant）是一种以数学模型、统计分析和算法为基础的投资方式，是现代金融领域的重要分支。
 
-## Commands
+量化交易（Quantitative Trading）由对冲基金、投行等机构主导，以数据驱动的方式进行市场分析和交易决策。借助计算机和算法，量化交易能够高效处理海量数据，快速捕捉市场中的套利机会和趋势。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+LLMQuant 致力于打造一个免费开放、持续更新的 量化金融（quantitative finance） 知识分享平台。在这里，大家可以学习量化交易的核心知识、常用模型、算法设计，以及交易中的实战策略。我们为大家准备了丰富的资料，包括因子模型、事件驱动策略、执行成本优化等内容，帮助大家快速掌握量化投资领域的核心技能，迈向专业化道路。
 
-## Project layout
+本项目由[LLMQuant社区](https://llmquant.com/)提供资金与技术支持，欢迎大家贡献与支持。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
+
