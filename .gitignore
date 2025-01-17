@@ -1,1 +1,5 @@
+
+# 系统文件
 .venv
+.scripts
+.DS_Store
