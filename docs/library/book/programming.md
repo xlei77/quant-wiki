@@ -1,44 +1,27 @@
-# 量化交易编程书籍推荐
+# 量化金融编程书籍推荐
 
-## 《Python金融大数据分析》
-<img src="../images/python-finance.jpg" alt="Python金融大数据分析" width="200"/>
+以下是为量化金融从业者推荐的编程相关书籍：
 
-- **作者**: Yves Hilpisch
-- **出版社**: O'Reilly
-- **难度**: ⭐⭐⭐
-- **推荐指数**: ⭐⭐⭐⭐⭐
+## Python编程
+- [Python for Finance](量化编程/Python%20for%20Finance/index.md)
+  - 难度: ⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: Python在金融领域的应用
 
-### 内容简介
-本书深入浅出地介绍了Python在金融数据分析中的应用，包括数据处理、可视化和建模等内容。
+## C++编程
+- [C++ Design Patterns and Derivatives Pricing](量化编程/C++%20Design%20Patterns%20and%20Derivatives%20Pricing/index.md)
+  - 难度: ⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: C++在衍生品定价中的应用
 
-### 核心章节
-1. NumPy基础
-2. pandas数据分析
-3. 时间序列处理
-4. 金融数据可视化
-5. 统计建模与分析
+## 数据分析
+- [Python for Data Analysis](量化编程/Python%20for%20Data%20Analysis/index.md)
+  - 难度: ⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: Python数据分析工具使用
 
-### 配套资源
-- 源代码
-- Jupyter notebooks
-- 数据集
-
----
-
-## 《C++量化开发实战》
-<img src="../images/cpp-quant.jpg" alt="C++量化开发实战" width="200"/>
-
-- **作者**: Michael Halls-Moore
-- **出版社**: Packt
-- **难度**: ⭐⭐⭐⭐⭐
-- **推荐指数**: ⭐⭐⭐⭐
-
-### 内容简介
-这本书专注于C++在高频交易和底层系统开发中的应用，包括性能优化和系统架构设计。
-
-### 核心章节
-1. C++高性能编程
-2. 市场数据处理
-3. 订单管理系统
-4. 风险控制模块
-5. 实盘系统架构 
+## 学习建议
+1. 首先掌握Python基础
+2. 学习数据分析工具
+3. 根据需要学习C++
+4. 实践项目开发 
