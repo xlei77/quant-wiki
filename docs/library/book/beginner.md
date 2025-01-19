@@ -1,3 +1,31 @@
+# 量化金融入门书籍推荐
+
+以下是为量化金融初学者推荐的入门级书籍：
+
+## 金融数学基础
+- [A Linear Algebra Primer for Financial Engineering](金融数学/A%20Linear%20Algebra%20Primer%20for%20Financial%20Engineering/index.md)
+  - 难度: ⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 金融工程中的线性代数应用
+
+## 量化交易入门
+- [101 Formulaic Alphas](量化交易/101%20Formulaic%20Alphas%20-%20arXiv.org/index.md)
+  - 难度: ⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 因子投资入门经典
+
+## 量化面试准备
+- [Quant绿皮书精讲60题](量化面试/Quant绿皮书精讲60题/index.md)
+  - 难度: ⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 量化面试题目精讲
+
+## 学习路径建议
+1. 首先掌握必要的数学工具
+2. 学习基础的因子策略
+3. 了解量化交易基本概念
+4. 准备量化面试题目
+
 # 量化交易入门书籍推荐
 
 ## 《Python量化交易入门》

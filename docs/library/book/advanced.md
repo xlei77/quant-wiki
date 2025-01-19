@@ -1,4 +1,32 @@
-# 量化交易进阶书籍推荐
+# 量化金融进阶书籍推荐
+
+以下是为有一定基础的读者推荐的进阶级书籍：
+
+## 金融数学进阶
+- [Stochastic Calculus for Finance](金融数学/Stochastic%20Calculus%20for%20Finance/index.md)
+  - 难度: ⭐⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 金融随机分析经典教材
+
+## 量化交易进阶
+- [High-frequency Trading](量化交易/High-frequency%20trading/index.md)
+  - 难度: ⭐⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 高频交易系统详解
+
+## 前沿研究
+- [Machine Learning for Asset Managers](前沿专题/Machine%20Learning%20for%20Asset%20Managers/index.md)
+  - 难度: ⭐⭐⭐⭐⭐
+  - 推荐指数: ⭐⭐⭐⭐⭐
+  - 内容: 机器学习在资产管理中的应用
+
+## 学习建议
+1. 深入学习金融数学理论
+2. 掌握高级交易策略
+3. 了解前沿研究方向
+4. 实践与理论结合
+
+---
 
 ## 《算法交易和量化策略》
 <img src="../images/algo-trading.jpg" alt="算法交易和量化策略" width="200"/>

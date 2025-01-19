@@ -71,5 +71,21 @@ button.md-top {
     .md-header__title {
         margin-left: 0 !important;
         margin-right: 0 !important;
+        font-size: 1.2rem !important;  /* 移动端减小字体大小 */
+        max-width: calc(100% - 88px) !important;  /* 预留足够空间给菜单按钮 */
+        white-space: nowrap !important;  /* 防止标题换行 */
+        overflow: hidden !important;  /* 超出部分隐藏 */
+        text-overflow: ellipsis !important;  /* 显示省略号 */
+    }
+
+    /* 调整移动端header内部布局 */
+    .md-header__inner {
+        padding: 0 0.2rem !important;
+    }
+    
+    /* 确保菜单按钮可见且不被标题遮挡 */
+    .md-header__button.md-icon {
+        margin: 0.4rem !important;
+        padding: 0.4rem !important;
     }
 }
