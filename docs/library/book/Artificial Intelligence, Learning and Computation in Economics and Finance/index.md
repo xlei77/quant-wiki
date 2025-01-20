@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Artificial Intelligence, Learning and Computation in Economics and Finance.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Artificial Intelligence, Learning and Computation in Economics and Finance.pdf)
 
 ### 内容简介
 Artificial Intelligence, Learning and Computation in Economics and Finance 是一本关于量化金融的专业书籍，涵盖了...

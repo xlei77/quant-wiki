@@ -10,7 +10,7 @@
 - **出版年份**: 2006
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Empirical Dynamic Asset Pricing_ Model Specification and Econometric Assessment (2006).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Empirical Dynamic Asset Pricing_ Model Specification and Econometric Assessment (2006).pdf)
 
 ### 内容简介
 本书系统地介绍了动态资产定价的实证研究方法，包括模型设定、计量经济学评估等内容，是资产定价实证研究的重要参考书。

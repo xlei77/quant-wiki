@@ -10,7 +10,7 @@
 - **出版年份**: 2004
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Stochastic Calculus for Finance-Springer (2004).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Stochastic Calculus for Finance-Springer (2004).pdf)
 
 ### 内容简介
 本书是金融随机分析的经典教材，系统介绍了离散和连续时间框架下的随机微积分理论及其在金融中的应用，尤其是期权定价理论。

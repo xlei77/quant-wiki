@@ -10,7 +10,7 @@
 - **出版年份**: 2013
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/Algorithmic Trading_ Winning Strategies and Their Rationale-Wiley (2013).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Algorithmic Trading_ Winning Strategies and Their Rationale-Wiley (2013).pdf)
 
 ### 内容简介
 本书详细介绍了算法交易策略的开发和实现过程，包括统计套利、动量交易、均值回归等多种策略，并提供了完整的策略开发框架。

@@ -10,7 +10,7 @@
 - **出版年份**: 2008
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化面试/绿皮书A Practical Guide to Quantitative Finance Interviews.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/绿皮书A Practical Guide to Quantitative Finance Interviews.pdf)
 
 ### 内容简介
 本书是量化金融面试的经典指南，涵盖了从基础数学到高级金融理论的各类面试题目，并提供详细的解答思路。

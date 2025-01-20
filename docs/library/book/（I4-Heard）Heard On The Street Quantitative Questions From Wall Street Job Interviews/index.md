@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](（I4-Heard）Heard On The Street Quantitative Questions From Wall Street Job Interviews.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/（I4-Heard）Heard On The Street Quantitative Questions From Wall Street Job Interviews.pdf)
 
 ### 内容简介
 Heard）Heard On The Street Quantitative Questions From Wall Street Job Interviews 是一本关于量化金融的专业书籍，涵盖了...

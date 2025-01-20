@@ -10,7 +10,7 @@
 - **出版年份**: 2016
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/101 Formulaic Alphas - arXiv.org.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/101 Formulaic Alphas - arXiv.org.pdf)
 
 ### 内容简介
 本文介绍了101个量化投资因子的详细公式和实现方法，是因子投资领域的经典论文，为量化研究提供了丰富的研究思路。

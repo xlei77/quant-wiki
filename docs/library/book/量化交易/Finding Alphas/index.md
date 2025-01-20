@@ -10,7 +10,7 @@
 - **出版年份**: 2015
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/Finding Alphas.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Finding Alphas.pdf)
 
 ### 内容简介
 本书详细介绍了如何在金融市场中发现和开发Alpha因子，涵盖了从数据处理到因子测试的完整流程。

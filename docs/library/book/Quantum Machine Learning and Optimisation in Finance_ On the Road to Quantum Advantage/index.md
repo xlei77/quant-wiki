@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Quantum Machine Learning and Optimisation in Finance_ On the Road to Quantum Advantage.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantum Machine Learning and Optimisation in Finance_ On the Road to Quantum Advantage.pdf)
 
 ### 内容简介
 Quantum Machine Learning and Optimisation in Finance- On the Road to Quantum Advantage 是一本关于量化金融的专业书籍，涵盖了...

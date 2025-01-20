@@ -10,7 +10,7 @@
 - **出版年份**: 2005
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Quantitative risk management-Princeton University Press (2005).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantitative risk management-Princeton University Press (2005).pdf)
 
 ### 内容简介
 本书是量化风险管理领域的权威著作，系统介绍了金融风险管理的数学方法和实践应用，包括市场风险、信用风险等多个方面。

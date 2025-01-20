@@ -10,7 +10,7 @@
 - **出版年份**: 2018
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Advances in Financial Machine Learning-Wiley (2018).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Advances in Financial Machine Learning-Wiley (2018).pdf)
 
 ### 内容简介
 本书详细介绍了机器学习在金融领域的最新应用，包括数据处理、特征工程、模型开发等内容，是量化投资领域的前沿著作。

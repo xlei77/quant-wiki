@@ -10,7 +10,7 @@
 - **出版年份**: 2015
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/Quantitative risk management _ concepts, techniques and tools-Princeton University Press (2015).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantitative risk management _ concepts, techniques and tools-Princeton University Press (2015).pdf)
 
 ### 内容简介
 本书全面介绍了量化风险管理的概念、技术和工具，包括市场风险、信用风险、操作风险等多个方面，是风险管理领域的权威著作。

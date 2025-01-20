@@ -10,7 +10,7 @@
 - **出版年份**: 2021
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/BetaPlus_Trend_Following.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/BetaPlus_Trend_Following.pdf)
 
 ### 内容简介
 本书详细介绍了趋势跟踪策略的设计与实现，包括信号生成、仓位管理、风险控制等核心内容。

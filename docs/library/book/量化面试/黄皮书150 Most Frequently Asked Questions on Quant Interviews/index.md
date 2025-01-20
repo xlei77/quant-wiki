@@ -10,7 +10,7 @@
 - **出版年份**: 2013
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化面试/黄皮书150 Most Frequently Asked Questions on Quant Interviews.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/黄皮书150 Most Frequently Asked Questions on Quant Interviews.pdf)
 
 ### 内容简介
 本书收集了量化金融面试中最常见的150个问题，涵盖概率论、微积分、线性代数、金融数学等多个领域，并提供详细解答。

@@ -35,7 +35,7 @@
 - **出版社**: 电子工业出版社
 - **难度**: ⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../pdf/python-quant-intro.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/python-quant-intro.pdf)
 
 ### 内容简介
 本书从Python基础开始，逐步介绍量化交易的核心概念和实践方法。适合零基础的读者入门量化交易。

@@ -10,7 +10,7 @@
 - **出版年份**: 2014
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化面试/Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews-Timothy Crack (2014).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Timothy Falcon Crack - Heard on the Street, Quantitative Questions from Wall Street Job Interviews-Timothy Crack (2014).pdf)
 
 ### 内容简介
 本书收集了华尔街量化面试中的经典问题，涵盖概率论、期权定价、固定收益等多个领域，并提供详细的解答思路和方法。

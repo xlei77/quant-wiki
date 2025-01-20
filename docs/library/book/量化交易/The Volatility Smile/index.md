@@ -10,7 +10,7 @@
 - **出版年份**: 2016
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/The Volatility Smile-Wiley (2016).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/The Volatility Smile-Wiley (2016).pdf)
 
 ### 内容简介
 本书深入探讨了波动率微笑现象及其背后的理论基础，包括随机波动率模型、局部波动率模型等内容，是期权定价和波动率交易领域的重要著作。

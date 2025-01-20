@@ -10,7 +10,7 @@
 - **出版年份**: 2009
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化面试/Paul P. Wilmott - Frequently Asked Questions in Quantitative Finance, Second Edition  -A John Wiley and Sons, Ltd. (2009).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Paul P. Wilmott - Frequently Asked Questions in Quantitative Finance, Second Edition  -A John Wiley and Sons, Ltd. (2009).pdf)
 
 ### 内容简介
 本书以问答形式涵盖了量化金融中的重要概念和理论，包括期权定价、风险管理、投资组合理论等内容，是量化面试和日常工作的重要参考书。

@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Machine Learning in Finance_ From Theory to Practice.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Machine Learning in Finance_ From Theory to Practice.pdf)
 
 ### 内容简介
 Machine Learning in Finance- From Theory to Practice 是一本关于量化金融的专业书籍，涵盖了...
