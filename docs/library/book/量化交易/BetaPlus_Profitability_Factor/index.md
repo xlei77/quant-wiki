@@ -10,7 +10,7 @@
 - **出版年份**: 2021
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/BetaPlus_Profitability_Factor.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/BetaPlus_Profitability_Factor.pdf)
 
 ### 内容简介
 本书深入探讨了盈利因子在量化投资中的应用，包括因子构建、选股策略、风险控制等关键环节。

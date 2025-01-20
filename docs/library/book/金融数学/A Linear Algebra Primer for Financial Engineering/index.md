@@ -10,7 +10,7 @@
 - **出版年份**: 2014
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/A Linear Algebra Primer for Financial Engineering-FE Press (2014).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/A Linear Algebra Primer for Financial Engineering-FE Press (2014).pdf)
 
 ### 内容简介
 本书系统介绍了金融工程中常用的线性代数知识，包括矩阵运算、特征值分解、主成分分析等内容，是金融工程专业的重要参考书。

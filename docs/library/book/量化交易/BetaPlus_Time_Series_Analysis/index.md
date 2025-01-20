@@ -10,7 +10,7 @@
 - **出版年份**: 2021
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/BetaPlus_Time_Series_Analysis.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/BetaPlus_Time_Series_Analysis.pdf)
 
 ### 内容简介
 本书系统介绍了时间序列分析在量化交易中的应用，包括数据预处理、模型构建、策略开发等关键环节。

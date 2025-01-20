@@ -10,7 +10,7 @@
 - **出版年份**: 1995
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Maureen O'Hara - Market Microstructure Theory-Wiley (1995).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Maureen O'Hara - Market Microstructure Theory-Wiley (1995).pdf)
 
 ### 内容简介
 本书是市场微观结构理论的经典著作，深入探讨了市场运行机制、价格形成过程、交易机制等内容，对理解现代金融市场至关重要。

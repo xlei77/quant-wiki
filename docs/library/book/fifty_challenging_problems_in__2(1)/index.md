@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](fifty_challenging_problems_in__2(1).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/fifty_challenging_problems_in__2(1).pdf)
 
 ### 内容简介
 fifty-challenging-problems-in-2 是一本关于量化金融的专业书籍，涵盖了...

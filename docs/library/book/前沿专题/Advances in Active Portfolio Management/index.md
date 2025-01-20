@@ -10,7 +10,7 @@
 - **出版年份**: 2020
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Advances in Active Portfolio Management_ New Developments in Quantitative Investing-McGraw-Hill Education (2020).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Advances in Active Portfolio Management_ New Developments in Quantitative Investing-McGraw-Hill Education (2020).pdf)
 
 ### 内容简介
 本书探讨了主动投资组合管理的最新发展，包括机器学习、大数据分析等新技术在投资管理中的应用。

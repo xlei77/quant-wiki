@@ -10,7 +10,7 @@
 - **出版年份**: 2008
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化面试/红宝书Quant Job Interview Questions And Answers (2008, CreateSpace) - libgen.li.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/红宝书Quant Job Interview Questions And Answers (2008, CreateSpace) - libgen.li.pdf)
 
 ### 内容简介
 本书是量化金融面试的经典指南，收集了大量实际面试中的问题，并提供了详细的解答和分析，涵盖了金融数学、概率论、编程等多个领域。

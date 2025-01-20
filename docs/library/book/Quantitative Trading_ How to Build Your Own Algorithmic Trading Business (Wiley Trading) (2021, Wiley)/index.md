@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Quantitative Trading_ How to Build Your Own Algorithmic Trading Business (Wiley Trading) (2021, Wiley).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantitative Trading_ How to Build Your Own Algorithmic Trading Business (Wiley Trading) (2021, Wiley).pdf)
 
 ### 内容简介
 Quantitative Trading- How to Build Your Own Algorithmic Trading Business 是一本关于量化金融的专业书籍，涵盖了...

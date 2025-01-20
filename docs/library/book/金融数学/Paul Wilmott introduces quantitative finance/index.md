@@ -10,7 +10,7 @@
 - **出版年份**: 2007
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Paul Wilmott - Paul Wilmott introduces quantitative finance-Wiley (2007).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Paul Wilmott - Paul Wilmott introduces quantitative finance-Wiley (2007).pdf)
 
 ### 内容简介
 本书是量化金融的入门经典，由著名金融数学家Paul Wilmott编写，以清晰的方式介绍了量化金融的核心概念和方法。

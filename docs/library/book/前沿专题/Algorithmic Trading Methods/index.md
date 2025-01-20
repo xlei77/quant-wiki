@@ -10,7 +10,7 @@
 - **出版年份**: 2020
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Algorithmic Trading Methods_ Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques-Academic Press (2020).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Algorithmic Trading Methods_ Applications Using Advanced Statistics, Optimization, and Machine Learning Techniques-Academic Press (2020).pdf)
 
 ### 内容简介
 本书系统介绍了算法交易的各种方法，包括统计学、优化理论和机器学习技术在交易中的应用，是算法交易领域的重要参考书。

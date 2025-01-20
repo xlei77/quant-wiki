@@ -10,7 +10,7 @@
 - **出版年份**: 2000
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/An Introduction to the Mathematics of Financial Derivatives-Academic Press (2000).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/An Introduction to the Mathematics of Financial Derivatives-Academic Press (2000).pdf)
 
 ### 内容简介
 本书系统介绍了金融衍生品定价的数学基础，包括期权定价、利率模型等内容，是金融工程领域的经典教材。

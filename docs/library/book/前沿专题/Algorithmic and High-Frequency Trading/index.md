@@ -10,7 +10,7 @@
 - **出版年份**: 2015
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Algorithmic and High-Frequency Trading-Cambridge University Press (2015).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Algorithmic and High-Frequency Trading-Cambridge University Press (2015).pdf)
 
 ### 内容简介
 本书深入探讨了算法交易和高频交易的数学模型和实现方法，包括市场微观结构、最优执行、做市策略等核心内容。

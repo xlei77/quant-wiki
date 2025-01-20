@@ -10,7 +10,7 @@
 - **出版年份**: 2008
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../金融数学/Advanced Stochastic Models, Risk Assessment, and Portfolio Optimization-Wiley (2008).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Advanced Stochastic Models, Risk Assessment, and Portfolio Optimization-Wiley (2008).pdf)
 
 ### 内容简介
 本书深入探讨了金融中的高级随机模型、风险评估方法和投资组合优化技术，是量化金融领域的重要参考书。

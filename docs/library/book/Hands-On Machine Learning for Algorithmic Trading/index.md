@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Hands-On Machine Learning for Algorithmic Trading.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Hands-On Machine Learning for Algorithmic Trading.pdf)
 
 ### 内容简介
 Hands-On Machine Learning for Algorithmic Trading 是一本关于量化金融的专业书籍，涵盖了...

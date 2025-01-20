@@ -10,7 +10,7 @@
 - **出版年份**: 2021
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Machine Learning in Asset Pricing-Princeton Univ Pr (2021).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Machine Learning in Asset Pricing-Princeton Univ Pr (2021).pdf)
 
 ### 内容简介
 本书系统地介绍了机器学习在资产定价中的应用，涵盖了从传统方法到最新的深度学习技术，为资产定价研究提供了全新的方法论框架。

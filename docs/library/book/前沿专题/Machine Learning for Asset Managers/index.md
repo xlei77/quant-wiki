@@ -10,7 +10,7 @@
 - **出版年份**: 2020
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../前沿专题/Machine Learning for Asset Managers-Cambridge University Press (2020).pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Machine Learning for Asset Managers-Cambridge University Press (2020).pdf)
 
 ### 内容简介
 本书系统介绍了机器学习在资产管理中的应用，包括投资组合优化、风险管理、因子选择等关键领域，是量化投资领域的前沿著作。

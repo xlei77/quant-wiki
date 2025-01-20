@@ -10,7 +10,7 @@
 - **出版年份**: 2018
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](../../量化交易/151 Trading Strategies论文版.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/151 Trading Strategies论文版.pdf)
 
 ### 内容简介
 本书是151 Trading Strategies的论文版本，以更学术的方式介绍了151个交易策略，包括详细的数学推导和理论基础。

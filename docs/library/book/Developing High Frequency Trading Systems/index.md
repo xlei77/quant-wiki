@@ -9,7 +9,7 @@
 - **出版年份**: 
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](Developing High Frequency Trading Systems.pdf)
+- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Developing High Frequency Trading Systems.pdf)
 
 ### 内容简介
 Developing High Frequency Trading Systems 是一本关于量化金融的专业书籍，涵盖了...
