@@ -6,7 +6,7 @@
 
 如果内容**已经完成**，您无需新建 issue。
 
-在提交 pull request 的[Checklist](.github/PULL_REQUEST_TEMPLATE.md)中，勾选你已经阅读的条目，表明**您已知晓**：
+在提交 pull request 的[Checklist](./PULL_REQUEST_TEMPLATE.md)中，勾选你已经阅读的条目，表明**您已知晓**：
 
 + 请在回应建议、问题或 pull request 之前仔细阅读，并详细说明自己的看法，以免引起不必要的误会。
 
