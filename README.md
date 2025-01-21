@@ -51,7 +51,7 @@ mkdocs serve
 
 ## A Special Thanks
 
-Quant Wiki 的建立深受 OI Wiki 的启发。在内容组织、编写范式以及网站架构等方面，我们参考了 OI Wiki 诸多宝贵的经验。OI Wiki 作为算法竞赛领域的中文知识库，其高质量的内容和开放协作的模式一直是我们学习的榜样。
+Quant Wiki 的建立深受 [OI Wiki](https://oi-wiki.org/) 的启发。在内容组织、编写范式以及网站架构等方面，我们参考了 OI Wiki 诸多宝贵的经验。OI Wiki 作为算法竞赛领域的中文知识库，其高质量的内容和开放协作的模式一直是我们学习的榜样。
 
 Quant Wiki 致力于为量化交易 (Quant) 社区提供类似的高质量信息与学习资源。我们希望能够像 OI Wiki 一样，汇聚社区的力量，构建一个全面、准确、易懂的量化知识平台，助力每一位 Quant 学习者和从业者。
 
