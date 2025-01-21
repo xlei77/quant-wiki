@@ -201,14 +201,6 @@ InvestorBench由四大部分构成：
 1. 目前**InvestorBench**主要针对单资产决策任务，尚未覆盖多资产组合管理；  
 2. 受版权限制，部分数据质量可能受限，或对模型评估有一定影响。
 
----
-
-
-如需获得完整教程和超详细代码！欢迎扫描下方二维码加入**LLMQuant知识星球**。
-
-
-![](https://fastly.jsdelivr.net/gh/bucketio/img13@main/2025/01/18/1737234806568-9b7760a0-ea4c-4d12-a60c-b537ebdfe1d5.JPG)
-
 
 
 ## 关于LLMQuant
