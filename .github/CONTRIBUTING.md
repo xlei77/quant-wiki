@@ -1,5 +1,15 @@
 👍🎉 首先，感谢您抽出宝贵时间为 **Quant Wiki** 做出贡献！ 👍🎉
 
+> [!TIP]
+>
+> 这里给出基本修改/更新页面内容的流程（符合 80% 的场景）
+>
+> - fork 这个 repo。
+> - 在 `docs` 文件夹中增添或修改对应的文件/文件夹。
+> - （如果你新增了文件或者文件夹）请在 `mkdocs.yml` 中的 `nav` 字段下进行更新。
+> - 新建 issue 说明当前 repo 存在的问题
+> - 提交对应的 Pull Request 即可。
+
 请您在提交拉取请求（Pull Request）前再次阅读[如何参与的有关内容](https://quant-wiki.com/contribute/)，尤其应再次确认**对于目录和引用的变更**和**信息格式规范**。
 
 如果有关内容**尚未完成**，请考虑先[新建 issue](https://github.com/LLMQuant/quant-wiki/issues/new/choose) 或本次作为 draft pr 提交。
