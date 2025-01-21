@@ -2,67 +2,65 @@
 
 # 华尔街天花板？50家顶级外资买方详细介绍
 
-![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
-
 本文档由LLMQuant精心整理，内容覆盖了**50家**自营交易公司、做市商、对冲基金和资产管理机构的详细信息，包括它们的成立背景、核心业务、地区布局、管理规模和运作特色。通过这篇推文，你将对全球量化与高频交易生态有更完整的了解，涵盖研究算法、交易策略、技术平台以及市场角色等多方面，为感兴趣的读者提供全面的参考与洞察。
 
 ## 目录
 
 ### 高频交易与自营交易公司
-1. **Hudson River Trading (HRT)**
-2. **Tower Research Capital**
-3. **Jump Trading**
-4. **Virtu Financial**
-5. **Quantlab**
-6. **Tradebot Systems, Inc.**
-7. **HAP Capital**
-8. **Citadel Securities**（自营做市）
-9. **Jane Street Capital**
-10. **Optiver**
-11. **Five Rings**
-12. **IMC Financial Markets**
-13. **DRW Trading Group**
-14. **Akuna Capital**
-15. **Susquehanna International Group (SIG)**
-16. **Qube Research & Technologies (QRT)**
-17. **GTS**
-18. **Flow Traders**
+1. [**Hudson River Trading (HRT)**](#hudson-river-trading-hrt)
+2. [**Tower Research Capital**](#tower-research-capital)
+3. [**Jump Trading**](#jump-trading)
+4. [**Virtu Financial**](#virtu-financial)
+5. [**Quantlab**](#quantlab)
+6. [**Tradebot Systems, Inc.**](#tradebot-systems-inc)
+7. [**HAP Capital**](#hap-capital)
+8. [**Citadel Securities**](#citadel-securities)（自营做市）
+9. [**Jane Street Capital**](#jane-street-capital)
+10. [**Optiver**](#optiver)
+11. [**Five Rings**](#five-rings)
+12. [**IMC Financial Markets**](#imc-financial-markets)
+13. [**DRW Trading Group**](#drw-trading-group)
+14. [**Akuna Capital**](#akuna-capital)
+15. [**Susquehanna International Group (SIG)**](#susquehanna-international-group-sig)
+16. [**Qube Research & Technologies (QRT)**](#qube-research--technologies-qrt)
+17. [**GTS**](#gts)
+18. [**Flow Traders**](#flow-traders)
 
 ### 对冲基金
-19. **Citadel LLC**
-20. **Renaissance Technologies**
-21. **D. E. Shaw & Co.**
-22. **Point72 Asset Management**
-23. **Two Sigma**
-24. **Millennium Management, LLC**
-25. **Bridgewater Associates**
-26. **Balyasny Asset Management**
-27. **Capula Investment Management**
-28. **AQR Capital**
-29. **Man Group**
-30. **Davidson Kempner Capital Management**
-31. **Farallon Capital**
-32. **Elliott Investment Management**
-33. **Squarepoint Capital**
-34. **PDT Partners**
-35. **TGS Management**
-36. **WorldQuant**
+19. [**Citadel LLC**](#citadel-llc)
+20. [**Renaissance Technologies**](#renaissance-technologies)
+21. [**D. E. Shaw & Co.**](#d-e-shaw--co)
+22. [**Point72 Asset Management**](#point72-asset-management)
+23. [**Two Sigma**](#two-sigma)
+24. [**Millennium Management, LLC**](#millennium-management-llc)
+25. [**Bridgewater Associates**](#bridgewater-associates)
+26. [**Balyasny Asset Management**](#balyasny-asset-management)
+27. [**Capula Investment Management**](#capula-investment-management)
+28. [**AQR Capital**](#aqr-capital)
+29. [**Man Group**](#man-group)
+30. [**Davidson Kempner Capital Management**](#davidson-kempner-capital-management)
+31. [**Farallon Capital**](#farallon-capital)
+32. [**Elliott Investment Management**](#elliott-investment-management)
+33. [**Squarepoint Capital**](#squarepoint-capital)
+34. [**PDT Partners**](#pdt-partners)
+35. [**TGS Management**](#tgs-management)
+36. [**WorldQuant**](#worldquant)
 
 ### 资产管理
-37. **BlackRock**
-38. **The Vanguard Group**
-39. **Fidelity Investments**
-40. **State Street Global Advisors**
-41. **PIMCO**
-42. **Invesco**
-43. **AllianceBernstein**
-44. **Arrowstreet Capital**
-45. **PanAgora Asset Management**
-46. **Winton Group**
-47. **Research Affiliates**
-48. **Acadian Asset Management**
-49. **GMO LLC**
-50. **Dimensional Fund Advisors**
+37. [**BlackRock**](#blackrock)
+38. [**The Vanguard Group**](#the-vanguard-group)
+39. [**Fidelity Investments**](#fidelity-investments)
+40. [**State Street Global Advisors**](#state-street-global-advisors)
+41. [**PIMCO**](#pimco)
+42. [**Invesco**](#invesco)
+43. [**AllianceBernstein**](#alliancebernstein)
+44. [**Arrowstreet Capital**](#arrowstreet-capital)
+45. [**PanAgora Asset Management**](#panagora-asset-management)
+46. [**Winton Group**](#winton-group)
+47. [**Research Affiliates**](#research-affiliates)
+48. [**Acadian Asset Management**](#acadian-asset-management)
+49. [**GMO LLC**](#gmo-llc)
+50. [**Dimensional Fund Advisors**](#dimensional-fund-advisors)
 
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img8@main/2025/01/06/1736141698477-10fccae0-7c60-430c-9e6f-65858a0fc370.png)
@@ -96,7 +94,7 @@ Jump Trading LLC是一家自营交易公司，专注于算法与高频交易策�
 ---
 
 ### Virtual Financial
-Virtu Financial是一家美国公司，提供金融服务、交易产品及做市商服务。Virtu的产品套件包括执行、流动性获取、分析以及“经纪中性、可供多家交易商使用的平台”等工作流技术，并在股票、商品、货币、期权、固定收益以及其他证券上提供双边报价与交易，涵盖230多个交易所、市场以及暗池。Virtu使用自有技术来交易大量证券，并于2015年在纳斯达克上市。
+Virtu Financial是一家美国公司，提供金融服务、交易产品及做市商服务。Virtu的产品套件包括执行、流动性获取、分析以及"经纪中性、可供多家交易商使用的平台"等工作流技术，并在股票、商品、货币、期权、固定收益以及其他证券上提供双边报价与交易，涵盖230多个交易所、市场以及暗池。Virtu使用自有技术来交易大量证券，并于2015年在纳斯达克上市。
 
 Virtu在纽约市（总部）、奥斯汀、洛杉矶、波士顿、芝加哥、伦敦、悉尼、都柏林和新加坡均设有办公室。2013年9月，Virtu将其欧洲总部拓展到了都柏林，Virtu Financial Ireland Limited则受爱尔兰央行监管。  
 Virtu遍布36个国家、超过235个交易所、市场及暗池，包括NYSE Euronext、NASDAQ以及芝加哥商业交易所。该公司是纽约证券交易所（NYSE）与NYSE Amex的指定做市商，通过向买家和卖家提供被动报价来为超过12,000种证券及其他金融产品做市。
@@ -106,12 +104,12 @@ Virtu遍布36个国家、超过235个交易所、市场及暗池，包括NYSE Eu
 ### Quantlab
 Quantlab是一家美国量化自营交易公司，总部位于得克萨斯州休斯敦，并在纽约、芝加哥、波士顿、奥斯汀、丹佛及新加坡设有其他办公室。
 
-Quantlab由Wilbur “Ed” Bosarge, Jr.（前赖斯大学数学教授）和Bruce Eames（曾在波士顿咨询集团工作并来自威斯康星的商人）于1998年创立。公司创立初期雇用了几位数学博士担任员工。团队编写算法来执行高频交易，并针对新资产类别与市场进行定制化代码开发。自成立起的10余年直到2015年，Quantlab都是高频交易的主要参与者，在一些交易日中占纽约证券交易所约3%的交易量。该阶段公司累积获利逾30亿美元，其中逾70%利润流向Bosarge。
+Quantlab由Wilbur "Ed" Bosarge, Jr.（前赖斯大学数学教授）和Bruce Eames（曾在波士顿咨询集团工作并来自威斯康星的商人）于1998年创立。公司创立初期雇用了几位数学博士担任员工。团队编写算法来执行高频交易，并针对新资产类别与市场进行定制化代码开发。自成立起的10余年直到2015年，Quantlab都是高频交易的主要参与者，在一些交易日中占纽约证券交易所约3%的交易量。该阶段公司累积获利逾30亿美元，其中逾70%利润流向Bosarge。
 
 ---
 
 ### Tradebot Systems, Inc.
-Tradebot Systems, Inc.是一家美国高频股票交易公司，总部位于密苏里州堪萨斯城，通常占美国股市交易总量的5%。据其创始人Dave Cummings所言，截至2008年，公司“通常只持有股票11秒”，并且“已有4年没有过亏损日”。这一连续盈利的纪录一直持续到2017年才被打破。
+Tradebot Systems, Inc.是一家美国高频股票交易公司，总部位于密苏里州堪萨斯城，通常占美国股市交易总量的5%。据其创始人Dave Cummings所言，截至2008年，公司"通常只持有股票11秒"，并且"已有4年没有过亏损日"。这一连续盈利的纪录一直持续到2017年才被打破。
 
 ---
 
@@ -139,7 +137,7 @@ Jane Street是一家全球流动性提供方与交易公司，通过深度的量
 ---
 
 ### Optiver
-Optiver是一家自营交易商与做市商，业务涵盖全球多个交易所上市的各类金融产品。其名称来源于荷兰语“optieverhandelaar”（意为“期权交易商”）。该公司为私营，交易范围包括期权、期货、股票、外汇、固定收益以及商品，在全球多处设有办事处（阿姆斯特丹、纽约、芝加哥、台北、上海、伦敦、新加坡等），拥有1600多名员工。
+Optiver是一家自营交易商与做市商，业务涵盖全球多个交易所上市的各类金融产品。其名称来源于荷兰语"optieverhandelaar"（意为"期权交易商"）。该公司为私营，交易范围包括期权、期货、股票、外汇、固定收益以及商品，在全球多处设有办事处（阿姆斯特丹、纽约、芝加哥、台北、上海、伦敦、新加坡等），拥有1600多名员工。
 
 ---
 
@@ -158,9 +156,9 @@ IMC是一家以技术驱动为核心的交易公司，在全球100多个交易�
 ---
 
 ### DRW Trading Group
-DRW Holdings, LLC（常称DRW）是一家多元化的交易公司，在传统和新兴市场领域不断创新。总部位于芝加哥。公司于1992年由曾在芝加哥商业交易所担任期权交易员的Don Wilson创立，并以其姓名首字母“DRW”命名。公司交易的金融工具包括固定收益、期权与衍生品、能源与农产品以及加密货币。DRW在阿姆斯特丹、奥斯汀、格林尼治、特拉维夫、芝加哥、纽约、休斯敦、伦敦、蒙特利尔与新加坡等地设有办公室，是全球交易规模前五的大型交易公司之一。
+DRW Holdings, LLC（常称DRW）是一家多元化的交易公司，在传统和新兴市场领域不断创新。总部位于芝加哥。公司于1992年由曾在芝加哥商业交易所担任期权交易员的Don Wilson创立，并以其姓名首字母"DRW"命名。公司交易的金融工具包括固定收益、期权与衍生品、能源与农产品以及加密货币。DRW在阿姆斯特丹、奥斯汀、格林尼治、特拉维夫、芝加哥、纽约、休斯敦、伦敦、蒙特利尔与新加坡等地设有办公室，是全球交易规模前五的大型交易公司之一。
 
-DRW利用多种不同策略，包括高频交易。它在Michael Lewis 2014年的著作《Flash Boys》中也被提及，书中介绍了多家交易公司相互竞争基础设施来争取纳秒级延迟优势（延迟套利）。DRW同时也积极参与加密货币及区块链相关业务。2018年，DRW投资了Eris Exchange（可交易多种加密货币），并将创建“区块链数据库”的Digital Asset Holdings从其比特币交易业务中分拆出来。
+DRW利用多种不同策略，包括高频交易。它在Michael Lewis 2014年的著作《Flash Boys》中也被提及，书中介绍了多家交易公司相互竞争基础设施来争取纳秒级延迟优势（延迟套利）。DRW同时也积极参与加密货币及区块链相关业务。2018年，DRW投资了Eris Exchange（可交易多种加密货币），并将创建"区块链数据库"的Digital Asset Holdings从其比特币交易业务中分拆出来。
 
 ---
 
@@ -200,7 +198,7 @@ Citadel LLC与做市公司Citadel Securities互相独立运作，尽管两者都
 
 ### Renaissance Technologies
 Renaissance Technologies LLC（也称RenTech或RenTec）是一家美国对冲基金，总部位于纽约长岛的East Setauket，专门使用基于数学与统计分析的量化模型来进行系统性交易。其标志性产品Medallion基金因投资史上最佳业绩而闻名。  
-Renaissance在1982年由数学家James Simons创立，他曾于冷战时期担任破译员。其旗舰Medallion基金主要面向基金内部员工，30年（1988~2018）间税前年化回报超过66%（税后约39%），被誉为“华尔街最佳记录”。公司同时向外部投资者提供Renaissance Institutional Equities Fund (RIEF)与Renaissance Institutional Diversified Alpha (RIDA)两只基金。鉴于Renaissance整体的成功，特别是Medallion基金，Simons也被外界形容为“地表最强的基金经理”。
+Renaissance在1982年由数学家James Simons创立，他曾于冷战时期担任破译员。其旗舰Medallion基金主要面向基金内部员工，30年（1988~2018）间税前年化回报超过66%（税后约39%），被誉为"华尔街最佳记录"。公司同时向外部投资者提供Renaissance Institutional Equities Fund (RIEF)与Renaissance Institutional Diversified Alpha (RIDA)两只基金。鉴于Renaissance整体的成功，特别是Medallion基金，Simons也被外界形容为"地表最强的基金经理"。
 
 ---
 
@@ -228,8 +226,8 @@ Millennium Management是一家提供多策略对冲基金的投资管理公司�
 ---
 
 ### Bridgewater Associates
-Bridgewater Associates, LP（常称“Bridgewater”）是一家美国投资管理公司，由Ray Dalio于1975年创建，主要服务于养老金、捐赠基金、基金会、外国政府以及央行等机构客户。公司以全球宏观投资风格闻名，基于通胀、汇率以及美国GDP等宏观经济趋势来进行布局。Bridgewater在1975年最初只是面向机构客户的投资顾问服务，后成为机构投资平台，并于1996年开创了风险平价（risk parity）投资方式。1981年，公司将总部从纽约市搬至康涅狄格州的Westport，目前雇佣1500名员工。  
-Dalio将Bridgewater定位为一家“全球宏观公司”，它使用“定量”投资方法来识别新的投资机会，并尽量避免依赖不切实际的历史模型。公司目标是通过“按风险权重而非资产类别”分配来构建回报并不相关的投资组合。公司通常仅接受大型机构客户如养老基金、捐赠基金、基金会与央行等，而不面向个人投资者。
+Bridgewater Associates, LP（常称"Bridgewater"）是一家美国投资管理公司，由Ray Dalio于1975年创建，主要服务于养老金、捐赠基金、基金会、外国政府以及央行等机构客户。公司以全球宏观投资风格闻名，基于通胀、汇率以及美国GDP等宏观经济趋势来进行布局。Bridgewater在1975年最初只是面向机构客户的投资顾问服务，后成为机构投资平台，并于1996年开创了风险平价（risk parity）投资方式。1981年，公司将总部从纽约市搬至康涅狄格州的Westport，目前雇佣1500名员工。  
+Dalio将Bridgewater定位为一家"全球宏观公司"，它使用"定量"投资方法来识别新的投资机会，并尽量避免依赖不切实际的历史模型。公司目标是通过"按风险权重而非资产类别"分配来构建回报并不相关的投资组合。公司通常仅接受大型机构客户如养老基金、捐赠基金、基金会与央行等，而不面向个人投资者。
 
 ---
 
@@ -245,8 +243,8 @@ Capula Investment Management LLP是一家英国对冲基金，位列欧洲第四
 
 ### AQR Capital
 AQR Capital Management（全称Applied Quantitative Research）是一家总部位于美国康涅狄格州格林尼治的全球投资管理公司。公司由Cliff Asness、David Kabiller、John Liew和Robert Krail于1998年创立，为机构客户与理财顾问提供多种定量驱动型的另类与传统投资工具。公司主要由创始人及核心成员持股。  
-AQR还在波士顿、芝加哥、洛杉矶、班加罗尔、香港、伦敦、悉尼及东京设有办公室。AQR推崇基于研究的“系统且一致的”投资组合构建方法，同时倡导在投资组合内进行广泛多元化，并添加与传统资产低相关的策略。AQR在因子（风格）投资上是早期采用者，其主张将价值、动量、防御型与carry等四种风格结合，以利用它们彼此间的分散特性。  
-AQR也以提供与传统资产相关性较低的“另类投资策略”而闻名，如风险平价、管理期货及跟踪趋势等，得到了多项学术研究的支持。
+AQR还在波士顿、芝加哥、洛杉矶、班加罗尔、香港、伦敦、悉尼及东京设有办公室。AQR推崇基于研究的"系统且一致的"投资组合构建方法，同时倡导在投资组合内进行广泛多元化，并添加与传统资产低相关的策略。AQR在因子（风格）投资上是早期采用者，其主张将价值、动量、防御型与carry等四种风格结合，以利用它们彼此间的分散特性。  
+AQR也以提供与传统资产相关性较低的"另类投资策略"而闻名，如风险平价、管理期货及跟踪趋势等，得到了多项学术研究的支持。
 
 ---
 
@@ -265,7 +263,7 @@ Davidson Kempner主要采用自下而上的基本面分析，并聚焦事件驱�
 
 ### Farallon Capital
 Farallon Capital Management, L.L.C.是一家美国多策略对冲基金，总部位于加利福尼亚州旧金山。由Tom Steyer于1986年创立，在全球八个国家共雇佣约230名专业人士。公司管理资产据称有390亿美元，主要源于大学捐赠基金、基金会以及高净值个人等。  
-Farallon自称率先提出绝对收益投资模式，既关注潜在收益也关注风险调整收益。公司投资范畴包括价值型投资、信贷、并购套利、房地产相关项目以及发达和新兴市场的直接投资。Farallon还进行“事件驱动”的国际化投资，聚焦困境公司并助其重组。
+Farallon自称率先提出绝对收益投资模式，既关注潜在收益也关注风险调整收益。公司投资范畴包括价值型投资、信贷、并购套利、房地产相关项目以及发达和新兴市场的直接投资。Farallon还进行"事件驱动"的国际化投资，聚焦困境公司并助其重组。
 
 ---
 
@@ -275,7 +273,7 @@ Elliott Investment Management是一家美国投资管理公司，也是全球最
 ---
 
 ### Squarepoint Capital
-Squarepoint Capital（简称“Squarepoint”）是一家全球性投资管理公司，总部在纽约市，并在欧洲及亚洲另设办事处。公司以量化金融方法进行投资，持仓多样，覆盖多个资产类别、交易频率和全球市场。其大多数投资源于对历史市场数据进行回测以验证策略。
+Squarepoint Capital（简称"Squarepoint"）是一家全球性投资管理公司，总部在纽约市，并在欧洲及亚洲另设办事处。公司以量化金融方法进行投资，持仓多样，覆盖多个资产类别、交易频率和全球市场。其大多数投资源于对历史市场数据进行回测以验证策略。
 
 ---
 
@@ -297,13 +295,13 @@ WorldQuant, LLC是一家国际对冲基金及量化投资管理公司，总部�
 ## 资产管理
 
 ### BlackRock
-BlackRock, Inc.是一家美国跨国投资公司，总部在纽约市，创立于1988年，最初定位于风险管理和固定收益机构资产管理。BlackRock是全球最大资产管理机构，截至2022年12月31日管理的资产规模为8.59万亿美元。公司在30国设有70处办公室，为100个国家的客户提供服务。BlackRock同时管理iShares系列ETF，与Vanguard、State Street并称指数基金“三巨头”。其Aladdin软件为多家大型金融机构提供投资组合管理，BlackRock Solutions部门提供金融风险管理服务。BlackRock名列《财富》美国500强第184位。  
+BlackRock, Inc.是一家美国跨国投资公司，总部在纽约市，创立于1988年，最初定位于风险管理和固定收益机构资产管理。BlackRock是全球最大资产管理机构，截至2022年12月31日管理的资产规模为8.59万亿美元。公司在30国设有70处办公室，为100个国家的客户提供服务。BlackRock同时管理iShares系列ETF，与Vanguard、State Street并称指数基金"三巨头"。其Aladdin软件为多家大型金融机构提供投资组合管理，BlackRock Solutions部门提供金融风险管理服务。BlackRock名列《财富》美国500强第184位。  
 BlackRock力图在ESG（环境、社会和公司治理）方面扮演行业领导角色，但也因参与化石燃料、武器及在中国的人权争议等受到一些批评。另有一些州政府（如西弗吉尼亚、佛罗里达、路易斯安那）因其ESG政策而剥离BlackRock资产或拒绝与之合作。此外，公司在疫情期间与美联储关系密切及在许多公司中持重大股份的事实，也引起了部分舆论对竞争与合规性的讨论。
 
 ---
 
 ### The Vanguard Group
-The Vanguard Group, Inc.是一家美国注册投资顾问，位于宾夕法尼亚州Malvern，截至2023年4月，其全球管理资产约7.7万亿美元，是全球最大共同基金提供商与仅次于BlackRock iShares的第二大ETF提供商。Vanguard除共同基金与ETF外，也提供经纪服务、教育账户、理财规划、资产管理与信托服务。其多只共同基金按管理资产规模排在美国前列，与BlackRock、State Street一起被视为支配美国企业界的指数基金“三巨头”之一。  
+The Vanguard Group, Inc.是一家美国注册投资顾问，位于宾夕法尼亚州Malvern，截至2023年4月，其全球管理资产约7.7万亿美元，是全球最大共同基金提供商与仅次于BlackRock iShares的第二大ETF提供商。Vanguard除共同基金与ETF外，也提供经纪服务、教育账户、理财规划、资产管理与信托服务。其多只共同基金按管理资产规模排在美国前列，与BlackRock、State Street一起被视为支配美国企业界的指数基金"三巨头"之一。  
 Vanguard的大部分基金均提供普通投资者份额(investor shares)与旗舰份额(admiral shares)两种选择，旗舰份额费用略低但需要更高的最低投资额（约3千到10万美元不等）。公司总部位于费城郊区Malvern，另在北卡罗来纳州夏洛特、德州达拉斯、华盛顿特区及亚利桑那州斯科茨代尔等地设有分部，在加拿大、澳大利亚、亚洲及欧洲也有办公室。
 
 ---
@@ -372,7 +370,7 @@ GMO LLC（也称GMO或Grantham, Mayo, Van Otterloo & Co. LLC）是一家美国�
 ### Dimensional Fund Advisors
 Dimensional Fund Advisors, L.P.（品牌简称Dimensional或DFA）是一家位于美国德克萨斯州奥斯汀的私营投资公司。Dimensional 1981年在芝加哥创建，由David Booth、Rex Sinquefield及Larry Klotz联合创立，现已在美国、加拿大、英国、德国、荷兰、澳大利亚、新加坡与日本等共13处设有分支，并在美国的夏洛特及圣莫尼卡等地也有办公室，由公司员工、董事会成员及外部投资者共同持股。
 
-DFA是最早提供被动投资的公司之一，也曾运营美国市场上最早的“小盘指数基金”之一。不过DFA的指数基金会在小盘股或价值股上倾斜，区别于大多数基于市值加权的指数产品，导致监管层与一些分析师认为这些基金属于主动管理范畴。公司提供股票与债券的共同基金、以及ETF。
+DFA是最早提供被动投资的公司之一，也曾运营美国市场上最早的"小盘指数基金"之一。不过DFA的指数基金会在小盘股或价值股上倾斜，区别于大多数基于市值加权的指数产品，导致监管层与一些分析师认为这些基金属于主动管理范畴。公司提供股票与债券的共同基金、以及ETF。
 
 ---
 

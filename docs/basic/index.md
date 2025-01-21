@@ -1,89 +1,141 @@
-# 量化金融基础知识框架
-
+# 量化金融基本概念
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 ## 概述
 
-本章节涵盖了量化金融所需的基础知识，分为以下几个主要部分：
+本列表由[LLMQuant社区](https://llmquant.com/)整理, 本章节收录了133个量化金融所需的基础知识概念，欢迎大家继续贡献添加，目前文档分为以下几个主要部分：
 
-### 1. 金融基础 (Finance)
-- [资产类别与市场](finance/market.md)
-- [交易机制](finance/trading.md)
-- [金融工具](finance/instruments.md)
-- [风险管理](finance/risk.md)
-- [投资组合理论](finance/portfolio.md)
+## 金融基础 (Finance)
+- [AAA信用评级_AAA信用评级_AAA](finance/AAA信用评级_AAA信用评级_AAA.md)
+- [CAPE比率_CAPE Ratio](finance/CAPE比率_CAPE Ratio.md)
+- [CBOE波动率指数_VIX](finance/CBOE波动率指数_VIX.md)
+- [T+1_T+1](finance/T+1_T+1.md)
+- [VIX期权_VIX Option](finance/VIX期权_VIX Option.md)
+- [一级市场_Primary Market](finance/一级市场_Primary Market.md)
+- [中型市值_Mid-Cap](finance/中型市值_Mid-Cap.md)
+- [二元期权_Binary Option](finance/二元期权_Binary Option.md)
+- [二级市场_Secondary Market](finance/二级市场_Secondary Market.md)
+- [交易商_Dealer](finance/交易商_Dealer.md)
+- [价值投资_Value Investing](finance/价值投资_Value Investing.md)
+- [保证金_Margin](finance/保证金_Margin.md)
+- [保证金交易_Buying on Margin](finance/保证金交易_Buying on Margin.md)
+- [债券_Bond](finance/债券_Bond.md)
+- [债券市场_Bond Market](finance/债券市场_Bond Market.md)
+- [债务重组_Debt Restructuring](finance/债务重组_Debt Restructuring.md)
+- [利率_Interest Rate](finance/利率_Interest Rate.md)
+- [卖出期权_Put Option](finance/卖出期权_Put Option.md)
+- [变化率_Rate of Change](finance/变化率_Rate of Change.md)
+- [可转换债券_Convertible Bond](finance/可转换债券_Convertible Bond.md)
+- [合并与收购_Mergers and Acquisitions](finance/合并与收购_Mergers and Acquisitions.md)
+- [固定收益_Fixed Income](finance/固定收益_Fixed Income.md)
+- [国债_Treasury Bond](finance/国债_Treasury Bond.md)
+- [国库券_Treasury Notes](finance/国库券_Treasury Notes.md)
+- [基准年_What Is a Base Year](finance/基准年_What Is a Base Year.md)
+- [增长曲线_Growth Curve](finance/增长曲线_Growth Curve.md)
+- [增长率_Growth Rates](finance/增长率_Growth Rates.md)
+- [复利_Compounding](finance/复利_Compounding.md)
+- [复合年增长率_Compound Annual Growth Rate](finance/复合年增长率_Compound Annual Growth Rate.md)
+- [外汇_Forex](finance/外汇_Forex.md)
+- [外汇市场_Foreign Exchange](finance/外汇市场_Foreign Exchange.md)
+- [多因子模型_Multi-Factor Model](finance/多因子模型_Multi-Factor Model.md)
+- [对冲_Hedge](finance/对冲_Hedge.md)
+- [年回报率_Annual Return](finance/年回报率_Annual Return.md)
+- [年金未来价值_Future Value of an Annuity](finance/年金未来价值_Future Value of an Annuity.md)
+- [年金表_Annuity Table](finance/年金表_Annuity Table.md)
+- [报价_Quotation](finance/报价_Quotation.md)
+- [有效市场假说_Efficient Market Hypothesis](finance/有效市场假说_Efficient Market Hypothesis.md)
+- [期货_Futures](finance/期货_Futures.md)
+- [杠杆收购_Leveraged Buyout](finance/杠杆收购_Leveraged Buyout.md)
+- [波动性_Volatility](finance/波动性_Volatility.md)
+- [流动性_Liquidity](finance/流动性_Liquidity.md)
+- [现值_Present Value](finance/现值_Present Value.md)
+- [经济订货量_Economic Order Quantity](finance/经济订货量_Economic Order Quantity.md)
+- [联邦基金利率_Federal Funds Rate](finance/联邦基金利率_Federal Funds Rate.md)
+- [股权_Equity](finance/股权_Equity.md)
+- [被动投资_Passive Investing](finance/被动投资_Passive Investing.md)
+- [资产负债表_Balance Sheet](finance/资产负债表_Balance Sheet.md)
+- [资本化_Capitalization](finance/资本化_Capitalization.md)
+- [边际收益_Marginal Benefits](finance/边际收益_Marginal Benefits.md)
+- [远期价格_Forward Price](finance/远期价格_Forward Price.md)
+- [远期合同_Forward Contract](finance/远期合同_Forward Contract.md)
+- [量化宽松_Quantitative Easing](finance/量化宽松_Quantitative Easing.md)
+- [面值_Face Value](finance/面值_Face Value.md)
+- [首席经纪业务_Prime Brokerage](finance/首席经纪业务_Prime Brokerage.md)
 
-### 2. 概率论基础 (Probability)
-- [随机过程](prob/stochastic.md)
-- [概率分布](prob/distributions.md)
-- [期望与方差](prob/moments.md)
-- [大数定律](prob/law-large-numbers.md)
-- [中心极限定理](prob/central-limit.md)
+## 概率论基础 (Probability)
+- [大数法则_Law of Large Numbers](prob/大数法则_Law of Large Numbers.md)
+- [条件概率_Conditional Probability](prob/条件概率_Conditional Probability.md)
+- [概率分布_Probability Distribution](prob/概率分布_Probability Distribution.md)
+- [正态分布_Normal Distribution](prob/正态分布_Normal Distribution.md)
+- [联合概率_Joint Probability](prob/联合概率_Joint Probability.md)
+- [蒙特卡罗模拟_Monte Carlo Simulation](prob/蒙特卡罗模拟_Monte Carlo Simulation.md)
+- [贝叶斯定理_Baye's Theorem](prob/贝叶斯定理_Baye's Theorem.md)
 
-### 3. 统计学基础 (Statistics)
-- [描述性统计](stat/descriptive.md)
-- [假设检验](stat/hypothesis.md)
-- [回归分析](stat/regression.md)
-- [时间序列](stat/time-series.md)
-- [统计建模](stat/modeling.md)
+## 量化交易 (Quant)
+- [Fama-French三因子模型_Fama and French Three Factor Model](quant/Fama-French三因子模型_Fama and French Three Factor Model.md)
+- [伽玛中性_Gamma Neutral](quant/伽玛中性_Gamma Neutral.md)
+- [伽马对冲_Gamma Hedging](quant/伽马对冲_Gamma Hedging.md)
+- [动量投资_Momentum Investing](quant/动量投资_Momentum Investing.md)
+- [双顶_Double Top](quant/双顶_Double Top.md)
+- [回测_Backtesting](quant/回测_Backtesting.md)
+- [因子投资_Factor Investing](quant/因子投资_Factor Investing.md)
+- [均值回归_Mean Reversion](quant/均值回归_Mean Reversion.md)
+- [多空基金_LongdivShort Fund](quant/多空基金_LongdivShort Fund.md)
+- [多空股权_LongdivShort Equity](quant/多空股权_LongdivShort Equity.md)
+- [套利者_Arbitrageur](quant/套利者_Arbitrageur.md)
+- [市价单_Market Order](quant/市价单_Market Order.md)
+- [市场中性_Market Neutral](quant/市场中性_Market Neutral.md)
+- [德尔塔中性_Delta Neutral](quant/德尔塔中性_Delta Neutral.md)
+- [德尔塔对冲_Delta Hedging](quant/德尔塔对冲_Delta Hedging.md)
+- [指数移动平均线_Exponential Moving Average](quant/指数移动平均线_Exponential Moving Average.md)
+- [新闻交易者_News Trader](quant/新闻交易者_News Trader.md)
+- [本杰明·格雷厄姆_Who Was Benjamin Graham](quant/本杰明·格雷厄姆_Who Was Benjamin Graham.md)
+- [杰西·L·利弗莫尔_Jesse L. Livermore](quant/杰西·L·利弗莫尔_Jesse L. Livermore.md)
+- [波动率套利_Volatility Arbitrage](quant/波动率套利_Volatility Arbitrage.md)
+- [波动率微笑_Volatility Smile](quant/波动率微笑_Volatility Smile.md)
+- [相对强弱指数_Relative Strength Index](quant/相对强弱指数_Relative Strength Index.md)
+- [看跌期权_Long Put](quant/看跌期权_Long Put.md)
+- [移动平均线_Moving Average](quant/移动平均线_Moving Average.md)
+- [空头头寸_Short](quant/空头头寸_Short.md)
+- [空头看涨价差_Bear Call Spread](quant/空头看涨价差_Bear Call Spread.md)
+- [立即执行或取消订单_Immediate Or Cancel Order](quant/立即执行或取消订单_Immediate Or Cancel Order.md)
+- [简单移动平均线_Simple Moving Average](quant/简单移动平均线_Simple Moving Average.md)
+- [货币套利交易_Currency Carry Trade](quant/货币套利交易_Currency Carry Trade.md)
+- [费舍尔变换指标_Fisher Transform Indicator](quant/费舍尔变换指标_Fisher Transform Indicator.md)
+- [资本资产定价模型_Capital Asset Pricing Model](quant/资本资产定价模型_Capital Asset Pricing Model.md)
+- [趋势交易_Trend Trading](quant/趋势交易_Trend Trading.md)
+- [跨式期权_Straddle](quant/跨式期权_Straddle.md)
+- [逼空_Short Squeeze](quant/逼空_Short Squeeze.md)
+- [长期资本管理公司_Long-Term Capital Management](quant/长期资本管理公司_Long-Term Capital Management.md)
+- [阿尔法_Alpha](quant/阿尔法_Alpha.md)
+- [限价单_Limit Order](quant/限价单_Limit Order.md)
+- [限价单簿_Limit Order Book](quant/限价单簿_Limit Order Book.md)
+- [限时订单_Held Order](quant/限时订单_Held Order.md)
+- [高频交易_High-Frequency Trading](quant/高频交易_High-Frequency Trading.md)
+- [黄金交叉_Golden Cross](quant/黄金交叉_Golden Cross.md)
 
-### 4. 量化术语 (Quant)
-- [交易术语](quant/terms.md)
-- [策略术语](quant/strategy.md)
-- [技术指标](quant/indicators.md)
-- [行业黑话](quant/jargon.md)
-- [常见缩写](quant/abbreviations.md)
-
-## 学习路径
-
-1. **入门阶段**：
-   - 先了解[基本的金融术语](finance/terms.md)和[市场机制](finance/market.md)
-   - 掌握[基础的概率统计知识](prob/basics.md)
-   - 熟悉[常用的量化术语](quant/terms.md)
-
-2. **进阶阶段**：
-   - 深入学习[各类金融工具](finance/instruments.md)的特性
-   - 理解[复杂的概率分布](prob/distributions.md)和[统计模型](stat/modeling.md)
-   - 掌握[高级量化分析方法](quant/advanced.md)
-
-3. **实践阶段**：
-   - 结合[实际案例](finance/cases.md)应用所学知识
-   - [开发和测试量化策略](quant/strategy.md)
-   - 持续学习新的量化方法和工具
-
-## 章节导航
-
-- [金融术语](finance/) - 金融市场基础知识和术语
-  - [市场基础](finance/market.md)
-  - [交易机制](finance/trading.md)
-  - [金融工具](finance/instruments.md)
-
-- [概率基础](prob/) - 概率论核心概念
-  - [随机过程](prob/stochastic.md)
-  - [概率分布](prob/distributions.md)
-  - [统计推断](prob/inference.md)
-
-- [统计基础](stat/) - 统计学方法与应用
-  - [描述统计](stat/descriptive.md)
-  - [假设检验](stat/hypothesis.md)
-  - [回归分析](stat/regression.md)
-
-- [量化术语](quant/) - 量化交易专业术语
-  - [交易策略](quant/strategy.md)
-  - [技术指标](quant/indicators.md)
-  - [行业术语](quant/terms.md)
-
-## 推荐资源
-
-1. **经典教材**：
-   - 《Quantitative Trading》by Ernest P. Chan
-   - 《Options, Futures, and Other Derivatives》by John C. Hull
-   - 《Statistical Inference》by Casella and Berger
-
-2. **在线资源**：
-   - [Quantopian/Zipline 教程](https://www.quantopian.com/tutorials)
-   - [Coursera 量化课程](https://www.coursera.org/learn/quantitative-methods)
-   - [KhanAcademy 概率统计课程](https://www.khanacademy.org/math/statistics-probability)
-
-3. **实践工具**：
-   - Python 数据分析库（[Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/)）
-   - 统计分析工具（[SciPy](https://www.scipy.org/), [StatsModels](https://www.statsmodels.org/)）
-   - 量化回测框架（[Backtrader](https://www.backtrader.com/), [QuantConnect](https://www.quantconnect.com/)） 
+## 统计学基础 (Statistics)
+- [P 值_P-Value](stat/P 值_P-Value.md)
+- [P值_P-Test](stat/P值_P-Test.md)
+- [R平方_R-Squared](stat/R平方_R-Squared.md)
+- [T检验_T-Test](stat/T检验_T-Test.md)
+- [中心极限定理_Central Limit Theorem](stat/中心极限定理_Central Limit Theorem.md)
+- [假设检验_Hypothesis Testing](stat/假设检验_Hypothesis Testing.md)
+- [决定系数_Coefficient of Determination](stat/决定系数_Coefficient of Determination.md)
+- [协方差_Covariance](stat/协方差_Covariance.md)
+- [卡方统计量_Chi Square Statistic](stat/卡方统计量_Chi Square Statistic.md)
+- [变量膨胀因子_Variance Inflation Factor](stat/变量膨胀因子_Variance Inflation Factor.md)
+- [回归分析_Regression](stat/回归分析_Regression.md)
+- [均匀分布_Uniform Distribution](stat/均匀分布_Uniform Distribution.md)
+- [多元线性回归_Multiple Linear Regression](stat/多元线性回归_Multiple Linear Regression.md)
+- [多重共线性_Multicollinearity](stat/多重共线性_Multicollinearity.md)
+- [方差分析_Analysis of Variance](stat/方差分析_Analysis of Variance.md)
+- [最小二乘法_Least Squares Method](stat/最小二乘法_Least Squares Method.md)
+- [期望值_Expected Value](stat/期望值_Expected Value.md)
+- [相关系数_Correlation Coefficient](stat/相关系数_Correlation Coefficient.md)
+- [线性关系_Linear Relationship](stat/线性关系_Linear Relationship.md)
+- [经验法则_Empirical Rule](stat/经验法则_Empirical Rule.md)
+- [统计显著性_Statistical Significance](stat/统计显著性_Statistical Significance.md)
+- [置信区间_Confidence Interval](stat/置信区间_Confidence Interval.md)
+- [自相关_Autocorrelation](stat/自相关_Autocorrelation.md)
+- [非线性_Nonlinearity](stat/非线性_Nonlinearity.md)
+- [默顿模型_Merton Model](stat/默顿模型_Merton Model.md)

@@ -100,10 +100,20 @@ nav:
         - 资本资产定价模型: basic/quant/资本资产定价模型_Capital Asset Pricing Model.md
         - Fama-French三因子模型: basic/quant/Fama-French三因子模型_Fama and French Three Factor Model.md
   - 入门教程: 
-    - 夏普比率: start/sharpe.md
-    - 期权定价: start/option.md
-    - 波动率: start/volatility.md
-    - 资产组合理论: start/mpt-markowitz.md
+    - 必懂概念入门: 
+      - 夏普比率: start/sharpe.md
+      - 期权定价: start/option.md
+      - 波动率: start/volatility.md
+      - 资产组合理论: start/mpt-markowitz.md
+    - 策略类型入门:
+      - 一文解密量化策略类型: start/strategy-type.md
+      - 多策略对冲基金入门: start/multi-strategy.md
+      - 事件驱动型: start/event-driven.md
+      - 宏观对冲基金入门: start/macro-hedge.md
+    - 实用行业入门:
+      - 机构策略九个热门策略: start/nine-strategies.md
+      - Point72投资策略: start/point72-idea.md
+
   - 量化前沿:
     - 简介: advanced/index.md
     - 量化最新研究:
@@ -132,23 +142,77 @@ nav:
         - 广发高频因子: advanced/研报精选/广发-高频因子系列/index.md
       - 其他系列:
         - 财通中信逐鹿: advanced/研报精选/财通中信-逐鹿系列/index.md
-  - 量化策略库:  
-    - 简介: repo/quant_repo.md
-    - 事件驱动型: repo/event-driven.md
+  - 量化百宝箱:  
+    - 简介: repo/quant_learn.md
+    - 量化学习资源: 
+      - 开源工具库: 
+        - 回测与实盘交易: repo/quant_learn/#backtesting-and-live-trading
+        - 事件驱动框架: repo/quant_learn/#general---event-driven-frameworks
+        - 向量化框架: repo/quant_learn/#general---vector-based-frameworks
+        - 加密货币框架: repo/quant_learn/#cryptocurrencies
+        - 交易机器人: repo/quant_learn/#trading-bots
+      - 分析工具:
+        - 技术指标: repo/quant_learn/#indicators
+        - 指标计算: repo/quant_learn/#metrics-computation
+        - 优化工具: repo/quant_learn/#optimization
+        - 定价工具: repo/quant_learn/#pricing
+        - 风险分析: repo/quant_learn/#risk
+        - 券商接口: repo/quant_learn/#broker-apis
+      - 数据工具:
+        - 数据源: repo/quant_learn/#data-sources
+        - 通用数据: repo/quant_learn/#general
+        - 加密货币数据: repo/quant_learn/#cryptocurrencies-1
+        - 数据科学: repo/quant_learn/#data-science
+        - 数据库: repo/quant_learn/#databases
+        - 图计算: repo/quant_learn/#graph-computation
+      - 高级分析:
+        - 机器学习: repo/quant_learn/#machine-learning
+        - 时间序列: repo/quant_learn/#timeseries-analysis
+        - 数据可视化: repo/quant_learn/#visualization
+      - 交易策略:
+        - 多资产策略: repo/quant_learn/#bonds-commodities-currencies-equities
+        - 债券商品股票REIT: repo/quant_learn/#bonds-commodities-equities-reits
+        - 债券与股票: repo/quant_learn/#bonds-equities
+        - 债券股票REIT: repo/quant_learn/#bonds-equities-reits
+        - 商品策略: repo/quant_learn/#commodities
+        - 加密货币策略: repo/quant_learn/#cryptos
+        - 外汇策略: repo/quant_learn/#currencies
+        - 股票策略: repo/quant_learn/#equities
+      - 学习资源:
+        - 视频资源: repo/quant_learn/#videos
+        - 博客资源: repo/quant_learn/#blogs
+        - 课程资源: repo/quant_learn/#courses
+      - 不同编程语言的量化框架: 
+        - Python: repo/quant_repo/#python
+        - R: repo/quant_repo/#r
+        - Matlab: repo/quant_repo/#matlab
+        - Julia: repo/quant_repo/#julia
+        - Java: repo/quant_repo/#java
+        - JavaScript: repo/quant_repo/#javascript
+        - Haskell: repo/quant_repo/#haskell
+        - Scala: repo/quant_repo/#scala
+        - Ruby: repo/quant_repo/#ruby
+        - Elixir/Erlang: repo/quant_repo/#elixirerlang
+        - Golang: repo/quant_repo/#golang
+        - C++: repo/quant_repo/#cpp
+        - C#: repo/quant_repo/#csharp
+        - Rust: repo/quant_repo/#rust
+      - 框架: repo/quant_repo/#frameworks
+    - 研究成果复现: repo/reproduce.md
     - 趋势型: repo/trend-following.md
     - 统计套利型: repo/stat-arb.md
-    - 九个热门策略: repo/nine-strategies.md
-    - Point72策略: repo/point72-idea.md
   - AI+量化: 
     - 简介: ai/index.md
+    - 量化与人工智能结合: 
+      - TradingAgents 多智能体LLM金融交易框架: ai/aiquant/TradingAgents.md
+      - InvestorBench 面向LLM金融决策任务的Benchmark: ai/aiquant/InvestorBench.md
     - 2025年AI量化论文优选41篇: ai/2025-ai-paper.md
     - AI量化交易基础: ai/ai-quant.md
-    - Transformer架构详解: ai/Transformer.md
     - ChatGPT量化实战: ai/ChatGPT-quant.md
     - ChatGPT选股策略: ai/ChatGPT-o1.md
     - 论文速读与复现: ai/chat-paper.md
-    - 使用大语言模型揭露企业年报中掩盖的坏消息: ai/report.md
-    - Reference: ai/reference.md
+    - 人工智能前沿:
+      - Transformer架构详解: ai/llm/Transformer.md
   - 量化图书馆:
     - Overview: library/overview.md
     - 书籍:
@@ -254,10 +318,10 @@ nav:
       - 卖方公司: industry/sell-side.md
     - 大师人物:
       - 西蒙斯: industry/master/Jim-Simons.md
-    - 量化策略库参考: industry/reference.md
     - 2025年最值得关注的10家对冲基金: industry/2025-10-fund.md
     - 大奖章基金：文艺复兴科技公司里独一无二的赚钱机器: industry/Medallion.md
     - Quadrature Capital:你从未听过的神秘自营交易公司: industry/Quadrature-Capital.md
+    - 规模越大代表业绩越好？论对冲基金规模与其表现的关系: industry/size-fund.md
   - 求职专区:
     - 全球量化薪资大揭秘: job/quant-salary.md
     - 一文全解析对冲基金的职业路径: job/quant-job.md

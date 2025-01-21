@@ -1,25 +1,52 @@
-# Quant Github 仓库
+# 基于不同编程语言的量化框架与其Github仓库
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 本列表由[LLMQuant社区](https://llmquant.com/)整理, 个精心整理、极其优秀的量化（定量金融）相关库、包及资源列表, 只供学习交流使用, 版权归原作者所有。
 
 ## 语言
 
-- [Python](#python)
-- [R](#r)
-- [Matlab](#matlab)
-- [Julia](#julia)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Haskell](#haskell)
-- [Scala](#scala)
-- [Ruby](#ruby)
-- [Elixir/Erlang](#elixirerlang)
-- [Golang](#golang)
-- [CPP](#cpp)
-- [CSharp](#csharp)
-- [Rust](#rust)
-- [Frameworks](#frameworks)
-- [再现研究成果、培训与书籍](#再现研究成果培训与书籍)
+- [Python](#python) - 最流行的量化金融语言，拥有丰富的数据分析、机器学习库和金融工具包
+- [R](#r) - 统计分析的首选语言，在金融建模和风险分析方面有独特优势
+- [Matlab](#matlab) - 在金融工程和数值计算领域广泛使用，尤其适合矩阵运算
+- [Julia](#julia) - 专为高性能数值计算设计的新兴语言，在量化金融中逐渐流行
+- [Java](#java) - 企业级应用的标准选择，适合构建大规模交易系统
+- [JavaScript](#javascript) - 主要用于金融数据可视化和Web端交易界面开发
+- [Haskell](#haskell) - 函数式编程语言，在复杂金融产品建模方面具有优势
+- [Scala](#scala) - 结合了面向对象和函数式编程，适合构建高并发交易系统
+- [Ruby](#ruby) - 以简洁著称，主要用于快速开发原型和小型交易系统
+- [Elixir/Erlang](#elixirerlang) - 在构建容错和分布式交易系统方面表现出色
+- [Golang](#golang) - 以高性能和并发特性著称，适合开发高频交易系统
+- [CPP](#cpp) - 最适合开发低延迟交易系统的语言，广泛应用于高频交易
+- [CSharp](#csharp) - 微软技术栈的首选，在Windows平台上开发量化交易系统的理想选择
+- [Rust](#rust) - 新一代系统编程语言，在保证性能的同时提供内存安全保证
+- [Frameworks](#frameworks) - 跨语言的量化金融框架，提供完整的交易和分析解决方案
+- [再现研究成果、培训与书籍](#再现研究成果培训与书籍) - 学习资源和经典研究的代码实现
+
+### 选择建议
+
+1. **入门学习**
+   - Python：最佳入门选择，学习资源丰富，生态系统完善
+   - R：适合想专注于统计分析和风险建模的学习者
+
+2. **专业开发**
+   - C++：追求极致性能的高频交易系统
+   - Java：企业级交易平台开发
+   - Golang：现代高并发交易系统
+
+3. **特定场景**
+   - Julia：需要高性能数值计算
+   - JavaScript：开发Web交易界面
+   - Rust：需要兼顾性能和安全性
+
+4. **研究导向**
+   - Python/R：数据分析和策略研究
+   - Matlab：金融工程研究
+   - Julia：算法优化研究
+
+### 技术栈趋势
+- Python生态持续主导量化金融领域
+- Julia在高性能计算领域崭露头角
+- Rust在系统级开发中逐渐替代C++
+- Go语言在微服务架构中应用增多
 
 ---
 
@@ -28,7 +55,7 @@
 ### 数值库与数据结构
 
 - [numpy](https://www.numpy.org) - NumPy 是 Python 科学计算的基础包。
-- [scipy](https://www.scipy.org) - SciPy（发音类似“Sigh Pie”）是基于 Python 的开源数学、科学和工程生态系统。
+- [scipy](https://www.scipy.org) - SciPy（发音类似"Sigh Pie"）是基于 Python 的开源数学、科学和工程生态系统。
 - [pandas](https://pandas.pydata.org) - pandas 是一个开源的、BSD 许可的库，为 Python 提供高性能、易于使用的数据结构和数据分析工具。
 - [polars](https://docs.pola.rs/) - Polars 是一个用于操作结构化数据的超快 DataFrame 库。
 - [quantdsl](https://github.com/johnbywater/quantdsl) - 面向金融和交易的定量分析领域专用语言。
@@ -145,7 +172,7 @@
 - [Lean](https://github.com/QuantConnect/Lean) - QuantConnect 出品的开源 .NET/Mono/Python 算法交易引擎。
 - [fast-trade](https://github.com/jrmeier/fast-trade) - 低代码回测库，基于 pandas 与技术指标。
 - [pysystemtrade](https://github.com/robcarver17/pysystemtrade) - Robert Carver 开源的回测交易引擎，实现了其在《Systematic Trading》一书中阐述的策略框架，并在其[博客](https://qoppac.blogspot.com/)上进一步拓展。
-- [pytrendseries](https://github.com/rafa-rod/pytrendseries) - 检测时间序列趋势、回撤、固定窗口最大回撤及“水下”时间。
+- [pytrendseries](https://github.com/rafa-rod/pytrendseries) - 检测时间序列趋势、回撤、固定窗口最大回撤及"水下"时间。
 - [PyLOB](https://github.com/DrAshBooth/PyLOB) - Python 编写的高性能订单簿（Limit Order Book）。
 - [PyBroker](https://github.com/edtechre/pybroker) - 将机器学习用于算法交易的 Python 框架。
 - [OctoBot Script](https://github.com/Drakkar-Software/OctoBot-Script) - 一个创建加密货币策略的量化框架，支持回测、优化和实盘交易。
@@ -301,7 +328,7 @@
 - [sparseEigen](https://github.com/dppalomar/sparseEigen) - 稀疏主成分分析。
 - [TSdbi](http://tsdbi.r-forge.r-project.org/) - 提供对时间序列数据库的通用接口。
 - [tseries](https://cran.r-project.org/web/packages/tseries/index.html) - 时间序列分析与计算金融。
-- [zoo](https://cran.r-project.org/web/packages/zoo/index.html) - S3 结构的规则与不规则时间序列 (Z’s Ordered Observations)。
+- [zoo](https://cran.r-project.org/web/packages/zoo/index.html) - S3 结构的规则与不规则时间序列 (Z's Ordered Observations)。
 - [tis](https://cran.r-project.org/web/packages/tis/index.html) - 用于时间索引与时间索引序列的函数和 S3 类，兼容 FAME 频率。
 - [tfplot](https://cran.r-project.org/web/packages/tfplot/index.html) - 快速处理与绘制时间序列数据的工具。
 - [tframe](https://cran.r-project.org/web/packages/tframe/index.html) - 用于时间序列方法编程的核心函数，可与各种时间序列表示形式相对独立。
@@ -545,7 +572,7 @@
 
 ---
 
-## 再现研究成果、培训 & 书籍
+## 再现研究成果培训与书籍
 
 - [Auto-Differentiation Website](https://auto-differentiation.github.io/) - 有关自动微分（AD）/伴随算法微分（AAD）的背景知识与资源。
 - [Derman Papers](https://github.com/MarcosCarreira/DermanPapers) - Emanuel Derman 量化金融论文的重现与笔记。
@@ -568,9 +595,9 @@
 - [Python-for-Finance-Cookbook](https://github.com/PacktPublishing/Python-for-Finance-Cookbook) - Packt 出版的《Python for Finance Cookbook》源码。
 - [modelos_vol_derivativos](https://github.com/ysaporito/modelos_vol_derivativos) - 书籍《Modelos de Volatilidade para Derivativos》中的 Jupyter notebooks。
 - [NMOF](https://github.com/enricoschumann/NMOF) - 《Numerical Methods and Optimization in Finance》第一、二版相关函数、示例与数据。
-- [py4fi2nd](https://github.com/yhilpisch/py4fi2nd) - 《Python for Finance (2nd ed., O’Reilly)》一书的 Jupyter notebook 与源码。
+- [py4fi2nd](https://github.com/yhilpisch/py4fi2nd) - 《Python for Finance (2nd ed., O'Reilly)》一书的 Jupyter notebook 与源码。
 - [aiif](https://github.com/yhilpisch/aiif) - Yves Hilpisch 著《Artificial Intelligence in Finance (O'Reilly)》的 Jupyter notebook 与源码。
-- [py4at](https://github.com/yhilpisch/py4at) - Yves Hilpisch 著《Python for Algorithmic Trading (O’Reilly)》的相关代码与 notebook。
+- [py4at](https://github.com/yhilpisch/py4at) - Yves Hilpisch 著《Python for Algorithmic Trading (O'Reilly)》的相关代码与 notebook。
 - [dawp](https://github.com/yhilpisch/dawp) - 《Derivatives Analytics with Python (Wiley Finance)》一书的 notebook 与代码。
 - [dx](https://github.com/yhilpisch/dx) - DX Analytics | 利用 Python 进行金融及衍生品分析。
 - [QuantFinanceBook](https://github.com/LechGrzelak/QuantFinanceBook) - 《Quantitative Finance》书籍的相关资源。
@@ -594,7 +621,7 @@
 - [Autoencoder-Asset-Pricing-Models](https://github.com/RichardS0268/Autoencoder-Asset-Pricing-Models) - 复现 [GKX, 2019](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3335536) 中的自动编码器资产定价模型。
 - [Finance](https://github.com/shashankvemuri/Finance) - 包含 150+ 个与金融数据获取、处理与分析相关的 Python 程序。
 - [101_formulaic_alphas](https://github.com/ram-ki/101_formulaic_alphas) - 使用 qstrader 实现 [101 formulaic alphas](https://arxiv.org/ftp/arxiv/papers/1601/1601.00991.pdf)。
-- [Tidy Finance](https://www.tidy-finance.org/) - 一种进行金融实证研究的“整洁”思路，提供多语言（Python、R）的开源代码，方便学生和研究人员可重复实施财务研究项目。
+- [Tidy Finance](https://www.tidy-finance.org/) - 一种进行金融实证研究的"整洁"思路，提供多语言（Python、R）的开源代码，方便学生和研究人员可重复实施财务研究项目。
 - [RoughVolatilityWorkshop](https://github.com/jgatheral/RoughVolatilityWorkshop) - 2024 年 QuantMind 的 Rough Volatility 研讨会课程资料。
 - [AFML](https://github.com/boyboi86/AFML) - 《Advances in Financial Machine Learning》一书所有练习题的完整答案（作者：Marcos Lopez de Prado）。
 
