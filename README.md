@@ -2,7 +2,7 @@
 
 <img width="848" alt="image" src="https://github.com/user-attachments/assets/6d3b37b3-1bf3-4452-9833-f864c597c00d" />
 
-## 👏欢迎访问 Quant Wiki 量化百科  [http://quant-wiki.com/](http://quant-wiki.com/)
+## 👏欢迎访问 Quant Wiki 量化百科  [https://quant-wiki.com/](https://quant-wiki.com/)
 
 
 > [!NOTE]
