@@ -8,7 +8,7 @@
 
 ## 贡献指南  
 
-请您在编辑前查看 [Quant-Wiki 贡献指南](https://github.com/LLMQuant/Quant-Wiki/blob/main/CONTRIBUTING.md) 和项目方针，以更好地和社区贡献者进行合作、交流。
+请您在编辑前查看 [Quant-Wiki 贡献指南](https://github.com/LLMQuant/quant-wiki/blob/master/.github/CONTRIBUTING.md) 和项目方针，以更好地和社区贡献者进行合作、交流。
 
 ---
 
