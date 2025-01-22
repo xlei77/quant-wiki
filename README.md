@@ -17,14 +17,11 @@ Quant Wiki 致力于打造一个免费开放、持续更新的 量化金融（qu
 
 ![Quant-Wiki框架](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/01/21/1737422354226-7661075b-8ae2-4716-9569-7c8ec95323ae.png)
 
-## Contribution
+## Contributing
 
-如果您希望为 quant-wiki 做贡献，你需要做的是：
+我们非常欢迎大家为 quant-wiki 贡献内容！
 
-- fork 这个 repo。
-- 在 `docs` 文件夹中增添对应的文件/文件夹。
-- 在 `mkdocs.yml` 中的 `nav` 字段下进行更新。
-- 提交 Pull Request 即可。
+如果您希望为 quant-wiki 做贡献，请参考 [CONTRIBUTING.md](.github/CONTRIBUTING.md) 中的内容。
 
 ## Local Deploy
 

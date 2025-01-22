@@ -213,8 +213,8 @@ nav:
     - 论文速读与复现: ai/chat-paper.md
     - 人工智能前沿:
       - Transformer架构详解: ai/llm/Transformer.md
-      - DiffusionModel概述：ai/llm/Diffusion Models.md
-      - VQVAE模型概述：ai/llm/VQVAE.md
+      - DiffusionModel概述: ai/llm/Diffusion Models.md
+      - VQVAE模型概述: ai/llm/VQVAE.md
   - 量化图书馆:
     - Overview: library/overview.md
     - 书籍:
@@ -312,7 +312,7 @@ nav:
           - 金融时间序列分析: library/book/【2022新书】机器学习在金融时间序列分析与预测中的应用，385页pdf/index.md
           - 金融数据科学: library/book/【开放书】经济与金融数据科学/index.md
           - 量化绿皮书: library/book/量化绿皮书/index.md
-          - 2024独家金融干货包：library/book/2024独家金融干货包/index.md
+        - 2024独家金融干货包: library/book/2024独家金融干货包/index.md
     - Reference: library/reference.md
   - 行业内幕:
     - 简介: industry/overview.md
@@ -410,7 +410,6 @@ extra_css:
 extra_javascript:
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 
-
 
 
 extra:
