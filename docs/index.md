@@ -1,5 +1,5 @@
 # 欢迎访问Quant Wiki 中文量化百科
-<img width="666" alt="image" src="https://github.com/user-attachments/assets/6d3b37b3-1bf3-4452-9833-f864c597c00d" />
+![](https://fastly.jsdelivr.net/gh/bucketio/img16@main/2025/01/22/1737576282344-066b9a04-c289-45ea-a3b4-581ea7b5508f.51)
 
 ### 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
 量化投资（Quantitative Investing，简称 Quant）是一种以数学模型、统计分析和算法为基础的投资方式，是现代金融领域的重要分支。
