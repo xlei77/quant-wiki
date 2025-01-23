@@ -277,15 +277,7 @@ TradingAgents在夏普比率上也表现突出：在AAPL、GOOGL、AMZN上的夏
 未来，我们计划在实盘环境中部署该框架，进一步扩充角色种类与任务范围，并结合实时数据处理能力，以增强TradingAgents对瞬息万变金融市场的适应性。
 
 
-
-如需获得完整教程和超详细代码！欢迎扫描下方二维码加入**LLMQuant知识星球**。
-
-
-![](https://fastly.jsdelivr.net/gh/bucketio/img13@main/2025/01/18/1737234806568-9b7760a0-ea4c-4d12-a60c-b537ebdfe1d5.JPG)
-
-
-
 ## 关于LLMQuant
 
-LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。欢迎加入**知识星球**获取**内部资料**。
+LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。
 

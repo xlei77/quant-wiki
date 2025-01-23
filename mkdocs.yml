@@ -100,6 +100,10 @@ nav:
         - 资本资产定价模型: basic/quant/资本资产定价模型_Capital Asset Pricing Model.md
         - Fama-French三因子模型: basic/quant/Fama-French三因子模型_Fama and French Three Factor Model.md
   - 入门教程: 
+    - 量化交易员带你入门:
+      - 为什么有些交易策略能带来盈利？: start/quant_trader/为什么有些交易策略能带来盈利.md
+      - 如何打造“好用”的交易策略: start/quant_trader/如何打造“好用”的交易策略.md
+      - 如何如何划分交易风格？: start/quant_trader/如何如何划分交易风格.md
     - 必懂概念入门: 
       - 夏普比率: start/sharpe.md
       - 期权定价: start/option.md
