@@ -231,6 +231,7 @@
 | [Marketstore](https://github.com/alpacahq/marketstore) | 面向金融时序数据的 DataFrame 服务器 | ![GitHub stars](https://badgen.net/github/stars/alpacahq/marketstore) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [Tectonicdb](https://github.com/0b01/tectonicdb) | 一款快速、高度压缩、可独立运行的数据库和流式协议，用于订单簿 Tick 数据 | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 高性能数据存储库，适用于时序和逐笔交易数据 | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
+| [Timeplus Proton](https://github.com/timeplus-io/proton) | 一款基于 ClickHouse 开发的高性能批流一体数据库，提供列式存储，流式增量计算，毫秒级推送和自定义函数，适用于基于 SQL 的复杂事件处理，因子计算和回测 | ![GitHub stars](https://badgen.net/github/stars/timeplus-io/proton) | ![made-with-cpp](https://img.shields.io/badge/Made%20with-C%2B%2B-1f425f.svg) |
 
 
 ## Graph Computation
