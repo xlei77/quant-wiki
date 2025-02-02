@@ -1,10 +1,10 @@
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 # 年末福利！2024年AI量化论文优选48篇｜附精华解读
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 作为LLMQuant年末福利，在本篇汇总中，我们收录了共计 **41 篇**（精选及拓展阅读）定量金融领域的**前沿研究成果**。这些论文涵盖了从股票、外汇、商品、固定收益与信用市场到投资组合优化、市场预测、衍生品建模、宏观经济与地缘政治风险，以及加密货币与 DeFi 等多元主题。尤其值得关注的是，越来越多的工作正将人工智能（AI）与大型语言模型（LLMs）引入金融分析与交易中，不仅提升预测与评估的精准度和效率，还为策略制定、投资决策与风险管理提供了全新思路。
-
 
 ## 目录
 
@@ -79,7 +79,6 @@
 **精选之外的前沿研究**
   48. 跨越边界：超出精选名单之外的研究
 
-
 ## 基于大型语言模型的核心盈利测度扩展
 
 **论文信息：**  
@@ -96,10 +95,10 @@ University of Southern California, Harvard Business School
 - 基于LLM的核心盈利测度在预测长期净收益方面具备较高预测能力，并与未来市场估值强相关，有望大幅降低金融信息分析成本。
 
 图2展示了GAAP净收益与两种LLM核心盈利估计值的分布直方图（均为每股值）。  
+
 - Lazy Analyst核心盈利/股：使用“Lazy Analyst”LLM提示  
 - Sequential Prompt核心盈利/股：序列式提示方法估计的核心盈利  
 - GAAP收益(每股净收益)
-
 
 ## 利用自动编码器实现利率曲线的风险中性建模
 
@@ -117,7 +116,6 @@ Quantitative Risk Management, Bloomberg, CompatibL
 - 数值结果在多货币利率互换数据中表现优异，提高曲线表示的精确度与对冲稳定性。
 
 图1：展示静态无套利轨迹（蓝色）及生成流形环MXY在 δ=0.1,0.2,0.3 三种选择下的情况。
-
 
 ## 大型语言模型在金融与投资管理中的应用与基准测试
 
@@ -153,7 +151,6 @@ C Aubrun, R Morel, M Benzaquen, JP Bouchaud, 2024
 
 附图显示295只美国股票在8年期间的共跳跃分布。横轴为日期，纵轴为发生跳跃的时间，每个圆点代表在1分钟间隔内发生的共跳跃数量和规模，较大、颜色更暖的圆点代表更多股票同时跳跃。研究显示2019年10月附近的共跳跃事件集中，突出市场活动和传染效应的高峰期。
 
-
 ## 建模新闻交互与影响来预测金融市场
 
 **作者：**  
@@ -170,7 +167,6 @@ FININ模型通过融合新闻交互与市场数据在市场预测中表现优于
 
 图2展示FININ模型，包括数据融合编码器和市场感知影响量化器的结构，通过多层注意力、MLP等模块将市场与新闻特征整合并输出市场洞察。
 
-
 ## 利用生成式AI获取经济洞察
 
 **作者：**  
@@ -186,7 +182,6 @@ University of Chicago, Booth商学院, Georgia State University
 - 利用向量自回归框架验证其长期可预测性与微观层面洞察，对政策制定者、研究人员与投资者具备实用价值。
 
 图中展示2007Q1-2023Q1期间AI Economy Score与实际GDP增长以及SPF预测的对比，双坐标轴对比指数与GDP指标，揭示两者在时序上的动态关系。
-
 
 ## 将机器学习纳入Markowitz投资组合选择范式
 
@@ -1186,7 +1181,6 @@ AcMCP方法通过考虑非平稳AR过程中多步预测误差的自相关性，�
 106. Skew Index: a machine learning forecasting approach  
 107. Continuous Risk Factor Models: Analyzing Asset Correlations through Energy Distance
 
-
 ---
 
 ## 前沿探索：精选之外的研究（续）
@@ -1248,13 +1242,9 @@ AcMCP方法通过考虑非平稳AR过程中多步预测误差的自相关性，�
 145. Robustness Auditing for Linear Regression: To Singularity and Beyond  
 146. On Anticompetitive Third-Degree Price Discrimination
 
-
 ---
 
 *以上为2024年10月量化金融领域的精选论文与额外前沿研究索引，涵盖AI、LLM、投资组合优化、衍生品定价、风险管理、DeFi、宏观经济以及时间序列预测等领域，为研究人员、从业者与政策制定者提供参考与启示。*
-
-
-
 
 ## 关于LLMQuant
 

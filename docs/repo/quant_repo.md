@@ -1,4 +1,5 @@
 # 基于不同编程语言的量化框架与其Github仓库
+
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 本列表由[LLMQuant社区](https://llmquant.com/)整理, 个精心整理、极其优秀的量化（定量金融）相关库、包及资源列表, 只供学习交流使用, 版权归原作者所有。
 
@@ -43,6 +44,7 @@
    - Julia：算法优化研究
 
 ### 技术栈趋势
+
 - Python生态持续主导量化金融领域
 - Julia在高性能计算领域崭露头角
 - Rust在系统级开发中逐渐替代C++

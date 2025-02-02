@@ -10,12 +10,14 @@
 - **出版年份**: 2004
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Stochastic Calculus for Finance-Springer (2004).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Stochastic> Calculus for Finance-Springer (2004).pdf)
 
 ### 内容简介
+
 本书是金融随机分析的经典教材，系统介绍了离散和连续时间框架下的随机微积分理论及其在金融中的应用，尤其是期权定价理论。
 
 ### 核心章节
+
 1. 离散时间模型
 2. 连续时间基础
 3. 布朗运动
@@ -23,18 +25,21 @@
 5. Black-Scholes理论
 
 ### 主要特点
+
 - 理论严谨
 - 循序渐进
 - 例题丰富
 - 应用导向
 
 ### 适合人群
+
 - 金融数学研究生
 - 量化研究员
 - 衍生品定价专家
 - 金融工程师
 
 ### 配套资源
+
 - 习题解答
 - 数学推导补充
-- 代码实现示例 
+- 代码实现示例

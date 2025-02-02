@@ -6,12 +6,13 @@
 
 ## 研报目录
 
-
 ### 东兴证券
+
 - [基于高频快照数据的行为追踪因子](https://github.com/LLMQuant/asset/blob/main/20211015-东兴证券-另辟蹊径系列之一：基于高频快照数据的行为追踪因子.pdf)
 - [高频数据下基于文本挖掘和深度学习的股票波动性预测](https://github.com/LLMQuant/asset/blob/main/20220309-东兴证券-海外文献速览系列之十六：高频数据下基于文本挖掘和深度学习的股票波动性预测.pdf)
 
 ### 东吴证券
+
 - [ETF情绪温度计，高频折溢价的基差预测能力](https://github.com/LLMQuant/asset/blob/main/20200225-东吴证券-“ETF情绪温度计”系列研究（三）：ETF情绪温度计，高频折溢价的基差预测能力.pdf)
 - [高频价量相关性，意想不到的选股因子](https://github.com/LLMQuant/asset/blob/main/20200223-东吴证券-“技术分析拥抱选股因子”系列研究（一）：高频价量相关性，意想不到的选股因子.pdf)
 - [信息分布均匀度，基于高频波动率的选股因子](https://github.com/LLMQuant/asset/blob/main/20200901-东吴证券-“波动率选股因子”系列研究（二）：信息分布均匀度，基于高频波动率的选股因子.pdf)
@@ -19,30 +20,37 @@
 - [CPV因子期货版](https://github.com/LLMQuant/asset/blob/main/20200618-东吴证券-“高频价量相关性拥抱CTA”系列研究（一）：CPV因子期货版.pdf)
 
 ### 中泰证券
+
 - [大小盘如何择时？基金抱团高频跟踪数据给我们启示](https://github.com/LLMQuant/asset/blob/main/20210527-中泰证券-追踪“聪明资金”系列一：大小盘如何择时？基金抱团高频跟踪数据给我们启示.pdf)
 - [揭开公募持仓“面纱”，细化模型尝试对股票仓位进行高频跟踪](https://github.com/LLMQuant/asset/blob/main/20220502-中泰证券-追踪“聪明资金”系列：揭开公募持仓“面纱”，细化模型尝试对股票仓位进行高频跟踪.pdf)
 - [如何高频探测基金行业配置动向？](https://github.com/LLMQuant/asset/blob/main/20210823-中泰证券-追踪“聪明资金”系列二：如何高频探测基金行业配置动向？.pdf)
 
 ### 中银国际
+
 - [如何高频预测模拟Wind主动股基（885000.WI）指数？](https://github.com/LLMQuant/asset/blob/main/20220909-中银国际-中银量化专题研究：如何高频预测模拟Wind主动股基（885000.WI）指数？.pdf)
 
 ### 信达证券
+
 - [基于分钟线的高频选股因子](https://github.com/LLMQuant/asset/blob/main/20220428-信达证券-因子选股系列之一：基于分钟线的高频选股因子.pdf)
 
 ### 兴业证券
+
 - [市场微观结构剖析](https://github.com/LLMQuant/asset/blob/main/20221109-兴业证券-高频研究系列五：市场微观结构剖析.pdf)
 - [20220104-兴业证券-高频漫谈](https://github.com/LLMQuant/asset/blob/main/20220104-兴业证券-高频漫谈.pdf)
 - [收益率分布因子构建](https://github.com/LLMQuant/asset/blob/main/20220123-兴业证券-高频研究系列二：收益率分布因子构建.pdf)
 - [收益率分布中的Alpha（2）](https://github.com/LLMQuant/asset/blob/main/20220504-兴业证券-高频研究系列三：收益率分布中的Alpha（2）.pdf)
 
 ### 华安证券
+
 - [市场微观结构剖析之七](https://github.com/LLMQuant/asset/blob/main/20200610-华安证券-高频视角下成交额蕴藏的Alpha：市场微观结构剖析之七.pdf)
 - [知情交易的高频指标](https://github.com/LLMQuant/asset/blob/main/20201228-华安证券-“学海拾珠”系列之二十四：知情交易的高频指标.pdf)
 
 ### 国信证券
+
 - [交易量时钟，对高频交易模式的洞察](https://github.com/LLMQuant/asset/blob/main/20210608-国信证券-学术文献研究系列第5期：交易量时钟，对高频交易模式的洞察.pdf)
 
 ### 国泰君安
+
 - [基于波动率分解的高频波动率预测模型](https://github.com/LLMQuant/asset/blob/main/20220422-国泰君安-学界纵横系列之三十八：基于波动率分解的高频波动率预测模型.pdf)
 - [利用高频数据监测机构动向](https://github.com/LLMQuant/asset/blob/main/20210730-国泰君安-算法交易系列二：利用高频数据监测机构动向.pdf)
 - [天然气期货的高频交易模式是怎样的](https://github.com/LLMQuant/asset/blob/main/20210610-国泰君安-学界纵横系列之八：天然气期货的高频交易模式是怎样的.pdf)
@@ -50,20 +58,25 @@
 - [高频交易，海外发展与国内展望](https://github.com/LLMQuant/asset/blob/main/20130620-国泰君安-2013年夏季金融工程沙龙：高频交易，海外发展与国内展望.pdf)
 
 ### 国联证券
+
 - [股票多因子系列1_机构主动资金流](https://github.com/LLMQuant/asset/blob/main/20220719-国联证券-基于Level2数据：股票多因子系列1_机构主动资金流.pdf)
 
 ### 国金证券
+
 - [Alpha掘金系列之二，基于高频快照数据的量价背离选股因子](https://github.com/LLMQuant/asset/blob/main/20221118-国金证券-金融工程专题报告：Alpha掘金系列之二，基于高频快照数据的量价背离选股因子.pdf)
 
 ### 天风证券
+
 - [买卖压力失衡](https://github.com/LLMQuant/asset/blob/main/20170801-天风证券-利用高频数据拓展盘口数据：买卖压力失衡.pdf)
 - [结合中高频信息的指数增强策略](https://github.com/LLMQuant/asset/blob/main/20200514-天风证券-市场微观结构探析系列之四：结合中高频信息的指数增强策略.pdf)
 
 ### 安信证券
+
 - [本周行情有利于中高频策略](https://github.com/LLMQuant/asset/blob/main/20180826-安信证券-机器学习与CTA：本周行情有利于中高频策略.pdf)
 - [机器学习T0](https://github.com/LLMQuant/asset/blob/main/20191230-安信证券-中高频交易策略再出发：机器学习T0.pdf)
 
 ### 开源证券
+
 - [独家量价因子的高频测试](https://github.com/LLMQuant/asset/blob/main/20210924-开源证券-开源量化评论（36）：独家量价因子的高频测试.pdf)
 - [高频股东数据的隐含信息量](https://github.com/LLMQuant/asset/blob/main/20201231-开源证券-量化评论（13）：高频股东数据的隐含信息量.pdf)
 - [北上资金高频数据的CTA潜力](https://github.com/LLMQuant/asset/blob/main/20201114-开源证券-开源量化评论（11）：北上资金高频数据的CTA潜力.pdf)
@@ -71,6 +84,7 @@
 - [大小单资金流alpha探究2.0，变量精筛与高频测算](https://github.com/LLMQuant/asset/blob/main/20221218-开源证券-市场微观结构研究系列（18）：大小单资金流alpha探究2.0，变量精筛与高频测算.pdf)
 
 ### 招商证券
+
 - [轻装上阵，高频数据因子的应用](https://github.com/LLMQuant/asset/blob/main/20210107-招商证券-“高频寻踪”系列之二：轻装上阵，高频数据因子的应用.pdf)
 - [交易指令流中的Alpha](https://github.com/LLMQuant/asset/blob/main/20200620-招商证券-“高频寻踪”系列之一：交易指令流中的Alpha.pdf)
 - [高频数据中的知情交易](https://github.com/LLMQuant/asset/blob/main/20191029-招商证券-“琢璞”系列报告之二：高频数据中的知情交易.pdf)
@@ -78,13 +92,16 @@
 - [高频ESG数据，穿着燕尾服的Alpha](https://github.com/LLMQuant/asset/blob/main/20201219-招商证券-ESG投资研究系列之三：高频ESG数据，穿着燕尾服的Alpha.pdf)
 
 ### 方正证券
+
 - [本福特的启示，从分钟成交量看机构痕迹](https://github.com/LLMQuant/asset/blob/main/20170813-方正证券-“聆听高频世界的声音”系列研究（六）：本福特的启示，从分钟成交量看机构痕迹.pdf)
-- [量价关系的高频乐章 ](https://github.com/LLMQuant/asset/blob/main/20200227-方正证券-市场微观结构剖析系列6：量价关系的高频乐章 .pdf)
+- [量价关系的高频乐章 ](<https://github.com/LLMQuant/asset/blob/main/20200227-方正证券-市场微观结构剖析系列6：量价关系的高频乐章> .pdf)
 
 ### 民生证券
+
 - [基于机器学习的订单簿高频交易策略](https://github.com/LLMQuant/asset/blob/main/20131211-民生证券-CTA程序化交易实务研究之六：基于机器学习的订单簿高频交易策略.pdf)
 
 ### 海通证券
+
 - [高频因子之股票收益分布特征](https://github.com/LLMQuant/asset/blob/main/20170505-海通证券-选股因子系列研究（十九）：高频因子之股票收益分布特征.pdf)
 - [基于直观逻辑和机器学习的高频数据低频化应用](https://github.com/LLMQuant/asset/blob/main/20200424-海通证券-选股因子系列研究（六十四）：基于直观逻辑和机器学习的高频数据低频化应用.pdf)
 - [剔除高频多因子空头组合后的沪深300指数增强策略](https://github.com/LLMQuant/asset/blob/main/20200413-海通证券-选股因子系列研究（六十三）：剔除高频多因子空头组合后的沪深300指数增强策略.pdf)
@@ -111,12 +128,15 @@
 - [高频因子的现实与幻想](https://github.com/LLMQuant/asset/blob/main/20200730-海通证券-选股因子系列研究（六十九）：高频因子的现实与幻想.pdf)
 
 ### 财通证券
+
 - [RSJ市场情绪冷暖剂](https://github.com/LLMQuant/asset/blob/main/20200728-财通证券-高频波动率择时指标：RSJ市场情绪冷暖剂.pdf)
 
 ### 银河证券
+
 - [期指Level2行情的价格发现研究及高频实战体会](https://github.com/LLMQuant/asset/blob/main/20140815-银河证券-CTA程序化交易实务研究之八：期指Level2行情的价格发现研究及高频实战体会.pdf)
 
 ### 长江证券
+
 - [高频因子（二），结构化反转因子](https://github.com/LLMQuant/asset/blob/main/20190601-长江证券-基础因子研究（七）：高频因子（二），结构化反转因子.pdf)
 - [高频因子（十二），日内与日间](https://github.com/LLMQuant/asset/blob/main/20210606-长江证券-基础因子研究（十八）：高频因子（十二），日内与日间.pdf)
 - [高频因子（十一），高频数据的微观划分](https://github.com/LLMQuant/asset/blob/main/20210322-长江证券-基础因子研究（十七）：高频因子（十一），高频数据的微观划分.pdf)

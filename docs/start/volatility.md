@@ -4,8 +4,6 @@
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-
-
 为了满足粉丝的入门学习需求，结合行业最新理解，LLMQuant推出**量化交易员带你入门系列**本文将带你从零开始了解期权**隐含波动率**（Implied Volatility，IV），并介绍如何基于期权数据构建**波动率曲面**（Volatility Surface）。文章还给出一些精要的 Python 代码示例，帮助你快速上手。
 
 ## 一、什么是隐含波动率？
@@ -26,9 +24,7 @@
 
 将它绘成三维图，就得到所谓的**波动率曲面**（Volatility Surface）。该曲面提供了更直观的信息，让我们能快速捕捉市场对未来不同到期点、不同价位的波动预期。
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img17@main/2025/01/01/1735754792973-17579800-badd-441e-9c27-87eff9beba6e.png)
-
 
 ---
 
@@ -161,9 +157,7 @@ fig.update_layout(title="Volatility Surface",
 fig.show()
 ```
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img13@main/2025/01/01/1735754858115-b389fd89-efea-4dfe-8f93-8ab8009f5e71.png)
-
 
 ## 六、常见特征：Skew、Smile 与期限结构
 
@@ -189,13 +183,11 @@ fig.show()
 希望本文能为你提供一个快速上手的路径，也欢迎探索更多高级主题（Bachelier、SVI、机器学习），让"波动率曲面"在量化策略中大展身手。
 
 > **参考阅读**  
+>
 > - Gatheral, J. & Jacquier, A. (2013). *Arbitrage-Free SVI Volatility Surfaces.* SSRN.  
 > - Jaeckel, P. (2010). *By Implication.*  
 > - Choi, J., Kwak, M., Tee, C.W., Wang, Y. (2021). *A Black-Scholes user's guide to the Bachelier model.* arXiv.  
 
-
-
 ## 关于LLMQuant
 
 LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。
-

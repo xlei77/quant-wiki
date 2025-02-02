@@ -12,9 +12,8 @@
 - [研究成果复现](../repo/reproduce.md) 代码复现经典研究成果
 - 同时还有一些有价值的 [博客](#blogs) 与 [课程](#courses)
 
-
-
 ## 目录
+
 - [库和包](#libraries-and-packages)
   - [回测和实盘交易](#backtesting-and-live-trading)
     - [通用 - 事件驱动框架](#general---event-driven-frameworks)  
@@ -84,7 +83,6 @@
 | [gobacktest](https://github.com/gobacktest/gobacktest) | 使用 Go 语言实现的事件驱动回测框架 | ![GitHub stars](https://badgen.net/github/stars/gobacktest/gobacktest) | ![made-with-go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg) |
 | [FlashFunk](https://github.com/HFQR/FlashFunk) | 用 Rust 编写的高性能运行时 | ![GitHub stars](https://badgen.net/github/stars/HFQR/FlashFunk) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 
-
 ### General - Vector Based Frameworks
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -92,7 +90,6 @@
 | [vectorbt](https://github.com/polakowo/vectorbt) | 完全基于 pandas 和 NumPy，并使用 Numba 加速的回测工具，可在高速和规模化前提下测试成千上万策略 | ![GitHub stars](https://badgen.net/github/stars/polakowo/vectorbt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | 《Systematic Trading》作者 Rob Carver 提供的 Python 系统化交易实现 | ![GitHub stars](https://badgen.net/github/stars/robcarver17/pysystemtrade) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [bt](https://github.com/pmorissette/bt) | 基于 Python 的灵活回测库，使用类似树形的策略结构 | ![GitHub stars](https://badgen.net/github/stars/pmorissette/bt) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-
 
 ### Cryptocurrencies
 
@@ -121,7 +118,6 @@
 | [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | 基于 Node.js + TypeScript 的自动化比特币套利交易系统 | ![GitHub stars](https://badgen.net/github/stars/bitrinjani/r2) | ![made-with-typescript](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg) |
 | [analyzingalpha](https://github.com/leosmigel/analyzingalpha) | 一些简单交易策略的实现 | ![GitHub stars](https://badgen.net/github/stars/leosmigel/analyzingalpha) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | 使用趋势跟随方法进行系统化期货交易 | ![GitHub stars](https://badgen.net/github/stars/chrism2671/PyTrendFollow) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-
 
 ## Analytics
 
@@ -170,7 +166,6 @@
 |------|------|-------|----------|
 | [pyfolio](https://github.com/quantopian/pyfolio) | Python 中的投资组合与风险分析工具 | ![GitHub stars](https://badgen.net/github/stars/quantopian/pyfolio) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ## Broker APIs
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -179,7 +174,6 @@
 | [Ib_insync](https://github.com/erdewit/ib_insync) | 适用于 Interactive Brokers 的 Python 同步/异步框架 | ![GitHub stars](https://badgen.net/github/stars/erdewit/ib_insync) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Coinnect](https://github.com/hugues31/coinnect) | Rust 库，为主要加密货币交易所（REST API）提供完整访问 | ![GitHub stars](https://badgen.net/github/stars/hugues31/coinnect) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) | 针对 FTX、FTXUS、OKX、Bybit 等交易所的 JavaScript SDK，支持交易、数据与 WebSocket | ![GitHub stars](https://badgen.net/github/stars/CompendiumFi/PENDAX-SDK) | ![made-with-javascript](https://img.shields.io/badge/Made%20with-Javascript-1f425f.svg) |
-
 
 ## Data Sources
 
@@ -198,7 +192,6 @@
 | [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | 全面的基础面分析包，可收集 20 年的公司简介、财务报表、比率与股票数据，覆盖 2 万家以上公司 | ![GitHub stars](https://badgen.net/github/stars/JerBouma/FundamentalAnalysis) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Wallstreet](https://github.com/mcdallas/wallstreet) | 实时股票与期权工具 | ![GitHub stars](https://badgen.net/github/stars/mcdallas/wallstreet) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ### Cryptocurrencies
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -207,7 +200,6 @@
 | [Gekko-Datasets](https://github.com/xFFFFF/Gekko-Datasets) | Gekko 交易机器人数据集，可下载并使用 SQLite 格式的历史文件 | ![GitHub stars](https://badgen.net/github/stars/xFFFFF/Gekko-Datasets) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [CryptoInscriber](https://github.com/Optixal/CryptoInscriber) | 加密货币实时历史交易数据记录器，可从任意交易所下载历史交易数据 | ![GitHub stars](https://badgen.net/github/stars/Optixal/CryptoInscriber) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Crypto Lake](https://github.com/crypto-lake/lake-api) | 高频订单簿 & 交易数据，用于加密货币领域 | ![GitHub stars](https://badgen.net/github/stars/crypto-lake/lake-api) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-
 
 ## Data Science
 
@@ -223,7 +215,6 @@
 | [PyMC](https://github.com/pymc-devs/pymc) | Python 中的概率编程：基于 Aesara 的贝叶斯建模和概率机器学习 | ![GitHub stars](https://badgen.net/github/stars/pymc-devs/pymc) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Cvxpy](https://github.com/cvxpy/cvxpy) | Python 内嵌式的凸优化建模语言 | ![GitHub stars](https://badgen.net/github/stars/cvxpy/cvxpy) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ## Databases
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -232,7 +223,6 @@
 | [Tectonicdb](https://github.com/0b01/tectonicdb) | 一款快速、高度压缩、可独立运行的数据库和流式协议，用于订单簿 Tick 数据 | ![GitHub stars](https://badgen.net/github/stars/0b01/tectonicdb) | ![made-with-rust](https://img.shields.io/badge/Made%20with-Rust-1f425f.svg) |
 | [ArcticDB (Man Group)](https://github.com/man-group/arcticdb) | 高性能数据存储库，适用于时序和逐笔交易数据 | ![GitHub stars](https://badgen.net/github/stars/man-group/ArcticDB) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Timeplus Proton](https://github.com/timeplus-io/proton) | 一款基于 ClickHouse 开发的高性能批流一体数据库，提供列式存储，流式增量计算，毫秒级推送和自定义函数，适用于基于 SQL 的复杂事件处理，因子计算和回测 | ![GitHub stars](https://badgen.net/github/stars/timeplus-io/proton) | ![made-with-cpp](https://img.shields.io/badge/Made%20with-C%2B%2B-1f425f.svg) |
-
 
 ## Graph Computation
 
@@ -245,7 +235,6 @@
 | [GraphKit](https://github.com/yahoo/graphkit) | 一个轻量级 Python 模块，用于创建并运行有序的计算图 | ![GitHub stars](https://badgen.net/github/stars/yahoo/graphkit) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Tributary](https://github.com/timkpaine/tributary) | Python 中的流式响应式与数据流图 | ![GitHub stars](https://badgen.net/github/stars/timkpaine/tributary) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ## Machine Learning
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -256,7 +245,6 @@
 | [TradingGym](https://github.com/Yvictor/TradingGym) | 一个用于训练强化学习智能体或简单规则算法的交易与回测环境 | ![GitHub stars](https://badgen.net/github/stars/Yvictor/TradingGym) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | 使用深度 Q-Learning 的股票交易机器人 | ![GitHub stars](https://badgen.net/github/stars/pskrunner14/trading-bot) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ## TimeSeries Analysis
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -266,7 +254,6 @@
 | [tsfresh](https://github.com/blue-yonder/tsfresh) | 自动提取时间序列中的相关特征 | ![GitHub stars](https://badgen.net/github/stars/blue-yonder/tsfresh) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [pmdarima](https://github.com/alkaline-ml/pmdarima) | 在 Python 中填补时间序列分析空白的统计库，包括 R 语言中 auto.arima 的等价功能 | ![GitHub stars](https://badgen.net/github/stars/alkaline-ml/pmdarima) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 
-
 ## Visualization
 
 | 仓库 | 描述 | Stars | 使用语言 |
@@ -274,7 +261,6 @@
 | [D-Tale (Man Group)](https://github.com/man-group/dtale) | 将 Flask 后端与 React 前端结合，可轻松查看与分析 Pandas 数据结构 | ![GitHub stars](https://badgen.net/github/stars/man-group/dtale) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [mplfinance](https://github.com/matplotlib/mplfinance) | 基于 Matplotlib 的金融市场数据可视化 | ![GitHub stars](https://badgen.net/github/stars/matplotlib/mplfinance) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
 | [btplotting](https://github.com/happydasch/btplotting) | 为 backtrader 的回测、优化结果和实时数据提供可视化 | ![GitHub stars](https://badgen.net/github/stars/happydasch/btplotting) | ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) |
-
 
 ---
 
@@ -383,7 +369,6 @@
 | ESG, Price Momentum and Stochastic Optimization | `N/A` | `N/A` | `Monthly` |  | [Paper](https://quantpedia.com/strategies/esg-price-momentum-and-stochastic-optimization/) |
 | The Positive Similarity of Company Filings and Stock Returns | `N/A` | `N/A` | `Monthly` |  | [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690461) |
 
-
 ---
 
 # Videos
@@ -412,7 +397,6 @@
 | [Better System Trader EP064 - Cryptocurrencies and Machine Learning with Bert Mouler](https://www.youtube.com/watch?v=YgRTd4nLJoU) | ![](https://badgen.net/badge/likes/35/blue) |
 | [Better System Trader EP023 - Portfolio manager Michael Himmel talks AI and machine learning in trading](https://www.youtube.com/watch?v=9tZjeyhfG0g) | ![](https://badgen.net/badge/likes/29/blue) |
 | [Better System Trader EP082 - Machine Learning With Kris Longmore](https://www.youtube.com/watch?v=0syNgsd635M) | ![](https://badgen.net/badge/likes/18/blue) |
-
 
 ---
 

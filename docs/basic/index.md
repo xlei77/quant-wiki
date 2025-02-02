@@ -1,10 +1,13 @@
 # 量化金融基本概念
+
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 ## 概述
 
 本列表由[LLMQuant社区](https://llmquant.com/)整理, 本章节收录了133个量化金融所需的基础知识概念，欢迎大家继续贡献添加，目前文档分为以下几个主要部分：
 
 ## 金融基础 (Finance)
+
 - [AAA信用评级_AAA信用评级_AAA](finance/AAA信用评级_AAA信用评级_AAA.md)
 - [CAPE比率_CAPE Ratio](finance/CAPE比率_CAPE Ratio.md)
 - [CBOE波动率指数_VIX](finance/CBOE波动率指数_VIX.md)
@@ -62,6 +65,7 @@
 - [首席经纪业务_Prime Brokerage](finance/首席经纪业务_Prime Brokerage.md)
 
 ## 概率论基础 (Probability)
+
 - [大数法则_Law of Large Numbers](prob/大数法则_Law of Large Numbers.md)
 - [条件概率_Conditional Probability](prob/条件概率_Conditional Probability.md)
 - [概率分布_Probability Distribution](prob/概率分布_Probability Distribution.md)
@@ -71,6 +75,7 @@
 - [贝叶斯定理_Baye's Theorem](prob/贝叶斯定理_Baye's Theorem.md)
 
 ## 量化交易 (Quant)
+
 - [Fama-French三因子模型_Fama and French Three Factor Model](quant/Fama-French三因子模型_Fama and French Three Factor Model.md)
 - [伽玛中性_Gamma Neutral](quant/伽玛中性_Gamma Neutral.md)
 - [伽马对冲_Gamma Hedging](quant/伽马对冲_Gamma Hedging.md)
@@ -114,6 +119,7 @@
 - [黄金交叉_Golden Cross](quant/黄金交叉_Golden Cross.md)
 
 ## 统计学基础 (Statistics)
+
 - [P 值_P-Value](stat/P 值_P-Value.md)
 - [P值_P-Test](stat/P值_P-Test.md)
 - [R平方_R-Squared](stat/R平方_R-Squared.md)

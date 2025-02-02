@@ -10,12 +10,14 @@
 - **出版年份**: 2005
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Attilio Meucci - Risk and Asset Allocation-Springer (2005).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Attilio> Meucci - Risk and Asset Allocation-Springer (2005).pdf)
 
 ### 内容简介
+
 本书系统地介绍了风险管理和资产配置的现代方法，包括投资组合优化、风险度量、情景分析等内容，是量化投资领域的重要参考书。
 
 ### 核心章节
+
 1. 概率分布与风险
 2. 投资组合理论
 3. 风险度量方法
@@ -23,18 +25,21 @@
 5. 动态资产配置
 
 ### 主要特点
+
 - 理论严谨
 - 实践导向
 - 案例丰富
 - 工具完备
 
 ### 适合人群
+
 - 投资组合经理
 - 风险管理师
 - 量化研究员
 - 金融工程师
 
 ### 配套资源
+
 - MATLAB代码
 - Excel工具
-- 数据集 
+- 数据集

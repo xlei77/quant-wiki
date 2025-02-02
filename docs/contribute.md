@@ -99,10 +99,12 @@
 提交 Pull Request 时，请注意以下几点：  
 
 1. 标题清晰表述改动内容，例如：  
+
    ```
    fix(math/poly/fft): 修正公式错误 (#123)
    feat(ds/segment-tree): 添加更多示例 (#456)
    ```  
+
 2. 在内容中标明改动详情，如果修复了 Issue，请在正文中添加 `fix #编号` 字段；  
 3. 确认 PR 符合 [贡献指南](https://github.com/LLMQuant/Quant-Wiki/blob/main/CONTRIBUTING.md) 后提交。
 
