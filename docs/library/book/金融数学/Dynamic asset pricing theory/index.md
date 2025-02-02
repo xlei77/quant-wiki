@@ -10,12 +10,14 @@
 - **出版年份**: 2001
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Darrell Duffie - Dynamic asset pricing theory-Princeton University Press (2001).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Darrell> Duffie - Dynamic asset pricing theory-Princeton University Press (2001).pdf)
 
 ### 内容简介
+
 本书系统地介绍了动态资产定价理论，包括连续时间模型、随机过程、鞅论等内容，是资产定价理论研究的经典著作。
 
 ### 核心章节
+
 1. 资产定价基础
 2. 连续时间模型
 3. 随机过程理论
@@ -23,18 +25,21 @@
 5. 期权定价理论
 
 ### 主要特点
+
 - 理论严谨
 - 数学深入
 - 体系完整
 - 逻辑清晰
 
 ### 适合人群
+
 - 金融数学博士生
 - 理论研究者
 - 量化研究员
 - 资产定价专家
 
 ### 配套资源
+
 - 数学推导补充
 - 习题解答
-- 研究材料 
+- 研究材料

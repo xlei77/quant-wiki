@@ -10,12 +10,14 @@
 - **出版年份**: 2015
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantitative risk management _ concepts, techniques and tools-Princeton University Press (2015).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Quantitative> risk management _ concepts, techniques and tools-Princeton University Press (2015).pdf)
 
 ### 内容简介
+
 本书全面介绍了量化风险管理的概念、技术和工具，包括市场风险、信用风险、操作风险等多个方面，是风险管理领域的权威著作。
 
 ### 核心章节
+
 1. 风险度量方法
 2. 市场风险管理
 3. 信用风险模型
@@ -23,18 +25,21 @@
 5. 风险聚合技术
 
 ### 主要特点
+
 - 理论完整
 - 方法系统
 - 工具丰富
 - 实践指导详细
 
 ### 适合人群
+
 - 风险管理师
 - 量化分析师
 - 金融工程师
 - 监管人员
 
 ### 配套资源
+
 - R语言代码
 - 案例数据
-- 风险管理工具 
+- 风险管理工具

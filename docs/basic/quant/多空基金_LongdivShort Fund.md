@@ -11,7 +11,7 @@
 
 ## 理解多空基金
 
-多空基金旨在通过投资于特定市场并同时采用多头和空头头寸来提高回报。由于需要积极管理、专业知识和分析，这些基金的费用比率通常较高。截至2024年，在FINRA数据库中列出的多空基金的平均费用比率为1.98%，而2023年所有股票型互惠基金的费用比率为0.42%。[2] 
+多空基金旨在通过投资于特定市场并同时采用多头和空头头寸来提高回报。由于需要积极管理、专业知识和分析，这些基金的费用比率通常较高。截至2024年，在FINRA数据库中列出的多空基金的平均费用比率为1.98%，而2023年所有股票型互惠基金的费用比率为0.42%。[2]
 
 与其多空对冲基金的同行一样，这些互惠基金和ETF使用类似的策略，但存在显著差异。它们提供了相似的投资组合，平衡了较高的风险和较大的回报潜力，针对标准基准。大多数多空基金比多空对冲基金提供更高的流动性，没有锁定期，且费用相对较低。然而，它们的费用比率仍然高于其他公开基金，流动性也相对较低。此外，许多基金要求较高的最低投资起点，并且是施加前端和后端费用（佣金）的9%互惠基金之一。[2]
 
@@ -73,4 +73,4 @@ Invesco表示其基金追踪更广泛股票市场的表现，同时提供对隐�
 
 [7] Gregory-Allen, R.B. et al. "[Short Selling by Portfolio Managers: Performance and Risk Effects Across Investment Styles](https://www.sciencedirect.com/science/article/abs/pii/B9780123877246000301)." In Greg N. Gregoriou, ed., "Handbook of Short Selling." Pages 437-451. Academic Press, 2012.
 
-[8] CMC Markets. "[Pairs Trading: An Advanced Strategy for Hedging](https://www.cmcmarkets.com/en/trading-guides/p
+[8] CMC Markets. "[Pairs Trading: An Advanced Strategy for Hedging](<https://www.cmcmarkets.com/en/trading-guides/p>

@@ -10,12 +10,14 @@
 - **出版年份**: 2011
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Dan Stefanica - A Primer for the Mathematics of Financial Engineering-FE Press (2011).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Dan> Stefanica - A Primer for the Mathematics of Financial Engineering-FE Press (2011).pdf)
 
 ### 内容简介
+
 本书是金融工程数学基础的入门教材，系统介绍了金融工程中必需的数学工具，包括微积分、线性代数、概率论等内容。
 
 ### 核心章节
+
 1. 微积分基础
 2. 线性代数应用
 3. 概率论基础
@@ -23,18 +25,21 @@
 5. 金融应用实例
 
 ### 主要特点
+
 - 讲解清晰
 - 循序渐进
 - 例题丰富
 - 实用性强
 
 ### 适合人群
+
 - 金融工程学生
 - 量化研究员
 - 金融工程师
 - 自学者
 
 ### 配套资源
+
 - 习题解答
 - MATLAB代码
-- 补充材料 
+- 补充材料

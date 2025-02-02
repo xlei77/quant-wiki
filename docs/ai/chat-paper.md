@@ -73,11 +73,11 @@
 2. **因子模型回归**  
    - 对超额收益做多因子回归（例如 Fama-French 6 因子模型），判断在控制已有风险因子后，信号是否仍具有统计意义：  
      $$
-     r_{i,t} - r_{f,t} 
-     = \alpha 
-       + \beta_1 \cdot \text{MKT}_{t} 
-       + \beta_2 \cdot \text{SMB}_{t} 
-       + \cdots 
+     r_{i,t} - r_{f,t}
+     = \alpha
+       + \beta_1 \cdot \text{MKT}_{t}
+       + \beta_2 \cdot \text{SMB}_{t}
+       + \cdots
        + \beta_6 \cdot \text{Factor6}_{t}
        + \epsilon_{i,t}
      $$  
@@ -138,9 +138,9 @@ $$
 的影响：
 
 $$
-r_{i,t} 
-= \alpha_t 
-+ \beta_t \cdot \text{SIGNAL}_{i,t-1} 
+r_{i,t}
+= \alpha_t
++ \beta_t \cdot \text{SIGNAL}_{i,t-1}
 + \gamma_t \cdot \mathbf{X}_{i,t-1}
 + \epsilon_{i,t},
 $$
@@ -152,14 +152,15 @@ $$
 是一组控制变量或其他经典因子（如 SIZE、BM、MOM、RMW、CMA 等）。  
 
 1. **截面回归**：针对每个时期 \(t\) 做截面回归，得到一系列
+
 $$
 \hat{\beta}_t
 $$。  
 2. **时间序列均值与方差**：  
    $$
-   \overline{\beta} = \frac{1}{T}\sum_{t=1}^{T} \hat{\beta}_t,
+   \overline{\beta} = \frac{1}{T}\sum_{t=1}^{T} \hat{\beta}*t,
    \quad
-   SE(\overline{\beta}) = \sqrt{\frac{1}{T(T-1)}\sum_{t=1}^{T} \Bigl(\hat{\beta}_t - \overline{\beta}\Bigr)^2}.
+   SE(\overline{\beta}) = \sqrt{\frac{1}{T(T-1)}\sum*{t=1}^{T} \Bigl(\hat{\beta}_t - \overline{\beta}\Bigr)^2}.
    $$
 
 若最终
@@ -213,10 +214,7 @@ $$
 - Novy-Marx, R. & Velikov, M. (2024). *Assaying Anomalies.* Working Paper.  
 - Yan, X. & Zheng, L. (2017). *Fundamental analysis and the cross-section of stock returns: A data-mining approach.* The Review of Financial Studies, 30(4), 1382–1423.  
 
-
-
 如需了解更多细节，获取论文原文和**代码**，欢迎加入**LLMQuant知识星球**。
-
 
 ## 关于LLMQuant
 

@@ -4,13 +4,13 @@
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-这是VQVAE生成模型的 PyTorch 实现 (https://arxiv.org/abs/1711.00937). 
+这是VQVAE生成模型的 PyTorch 实现 (<https://arxiv.org/abs/1711.00937>).
 
 您可以在此处找到作者 [在 Tensorflow 中的原始实现](https://github.com/deepmind/sonnet/blob/master/sonnet/python/modules/nets/vqvae.py) 其中包含 [可以在 Jupyter 笔记本中运行的示例](https://github.com/deepmind/sonnet/blob/master/sonnet/examples/vqvae_example.ipynb).
 
 ## 安装依赖项
 
-要安装依赖项，请使用 Python 3 创建 conda 或虚拟环境，然后运行 `pip install -r requirements.txt`. 
+要安装依赖项，请使用 Python 3 创建 conda 或虚拟环境，然后运行 `pip install -r requirements.txt`.
 
 ## 运行 VQ VAE
 

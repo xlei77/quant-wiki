@@ -1,10 +1,10 @@
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 # 2024金融领域人工智能**精华文献**回顾
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 在过去的两年中，随着生成式人工智能（Generative AI）与大型语言模型（LLMs）技术的飞速发展，金融领域的前沿研究和应用也迎来新一轮的革新。本文旨在汇总、梳理与展示 过去两年在定量金融与 LLM 交叉领域具有代表性的**关键学术论文**及**实践案例**。通过对历史演进、方法论挑战、应用场景与评估基准的系统性介绍，本综述为读者提供一个清晰的导览图，帮助从业者与研究者更好地理解并利用 LLM 技术推动金融领域的创新与变革。
-
 
 ## 内容目录
   
@@ -23,17 +23,13 @@
 
 ### LLM 的发展简史  
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/12/14/1734186113125-da5c35e4-7718-45c6-9e72-e60a09c42d87.png)
-
 
 ---
 
-### LLM 的一般应用场景 
-
+### LLM 的一般应用场景
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img5@main/2024/12/14/1734186140553-0f9c1d40-6c10-4dd6-857e-5edd165fb9e3.png)
-
 
 - **Fine Tuning（微调）**：  
   将通用 LLM 调整为特定领域的专家。先从具备广泛知识的 LLM 出发，然后用特定领域的数据对其进行定向训练，使其理解专业文件（如医疗记录、法律文件），并胜任相关任务。
@@ -62,7 +58,6 @@
 - **Hallucinations/Machine Unlearning/Safety（幻觉/机器遗忘/安全）**：  
   由于数据质量、生成方法偏差、概率特性、高温度设置或误导性提示等因素，LLM可能产生不符合事实的回答，需要安全策略与模型改进来降低此类风险。
 
-
 ### FinLLMs 的方法论、应用与挑战
 
 - **应用场景**：  
@@ -88,11 +83,9 @@
 
 选择合适的方法将显著影响模型在特定金融任务中的有效性。
 
-
 ### 金融 LLM 的全景图
+
 ![](https://fastly.jsdelivr.net/gh/bucketio/img18@main/2024/12/14/1734187108044-881dd1ac-af20-447a-bc58-511eb0d6941c.png)
-
-
 
 ### 金融预测、投资策略与风险管理
 
@@ -118,8 +111,6 @@
 
 - [SystemicRisk](): 利用 LLM 嵌入与知识图谱评估金融新闻中的系统性风险，发现美国金融机构间互联性较低。
 
- 
-
 ### 情感分析与文本挖掘
 
 - [FinLlama](): 基于 Llama 2 7B 微调的金融情感分析模型，更好地理解上下文并在波动市场中具有稳健性。
@@ -138,11 +129,7 @@
 
 - [NumLLM](): 利用中文金融教材训练的模型，在数值类金融问题理解上显著优于现有模型。
 
-
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2024/12/14/1734186490555-6ddcb578-42e2-4925-a748-e5df8030cc69.png)
-
-
 
 ### 时间序列分析与预测
 
@@ -159,7 +146,6 @@
 - [LLMsDistributionalShifts](): JPMorgan 提出框架利用 LLM 和 API 收集多元时间序列数据，应对分布偏移。
 
 - [AnomalyDetection](): 利用 LLM 嵌入提高金融异常检测的准确率。
-
 
 ### LLM 开发（微调）与金融数据整合
 
@@ -187,8 +173,6 @@
 
 - [FLAN-FinXC](): 基于 FLAN-T5 与 LoRA 微调，在金融数值标注任务中表现出色。
 
- 
-
 ### 金融 LLM 的评估与基准测试
 
 - [LLM-InvestingRationality](): 提出经济理性评估方法，GPT-4 Turbo 在 14 个 LLM 中表现最佳。参见 [Are Large Language Models Rational Investors?]()。
@@ -211,10 +195,6 @@
 
 - [AIinFinance](): 国际清算银行（BIS）研究生成式 AI 对金融中介、保险、资管和支付领域的影响，同时提出对金融稳定与监管的新挑战。
 
-
-
 ## 关于LLMQuant
 
 LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。
-
-

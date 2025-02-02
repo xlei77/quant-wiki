@@ -1,4 +1,5 @@
 ## 再现研究成果培训与书籍
+
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 本列表由[LLMQuant社区](https://llmquant.com/)整理, 只供学习交流使用, 版权归原作者所有。
 
@@ -52,4 +53,3 @@
 - [Tidy Finance](https://www.tidy-finance.org/) - 一种进行金融实证研究的"整洁"思路，提供多语言（Python、R）的开源代码，方便学生和研究人员可重复实施财务研究项目。
 - [RoughVolatilityWorkshop](https://github.com/jgatheral/RoughVolatilityWorkshop) - 2024 年 QuantMind 的 Rough Volatility 研讨会课程资料。
 - [AFML](https://github.com/boyboi86/AFML) - 《Advances in Financial Machine Learning》一书所有练习题的完整答案（作者：Marcos Lopez de Prado）。
-

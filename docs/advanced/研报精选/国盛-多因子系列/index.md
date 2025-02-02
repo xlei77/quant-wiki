@@ -6,8 +6,8 @@
 
 ## 研报目录
 
-
 ### 国盛-多因子系列
+
 - [风险溢价时钟视角下的攻守因子配置](https://github.com/LLMQuant/asset/blob/main/国盛因子择时：风险溢价时钟视角下的攻守因子配置.pdf)
 - [的三个标尺，因子动量、因子离散度与因子拥挤度](https://github.com/LLMQuant/asset/blob/main/国盛因子择时：的三个标尺，因子动量、因子离散度与因子拥挤度.pdf)
 - [资产配置vs风险配置_打造一个系统化的宏观风险配置框架](https://github.com/LLMQuant/asset/blob/main/国盛量化专题报告：资产配置vs风险配置_打造一个系统化的宏观风险配置框架.pdf)
