@@ -6,8 +6,8 @@
 
 ## 研报目录
 
-
 ### 中信-多因子系列
+
 - [特质波动率纯因子组合在A股的实证与研究](https://github.com/LLMQuant/asset/blob/main/中信因子深度研究系列1：特质波动率纯因子组合在A股的实证与研究.pdf)
 - [宏观变量控制下的有效因子轮动](https://github.com/LLMQuant/asset/blob/main/中信因子深度研究系列2：宏观变量控制下的有效因子轮动.pdf)
 - [Barra风险模型介绍及与中信建投选股体系的比较](https://github.com/LLMQuant/asset/blob/main/中信因子深度研究系列3：Barra风险模型介绍及与中信建投选股体系的比较.pdf)

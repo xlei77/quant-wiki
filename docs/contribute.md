@@ -14,11 +14,11 @@
 
 ## 参与协作  
 
-> **Warning**  
-> 在开始编写一段内容之前，请查阅 [Issues](https://github.com/LLMQuant/Quant-Wiki/issues)，确认没有别人在做相同的工作之后，开一个新 Issue 记录待编写的内容。  
+???+ warning
+    在开始编写一段内容之前，请查阅 [Issues](https://github.com/LLMQuant/Quant-Wiki/issues)，确认没有别人在做相同的工作之后，开一个新 Issue 记录待编写的内容。  
 
-> **Tip**  
-> 在 Issues 中也有很多待修复/解决的问题，尤其是我们的迭代计划（Iteration Plan）。从这里获取任务是一个很好的开始！
+???+ tip
+    在 Issues 中也有很多待修复/解决的问题，尤其是我们的迭代计划（Iteration Plan）。从这里获取任务是一个很好的开始！
 
 为了保证条目内容的专业性和准确性，我们建议您在编辑前先考虑以下几点：  
 
@@ -34,8 +34,8 @@
 
 参与 Quant-Wiki 的编写需要一个 GitHub 账号（可以前往 [GitHub 注册页面](https://github.com/join) 注册账号），但不需要高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够非常出色地完成编辑。
 
-> **Tip**  
-> 在你的更改被合并到 Quant-Wiki 的主仓库之前，你对 Quant-Wiki 的内容所作出的修改均不会出现在主站上，所以无需担心你的修改会破坏已有的内容。如果还是不放心，可以参考 [GitHub 官方教程](https://docs.github.com/cn/get-started/quickstart/contributing-to-projects)。
+???+ tip
+    在你的更改被合并到 Quant-Wiki 的主仓库之前，你对 Quant-Wiki 的内容所作出的修改均不会出现在主站上，所以无需担心你的修改会破坏已有的内容。如果还是不放心，可以参考 [GitHub 官方教程](https://docs.github.com/cn/get-started/quickstart/contributing-to-projects)。
 
 ---
 
@@ -99,10 +99,12 @@
 提交 Pull Request 时，请注意以下几点：  
 
 1. 标题清晰表述改动内容，例如：  
+
    ```
    fix(math/poly/fft): 修正公式错误 (#123)
    feat(ds/segment-tree): 添加更多示例 (#456)
    ```  
+
 2. 在内容中标明改动详情，如果修复了 Issue，请在正文中添加 `fix #编号` 字段；  
 3. 确认 PR 符合 [贡献指南](https://github.com/LLMQuant/Quant-Wiki/blob/main/CONTRIBUTING.md) 后提交。
 

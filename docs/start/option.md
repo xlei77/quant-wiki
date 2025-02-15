@@ -1,8 +1,8 @@
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 # 一个价值万亿的数学公式：从物理方程到金融期权定价
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
-
 
 ## 从物理与数学到金融市场
 
@@ -12,9 +12,7 @@
 
 期权是一种给持有人在未来以特定价格买入或卖出某资产的“权利，但非义务”的金融合约。以欧式看涨期权（Call Option）为例：
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img10@main/2024/12/07/1733585704642-512cadf5-b279-4dcd-9bbe-af74db3333b4.png)
-
 
 - 当前标的资产价格为 $S_0$  
 - 行权价（执行价）为 $K$  
@@ -58,9 +56,7 @@ $$
 
 ## Black-Scholes-Merton：期权定价的经典方程
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img16@main/2024/12/07/1733585830007-52017b1b-3df3-47dc-a4c5-83c490273f40.png)
-
 
 1973年，费雪·布莱克（F. Black）、迈伦·斯科尔斯（M. Scholes）和罗伯特·默顿（R. Merton）提出了著名的Black-Scholes公式。在该模型中，股价被设为服从几何布朗运动：
 
@@ -90,7 +86,6 @@ Black-Scholes模型为期权定价提供了清晰可计算的标准，促使期�
 
 ## 量化帝国的崛起：吉姆·西蒙斯与文艺复兴科技
 
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2024/12/07/1733585876241-95f9b25c-8662-4987-aed1-baf7e76cec70.png)
 
 Black-Scholes公式公开后，简单套利机会渐少。以吉姆·西蒙斯（Jim Simons）为首的一批数学家、物理学家，利用更复杂的统计与机器学习方法，从海量数据中挖掘微小但持久的价格模式。文艺复兴科技公司（Renaissance Technologies）的Medallion基金年均回报率高达66%，令人瞠目，这对市场有效性提出质疑，也彰显了高精尖数学工具的威力。
@@ -105,15 +100,10 @@ Black-Scholes公式公开后，简单套利机会渐少。以吉姆·西蒙斯�
 
 在无限逼近完美的道路上，我们见证了科学与金融交织下的伟大创造与自我调适。这正是量化金融的魅力所在：它的终点，也许是一个无差别的随机世界，但在到达终点的过程中，人类以数学和科学之名，彻底改写了金融的游戏规则。
 
-
 ---
 
-
 *如果您对人工智能和量化金融的结合感兴趣，欢迎加入LLMQuant社区，共同探索人工智能在量化投资领域的应用。*
-
 
 ## 关于LLMQuant
 
 LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。
-
-

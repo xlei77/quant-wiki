@@ -6,8 +6,8 @@
 
 ## 研报目录
 
-
 ### 华泰-多因子系列
+
 - [多因子模型体系初探](https://github.com/LLMQuant/asset/blob/main/华泰多因子系列1：多因子模型体系初探.pdf)
 - [单因子测试之估值类因子](https://github.com/LLMQuant/asset/blob/main/华泰多因子系列2：单因子测试之估值类因子.pdf)
 - [单因子测试之成长类因子](https://github.com/LLMQuant/asset/blob/main/华泰多因子系列3：单因子测试之成长类因子.pdf)

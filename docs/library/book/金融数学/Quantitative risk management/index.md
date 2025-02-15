@@ -10,12 +10,14 @@
 - **出版年份**: 2005
 - **难度**: ⭐⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/Quantitative risk management-Princeton University Press (2005).pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/Quantitative> risk management-Princeton University Press (2005).pdf)
 
 ### 内容简介
+
 本书是量化风险管理领域的权威著作，系统介绍了金融风险管理的数学方法和实践应用，包括市场风险、信用风险等多个方面。
 
 ### 核心章节
+
 1. 风险度量方法
 2. 极值理论
 3. 相依性建模
@@ -23,18 +25,21 @@
 5. 风险聚合技术
 
 ### 主要特点
+
 - 理论严谨
 - 方法全面
 - 实践导向
 - 案例丰富
 
 ### 适合人群
+
 - 风险管理师
 - 量化研究员
 - 金融工程师
 - 监管人员
 
 ### 配套资源
+
 - R语言代码
 - 数据集
-- 案例分析 
+- 案例分析

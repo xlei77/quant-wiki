@@ -6,8 +6,8 @@
 
 ## 研报目录
 
-
 ### 华泰-人工智能系列
+
 - [人工智能选股框架及经典算法简介](https://github.com/LLMQuant/asset/blob/main/华泰人工智能系列1：人工智能选股框架及经典算法简介.pdf)
 - [人工智能选股广义线性模型](https://github.com/LLMQuant/asset/blob/main/华泰人工智能系列2：人工智能选股广义线性模型.pdf)
 - [人工智能选股支持向量机模型](https://github.com/LLMQuant/asset/blob/main/华泰人工智能系列3：人工智能选股支持向量机模型.pdf)

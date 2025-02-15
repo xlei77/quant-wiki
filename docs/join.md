@@ -1,5 +1,4 @@
-# 官宣！起源于剑桥大学和微软研究院的AI量化社区，正式对外开放！  
-
+# 官宣！起源于剑桥大学和微软研究院的AI量化社区，正式对外开放  
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img3@main/2024/09/04/1725464231869-e0b2f727-2a0f-4270-bf6c-31ddc350426a.gif)
 
@@ -11,13 +10,12 @@ LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的
   <img src="https://fastly.jsdelivr.net/gh/bucketio/img7@main/2024/09/04/1725419313467-675a448c-20ee-4992-ab33-70f16b1379a9.gif" alt="Resized Image" width="120" height="auto">
 </p>
 
-
 # 关于社区名
 
 $$
 \begin{aligned}
 LLMQuant &= LLM + Quant \\
-         &= 大语言模型 + 量化 
+         &= 大语言模型 + 量化
 \end{aligned}
 $$
 
@@ -40,13 +38,21 @@ ML + Quant=？
 $$
 
 # 社区优势
+
 ### 开源代码库
+
 代码Github开源，利于社区成员实践与贡献
+
 ### 知识分享社区
-每日分享人工智能与量化金融前沿，快速成长    
+
+每日分享人工智能与量化金融前沿，快速成长
+
 ### 定期行业交流
+
 邀请业内人士分享AI最新应用，探讨可行方案
+
 ### 创新机会
+
 参与社区项目, 成为社区孵化初创早期成员
 
 # 扫码申请加入社区
@@ -56,6 +62,7 @@ $$
 </p>
 
 # 学术合作
+
 为提升社区的学术深度，我们与**剑桥大学量化交易协会**、**北京大学量化交易协会**达成战略合作，联合开设课程与讲座。社区成员将有机会参与这些课程，学习最前沿的AI与量化金融知识，拓展视野并提升技能。
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2024/09/04/1725457918597-d07a6531-b5a1-4bd9-8568-0e4ea34d0701.png)
@@ -64,19 +71,22 @@ $$
 # 我们目前的解决方案
 
 ### Alpha Agent
+
 #### a multi-agent based framework for alpha mining and validation
+
 #### 适用场景：因子挖掘，因子回测验证
 
-### Sentiment Agent 
+### Sentiment Agent
+
 #### create trading signals using unstructured data with sentiment analysis
+
 #### 适用场景：情感分析，另类数据处理
 
 ### LocalQuantChat
+
 #### a solution for locally deploying financial LLMs
+
 #### 适用场景：大模型本地部署，数据隐私保护
-
-
-
 
 # 你将获得什么？
 
@@ -86,12 +96,14 @@ $$
 - **初创成员**：成为社区孵化初创早期成员，与社区成员成为未来创业伙伴。
 
 LLMQuant社区现已对外开放，诚邀所有对AI与量化金融领域有浓厚兴趣的研究者、从业者和学生加入。让我们一起探索未来，共同推动这一领域的进步！
+
 # 扫码申请加入社区
+
 <p align="center">
   <img src="https://fastly.jsdelivr.net/gh/bucketio/img17@main/2024/09/04/1725480591609-1225a922-8734-44f5-8ace-d8c5cbcbe47b.qq" alt="Resized Image" width="130" height="auto">
 </p>
 
-联系我们: info@llmquant.com
+联系我们: <info@llmquant.com>
 
 # 订阅最新资讯请关注公众号
 
@@ -105,5 +117,4 @@ LLMQuant社区现已对外开放，诚邀所有对AI与量化金融领域有浓�
   <img src="https://fastly.jsdelivr.net/gh/bucketio/img13@main/2024/09/04/1725481020190-3b1f673f-aa56-4a27-bdd6-ca7a4c5ba0eb.08" alt="Resized Image" width="160" height="auto">
 </p>
 
-# 获取更多信息请访问 www.llmquant.com
-
+# 获取更多信息请访问 <www.llmquant.com>

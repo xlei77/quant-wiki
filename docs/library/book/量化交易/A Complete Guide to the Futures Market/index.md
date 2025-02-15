@@ -10,12 +10,14 @@
 - **出版年份**: 2017
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/A complete guide to the futures market_ technical analysis and trading systems, fundamental analysis, options, spreads, and trading principles-J.pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/A> complete guide to the futures market_ technical analysis and trading systems, fundamental analysis, options, spreads, and trading principles-J.pdf)
 
 ### 内容简介
+
 本书全面介绍了期货市场的各个方面，包括技术分析、交易系统、基本面分析、期权和价差交易等内容，是期货交易领域的权威指南。
 
 ### 核心章节
+
 1. 技术分析基础
 2. 交易系统设计
 3. 基本面分析方法
@@ -23,18 +25,21 @@
 5. 价差交易技巧
 
 ### 主要特点
+
 - 内容全面
 - 实用性强
 - 案例丰富
 - 操作指导详细
 
 ### 适合人群
+
 - 期货交易员
 - 量化研究员
 - CTA策略开发者
 - 商品交易顾问
 
 ### 配套资源
+
 - 交易系统示例
 - 技术指标代码
-- 回测数据集 
+- 回测数据集

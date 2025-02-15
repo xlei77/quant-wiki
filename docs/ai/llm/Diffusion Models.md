@@ -4,7 +4,6 @@
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-
 **扩散模型**是受非平衡热力学的启发。它们定义一个扩散步骤的马尔可夫链，逐渐向数据添加随机噪声，然后学习逆扩散过程，从噪声中构建所需的数据样本。与VAE或流动模型不同，扩散模型是用固定的程序学习的，而且隐变量具有高维度。
 
 训练阶段，是在图片中添加噪声，给网络输入这一张添加噪声的图片，网络需要预测的则是添加的噪声。
@@ -12,7 +11,6 @@
 使用阶段，由随机生成的噪声，使用网络预测添加了什么噪声，然后逐步去除噪声，直到还原。
 
 ---
-
 
 # 1、扩散过程
 
@@ -25,13 +23,13 @@
 
 而 $\alpha_t$与$\beta_t$的关系为：
 
-$\alpha_t = 1- \beta_t$     								（1)
+$\alpha_t = 1- \beta_t$             （1)
 
 $T$表示的是，由图片通过逐步添加噪声直至完全变为纯噪声的过程所需要经历的次数，也就是图片需要总计需要添加噪声的步数。而$t$则代表的是$T$中具体的某一步。
 
 则给图像添加噪声的过程的表达式可以写为：
 
-$x_t=\sqrt{\alpha_t}x_{t-1}+\sqrt{1-\alpha_t}z_t$       	  (2)
+$x_t=\sqrt{\alpha_t}x_{t-1}+\sqrt{1-\alpha_t}z_t$          (2)
 
 $x_t$表示的是第$t$扩散步时，添加噪声后的图片，而$x_{t-1}$是第$t-1$时刻所获得的图片；$z_t$表示的是$t$时刻所添加的噪声，该噪声采样自标准正态分布$N(0,1)$
 
@@ -43,11 +41,11 @@ $x_2=\sqrt{\alpha_2}x_{1}+\sqrt{1-\alpha_2}z_2$
 
 ……
 
-$x_t=\sqrt{\alpha_t}x_{t-1}+\sqrt{1-\alpha_t}z_t$ 
+$x_t=\sqrt{\alpha_t}x_{t-1}+\sqrt{1-\alpha_t}z_t$
 
 ……
 
-$x_T=\sqrt{\alpha_T}x_{T-1}+\sqrt{1-\alpha_T}z_T$ 
+$x_T=\sqrt{\alpha_T}x_{T-1}+\sqrt{1-\alpha_T}z_T$
 
 由此可以看出$\beta_t$逐渐增加，相应的$\alpha_t$逐渐减小，$1-\alpha_t$则是逐渐增大的，也就是说，添加的噪声是逐步增加的，而原始图像的比例是逐渐减小的,并且噪声添加的程度是逐次扩大的。
 
@@ -87,8 +85,6 @@ $=\sqrt{\overline{\alpha_t}}x_{0}+(\sqrt{1-\overline{a_t}})z$    （3）
 
 其中$\overline{\alpha_t}$表示从$\alpha_1$到$\alpha_t$的连乘
 
-
-
 # 2、训练过程
 
 因此，扩散模型的训练过程如下：
@@ -103,7 +99,7 @@ $=\sqrt{\overline{\alpha_t}}x_{0}+(\sqrt{1-\overline{a_t}})z$    （3）
 
 ```python
 for i, (x_0) in enumerate(tqdm_data_loader):  # 由数据加载器加载数据，
-	x_0 = x_0.to(device)  # 将数据加载至相应的运行设备(device)
+ x_0 = x_0.to(device)  # 将数据加载至相应的运行设备(device)
     t = torch.randint(1, T, size=(x_0.shape[0],), device=device)  # 对每一张图片随机在1~T的扩散步中进行采样
     sqrt_alpha_t_bar = torch.gather(sqrt_alphas_bar, dim=0, index=t).reshape(-1, 1, 1, 1)  # 取得不同t下的 根号下alpha_t的连乘
     """取得不同t下的 根号下的一减alpha_t的连乘"""
@@ -117,8 +113,6 @@ for i, (x_0) in enumerate(tqdm_data_loader):  # 由数据加载器加载数据�
     optimizer.step()  # 优化器更新参数
 ```
 
-
-
 # 3、正向使用过程
 
 使用过程是从$x_T$一步一步取出噪声，推测出$x_0$
@@ -130,7 +124,6 @@ $$
 x_{t-1}=\frac{1}{\sqrt{\alpha_t}}(x_t-\frac{1-\alpha_t}{\sqrt{1-\overline{\alpha_t}}}M(x_t, t))+\sqrt{\beta_t}z
 $$
 则整个算法为：
-
 
 1. $x_T$随机采样自标准正态分布；
 2. 从T到1开始循环，
@@ -149,7 +142,6 @@ for t_step in reversed(range(T)):  # 从T开始向零迭代
     
     x_t = x_t_minus_one
 ```
-
 
 # 4、网络模型
 

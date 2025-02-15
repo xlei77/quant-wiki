@@ -10,12 +10,14 @@
 - **出版年份**: 2008
 - **难度**: ⭐⭐⭐⭐
 - **推荐指数**: ⭐⭐⭐⭐⭐
-- **PDF下载**: [点击下载](https://github.com/LLMQuant/asset/blob/main/红宝书Quant Job Interview Questions And Answers (2008, CreateSpace) - libgen.li.pdf)
+- **PDF下载**: [点击下载](<https://github.com/LLMQuant/asset/blob/main/红宝书Quant> Job Interview Questions And Answers (2008, CreateSpace) - libgen.li.pdf)
 
 ### 内容简介
+
 本书是量化金融面试的经典指南，收集了大量实际面试中的问题，并提供了详细的解答和分析，涵盖了金融数学、概率论、编程等多个领域。
 
 ### 核心章节
+
 1. 概率与统计问题
 2. 固定收益分析
 3. 期权定价理论
@@ -23,18 +25,21 @@
 5. C++编程题目
 
 ### 主要特点
+
 - 覆盖面广
 - 解答详实
 - 实用性强
 - 深入浅出
 
 ### 适合人群
+
 - 量化面试求职者
 - 金融工程师
 - 量化研究员
 - 程序开发者
 
 ### 配套资源
+
 - 详细解答
 - 代码示例
-- 补充练习题 
+- 补充练习题
