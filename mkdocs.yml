@@ -104,11 +104,14 @@ nav:
       - 为什么有些交易策略能带来盈利？: start/quant_trader/为什么有些交易策略能带来盈利.md
       - 如何打造“好用”的交易策略: start/quant_trader/如何打造“好用”的交易策略.md
       - 如何如何划分交易风格？: start/quant_trader/如何如何划分交易风格.md
+      - 量化交易员带你写Long-Short Strategy代码: start/quant_trader/long-short.md
     - 必懂概念入门: 
       - 夏普比率: start/sharpe.md
       - 期权定价: start/option.md
       - 波动率: start/volatility.md
       - 资产组合理论: start/mpt-markowitz.md
+      - 高频交易: start/high-frequency.md
+      - 极值理论(EVT)在VaR与ES计算中的应用: start/evt.md
     - 策略类型入门:
       - 一文解密量化策略类型: start/strategy-type.md
       - 多策略对冲基金入门: start/multi-strategy.md
@@ -210,6 +213,11 @@ nav:
     - 量化与人工智能结合: 
       - TradingAgents 多智能体LLM金融交易框架: ai/aiquant/TradingAgents.md
       - InvestorBench 面向LLM金融决策任务的Benchmark: ai/aiquant/InvestorBench.md
+      - FinRobot 基于大语言模型的股票研究与估值框架: ai/aiquant/finrobot.md
+      - ChatGPT也能做投资分析-手把手教你利用 LangChain搭建股票研究框架: ai/aiquant/ChatGPT-langchain.md
+      - DeepSeek 一家用实力“做空”美国科技股的量化背景初创: ai/aiquant/deepseek.md
+      - 如何利用LLM自动获取量化投资策略: ai/aiquant/deepseek.md
+    - 全面科普：谷歌 Gemini Flash 2.0 与 DeepSeek R1、OpenAI o3-mini 的对比与应用: ai/llm-overview.md
     - 2025年AI量化论文优选41篇: ai/2025-ai-paper.md
     - AI量化交易基础: ai/ai-quant.md
     - ChatGPT量化实战: ai/ChatGPT-quant.md

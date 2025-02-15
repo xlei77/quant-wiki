@@ -1,7 +1,6 @@
 # 量化金融基本概念
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
-
 ## 概述
 
 本列表由[LLMQuant社区](https://llmquant.com/)整理, 本章节收录了133个量化金融所需的基础知识概念，欢迎大家继续贡献添加，目前文档分为以下几个主要部分：
