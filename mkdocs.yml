@@ -210,6 +210,7 @@ nav:
     - 量化与人工智能结合: 
       - TradingAgents 多智能体LLM金融交易框架: ai/aiquant/TradingAgents.md
       - InvestorBench 面向LLM金融决策任务的Benchmark: ai/aiquant/InvestorBench.md
+      - FinRobot 基于大语言模型的股票研究与估值框架: ai/aiquant/finrobot.md
     - 2025年AI量化论文优选41篇: ai/2025-ai-paper.md
     - AI量化交易基础: ai/ai-quant.md
     - ChatGPT量化实战: ai/ChatGPT-quant.md
