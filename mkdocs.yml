@@ -214,6 +214,7 @@ nav:
       - ChatGPT也能做投资分析-手把手教你利用 LangChain搭建股票研究框架: ai/aiquant/ChatGPT-langchain.md
       - DeepSeek 一家用实力“做空”美国科技股的量化背景初创: ai/aiquant/deepseek.md
       - 如何利用LLM自动获取量化投资策略: ai/aiquant/deepseek.md
+    - 全面科普：谷歌 Gemini Flash 2.0 与 DeepSeek R1、OpenAI o3-mini 的对比与应用: ai/llm-overview.md
     - 2025年AI量化论文优选41篇: ai/2025-ai-paper.md
     - AI量化交易基础: ai/ai-quant.md
     - ChatGPT量化实战: ai/ChatGPT-quant.md
