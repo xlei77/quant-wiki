@@ -105,13 +105,13 @@ nav:
       - 如何打造“好用”的交易策略: start/quant_trader/如何打造“好用”的交易策略.md
       - 如何如何划分交易风格？: start/quant_trader/如何如何划分交易风格.md
       - 量化交易员带你写Long-Short Strategy代码: start/quant_trader/long-short.md
-      
-      
     - 必懂概念入门: 
       - 夏普比率: start/sharpe.md
       - 期权定价: start/option.md
       - 波动率: start/volatility.md
       - 资产组合理论: start/mpt-markowitz.md
+      - 高频交易: start/high-frequency.md
+      - 极值理论(EVT)在VaR与ES计算中的应用: start/evt.md
     - 策略类型入门:
       - 一文解密量化策略类型: start/strategy-type.md
       - 多策略对冲基金入门: start/multi-strategy.md
