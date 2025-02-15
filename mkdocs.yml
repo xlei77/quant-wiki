@@ -104,6 +104,9 @@ nav:
       - 为什么有些交易策略能带来盈利？: start/quant_trader/为什么有些交易策略能带来盈利.md
       - 如何打造“好用”的交易策略: start/quant_trader/如何打造“好用”的交易策略.md
       - 如何如何划分交易风格？: start/quant_trader/如何如何划分交易风格.md
+      - 量化交易员带你写Long-Short Strategy代码: start/quant_trader/long-short.md
+      
+      
     - 必懂概念入门: 
       - 夏普比率: start/sharpe.md
       - 期权定价: start/option.md
