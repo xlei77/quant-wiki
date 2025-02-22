@@ -80,3 +80,7 @@ Quant Wiki 的建立深受 [OI Wiki](https://oi-wiki.org/) 的启发。在内容
 Quant Wiki 致力于为量化交易 (Quant) 社区提供类似的高质量信息与学习资源。我们希望能够像 OI Wiki 一样，汇聚社区的力量，构建一个全面、准确、易懂的量化知识平台，助力每一位 Quant 学习者和从业者。
 
 在此，我们向 OI Wiki 团队及所有贡献者表示衷心的感谢！
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=LLMQuant/quant-wiki&type=Date)](https://star-history.com/#LLMQuant/quant-wiki&Date)
