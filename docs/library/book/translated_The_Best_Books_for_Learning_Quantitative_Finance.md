@@ -1,34 +1,11 @@
-为你的下一次量化面试做好准备了吗？
-
-[立即练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-教育
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 学习量化金融的最佳书籍
-
-## 掌握量化金融的基础概念与技能，助你拿下下一份量化工作。
-
-O
-
-OpenQuant
-
-2022-12-02
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 你是否正在寻找一些好书来充实你的**量化金融阅读清单**？那你来对地方了。在本文中，我们将为你推荐几本实用的书籍，帮助你掌握量化金融领域的基础知识。虽然这些书籍无法涵盖量化工作中所需的所有信息，但它们都是经过验证的学习资源，能为你的学习之路提供有力支持。
+
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 本文推荐的量化金融书籍将涵盖两大领域：
 
@@ -61,7 +38,7 @@ OpenQuant
 ## 衍生品与波动率交易书籍
 ### [期权、期货及其他衍生品](https://www.amazon.com/Options-Futures-Other-Derivatives-10th/dp/013447208X/)
 
-《期权、期货及其他衍生品》被誉为量化金融领域的“圣经”，深受专业人士推崇。这本书内容详实，涵盖面广，通读全书需要投入大量时间。然而，赫尔在书中深入探讨了许多基础金融概念，这些知识对于有志于从事量化工作的人来说至关重要。以下是书中将涉及的一些核心内容：
+《期权、期货及其他衍生品》被誉为量化金融领域的"圣经"，深受专业人士推崇。这本书内容详实，涵盖面广，通读全书需要投入大量时间。然而，赫尔在书中深入探讨了许多基础金融概念，这些知识对于有志于从事量化工作的人来说至关重要。以下是书中将涉及的一些核心内容：
 
 - 掌握期货合约的基本概念，理解什么是**期权**，认识对冲者和套利者的角色。
 - 了解**期货对冲**的策略，以及期权交易和定价的策略。
@@ -89,24 +66,4 @@ OpenQuant
 
 ## 最后说明
 
-感谢阅读本文。希望这些关于量化金融的书籍和资源能为你的量化之旅提供帮助。如果你喜欢这篇文章，欢迎访问我们的**[量化博客](https://openquant.co/blog)**查看更多内容。此外，如果你正在寻找量化金融领域的职业机会，请访问**[OpenQuant寻找最佳量化职位](https://openquant.co/)**。
-
-[阅读我们博客的更多内容](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-功能
-[实习与职业机会](https://openquant.co/) [数学与智力挑战](https://openquant.co/math-game) [面试题库](https://openquant.co/questions) [进度追踪](https://openquant.co/process-tracking) [薪资信息](https://openquant.co/salaries)
-
-社区
-
-[量化资讯订阅](https://openquant.substack.com/) [LinkedIn社群](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育培训](https://openquant.co/education)
-
-雇主专区
-
-[职位发布](https://openquant.co/employers) [合作机会](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+希望这些关于量化金融的书籍和资源能为你的量化之旅提供帮助。 
