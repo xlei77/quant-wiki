@@ -1,8 +1,9 @@
-![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+## 使用我们官方的量化求职社区：https://wallquant.com/
+
+![](https://fastly.jsdelivr.net/gh/bucketio/img17@main/2025/03/03/1741036557608-d65feca7-3f51-4e61-b19b-08839f3c707e.png)
+
 
 # 全球量化薪资大揭秘：你的位置属于哪一级？
-
-![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 量化金融领域近年来迎来了蓬勃发展。从高频交易到机器学习预测模型，技术的进步推动了对专业量化人才的需求。然而，不同地区的量化薪资结构却有着显著的差异。从纽约的高薪职位到中国市场的新机遇，以下是量化领域薪资水平的全面解读。
 
