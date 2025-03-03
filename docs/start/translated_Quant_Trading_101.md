@@ -1,36 +1,13 @@
-准备迎接你的下一次量化面试？
-
-[立即练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-教育
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化交易入门
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 量化交易领域所需的基本概念和相关术语，涵盖交易所、订单和做市商等内容。
 
-O
-
-OpenQuant
-
-2023-01-30
-
-![城市](https://openquant.co/trading-city.jpg)
-
 如果你正计划踏入**量化交易**的领域，你需要迅速掌握一系列常用术语。这些术语不仅是工作中的必备工具，更是理解量化交易基础概念的关键。具体来说，你需要了解什么是交易所，交易所的运作方式，以及交易是如何执行的。幸运的是，本文将为你总结这些核心概念。
+
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 ## 什么是交易所？
 
@@ -41,38 +18,15 @@ OpenQuant
 ## 什么是订单？
 订单是交易所内发生的核心事件。订单是具有法律效力的信息，**告知交易所的参与者某人愿意以特定价格买卖金融产品**。交易所的参与者，如量化交易者，可以看到订单的发布者、金融产品的详细信息、数量以及价格。
 
-订单通常根据其交易方向被赋予特定的名称。“买入订单”指的是买方愿意为购买一定数量的金融产品支付的最高价格。相反，“卖出订单”指的是卖方愿意出售一定数量的金融产品的最低价格。例如，Meta股票的150美元买入订单意味着，买方必须愿意支付至少150美元才能购买该股票。
+订单通常根据其交易方向被赋予特定的名称。"买入订单"指的是买方愿意为购买一定数量的金融产品支付的最高价格。相反，"卖出订单"指的是卖方愿意出售一定数量的金融产品的最低价格。例如，Meta股票的150美元买入订单意味着，买方必须愿意支付至少150美元才能购买该股票。
 
 ## 什么是订单匹配？
 
 订单匹配是**以合适的价格将买入订单与卖出订单进行配对**的过程。简单来说，当有人发出买入订单时，交易所会搜索市场中是否存在价格低于或等于该买入订单的卖出订单。如果卖出订单的价格低于或等于买入订单的价格，交易将立即执行。交易以卖出价格进行，交易数量为买入和卖出数量中的较小值。如果卖出数量少于买入数量，则只有部分买入订单会被执行，剩余部分将重新回到市场中。默认情况下，买入订单会保留在交易所中，直到它们被执行。
 
-订单通常存储在被称为“订单簿”的地方。订单簿会记录所有金融产品的买入和卖出两边的价格水平和数量。
+订单通常存储在被称为"订单簿"的地方。订单簿会记录所有金融产品的买入和卖出两边的价格水平和数量。
 
 ## 什么是做市？
 做市是一种**量化交易员常用的策略**，当他们对金融产品价格的涨跌方向不确定时，他们会选择同时进行买入和卖出操作，通过买卖价差来获利。本质上，做市商之所以能够盈利，是因为他们愿意承担持有金融产品库存的风险，这些产品的价值可能会上涨或下跌。
 
-## 总结
-
-感谢阅读本文，希望您有所收获！如果您对量化金融的更多内容感兴趣，欢迎访问我们的博客。如果您正在寻找量化相关的工作或实习机会，请务必查看 [OpenQuant](https://openquant.co/)。
-
-[阅读更多博客文章](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-特色栏目
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [流程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn 社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-
-雇主服务
-
-[职位推广](https://openquant.co/employers) [合作伙伴](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+![](https://fastly.jsdelivr.net/gh/bucketio/img14@main/2025/02/06/1738823342747-086eef2b-bebe-498a-abeb-e1a016a45530.png) 

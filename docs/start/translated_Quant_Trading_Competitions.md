@@ -1,43 +1,21 @@
-为你的下一次量化面试做好准备了吗？
-
-[立即练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-活动
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化交易大赛
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 一系列成熟的交易比赛。赢取丰厚奖金，与企业和招聘官建立联系，并斩获实习机会。
 
-O
-
-OpenQuant
-
-2023-01-29
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 ## 交易大赛是什么？
 
 众所周知，进入量化金融领域最稳妥的途径是获得实习机会。实习不仅可能带来全职offer，还能向其他公司展示你的专业能力。
 
-因此，每年学生们都会花费数周时间打磨副项目、优化简历、[苦练心算游戏](https://openquant.co/math-game)，并参加在线课程，为实习面试做充分准备。虽然这些都是很好的准备方式，但学生们往往忽略了一个更简单、更高效的选择：**交易大赛**。
+因此，每年学生们都会花费数周时间打磨副项目、优化简历、苦练心算游戏，并参加在线课程，为实习面试做充分准备。虽然这些都是很好的准备方式，但学生们往往忽略了一个更简单、更高效的选择：**交易大赛**。
 
-顾名思义，交易大赛是由学术机构或企业举办的竞赛活动，学生们组队在无风险环境中进行交易（即在比赛中使用“虚拟资金”）。大多数交易大赛从周五晚上开始，持续整个周末。这些比赛是获得交易各类金融工具实战经验的绝佳机会，同时为优胜者提供丰厚的奖金。更令人兴奋的是，你还有机会与众多参与活动的企业建立联系，并有可能获得实习机会。
+顾名思义，交易大赛是由学术机构或企业举办的竞赛活动，学生们组队在无风险环境中进行交易（即在比赛中使用"虚拟资金"）。大多数交易大赛从周五晚上开始，持续整个周末。这些比赛是获得交易各类金融工具实战经验的绝佳机会，同时为优胜者提供丰厚的奖金。更令人兴奋的是，你还有机会与众多参与活动的企业建立联系，并有可能获得实习机会。
+
 在本文中，我们将全面解析如何在交易竞赛中脱颖而出。从赛前准备到赛中策略，我们将一一为你揭晓。同时，我们还将列出接下来几个月内即将举行的顶尖交易竞赛，助你提前规划。
-
-![曼哈顿](https://openquant.co/blog-content/manhattan_25.jpg)
 
 ## 交易竞赛备战指南
 
@@ -65,6 +43,7 @@ Prosperity 是由 IMC Trading 公司举办的全球交易挑战赛。参赛者�
 ### \#3 [芝加哥大学交易竞赛](https://tradingcompetition.uchicago.edu/)
 
 芝加哥大学交易竞赛是历史最悠久的交易竞赛之一，专注于算法交易、做市、期权交易和时间序列分析。参赛者将有机会解决一个有趣的算法交易案例，并与来自全球各地的大学生同台竞技。
+
 这项比赛的独特之处在于，你将有机会与众多赞助活动的公司进行互动。例如，在比赛前的周五下午，你将有机会直接与招聘人员见面，并参与一场虚拟的职业招聘会。比赛将于4月14日和15日举行，请务必访问网站了解如何报名。
 
 ### \#4 [加州大学伯克利分校的交易员俱乐部](https://traders.berkeley.edu/competition.html)
@@ -79,26 +58,5 @@ Kalshi是一家快速发展的初创公司，致力于推广一种名为事件�
 
 在比赛中，你将获得1,000美元的虚拟资金，尝试交易事件合约（即预测各种事件的结果）。该比赛目前也已结束，但我们建议你关注报名重新开放的时间。
 
-## 接下来是什么？
-感谢您阅读本文，希望您从中有所收获！现在，您已经掌握了在量化交易竞赛中脱颖而出所需的所有知识。如果您对量化金融领域的工作和实习机会感兴趣，欢迎访问[OpenQuant](https://openquant.co/)，我们下次再见！
-
-[阅读更多博客文章](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-功能
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [进程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-
-对于雇主
-
-[职位推广](https://openquant.co/employers) [合作伙伴关系](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+## 总结
+感谢您阅读本文，希望您从中有所收获！现在，您已经掌握了在量化交易竞赛中脱颖而出所需的所有知识。祝您在未来的比赛中取得好成绩！ 
