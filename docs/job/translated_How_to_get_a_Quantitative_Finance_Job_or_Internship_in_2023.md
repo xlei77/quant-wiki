@@ -1,34 +1,11 @@
-准备迎接下一次量化面试？
-
-[立即练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-职业
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 2023年如何获得量化金融工作或实习机会
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-## 一份关于如何准备并成功获得2023年量化工作的全面指南。
+## 一份关于如何准备并成功获得2023年量化工作的全面指南
 
-O
-
-OpenQuant
-
-2023-02-11
-
-## 2023年如何进入量化金融领域
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 如今，量化金融已成为金融界最受追捧和尊重的领域之一。**高薪待遇、解决复杂技术问题的机会以及充满挑战的工作环境**，这些因素吸引了来自计算机科学、物理学、统计学等不同背景的人才。
 
@@ -105,14 +82,6 @@ OpenQuant
 在寻找量化金融工作时，一个有效的初步策略是利用校园内的招聘会或招聘活动。这是让你的简历被看到的最简单方式，同时你还能有机会与招聘人员直接交流。
 在着手投递职位申请前，务必确保你的简历已针对自动筛选系统进行了优化。针对量化交易和量化研究员的岗位，简历应着重展示你的统计与数学能力。具体而言，应详细列出你在数学竞赛中的优异表现、高标准化的考试成绩、参与的数据分析项目以及统计学课程的学习成果。
 
-终于，时机已至——你已准备就绪，可以开始申请量化相关的工作了！幸运的是，我们打造的OpenQuant平台，正是你寻找量化金融领域所有职位的理想之地。无论是全职还是实习机会，我们都能提供你心仪的量化职位。点击以下链接，开启你的申请之旅：
-
-1. [量化研究员职位](https://openquant.co/quant-researcher-jobs)
-2. [量化交易员职位](https://openquant.co/quant-trader-jobs)
-3. [量化开发员职位](https://openquant.co/quant-developer-jobs)
-
-若你正寻觅实习或初级职位，可利用相关筛选功能，找到符合你资历的职位。新职位每日更新，若今日未寻得心仪之选，记得常回来看看。
-
 ## 斩获录用通知
 
 许多人误以为获得量化金融的录用通知便是终点。然而，**这仅仅是起点**。此刻，你应全面评估手头的选择，确保最终找到最适合自己的职位。若你手中握有其他录用通知，可借此机会谈判更高的薪酬。若你即将参加其他心仪公司的面试，分享这一消息可加速面试进程。
@@ -120,25 +89,4 @@ OpenQuant
 最终，你应善用这份录用通知，在接受任何工作前，将自己置于最有利的位置。确认这家公司是否适合你，若非如此，不妨运用你的优势，争取更优的录用机会。
 
 ## 结语
-感谢您抽出时间阅读本文。如果您对量化金融职业准备的更多资源感兴趣，欢迎访问我们的博客，查看其他相关文章。若您希望及时获取OpenQuant的最新动态，请在[Twitter](https://twitter.com/Open_Quant)上关注我们。
-
-[阅读更多博客文章](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-功能
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [流程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-
-雇主服务
-
-[职位推广](https://openquant.co/employers) [合作伙伴](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+感谢您抽出时间阅读本文。如果您对量化金融职业准备的更多资源感兴趣，欢迎访问我们的博客，查看其他相关文章。 

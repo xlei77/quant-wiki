@@ -1,36 +1,15 @@
-准备迎接下一次量化面试？
-
-[立即练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-职业
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化金融面试练习题
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 统计与数学面试样题。
 
-O
-
-OpenQuant
-
-2022-12-03
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 量化金融面试以其在编程、统计、数学、金融及脑筋急转弯类问题上的严苛考察而著称。尽管这些面试往往颇具挑战性，但你可以利用丰富的练习资源，迅速熟悉这类问题，最终顺利通过面试。
 
-在本文中，我将分享一些统计与数学领域的练习题，这些题目可能作为你在量化面试中遇到的样题。这些题目源自从事量化研究与量化交易职位的候选人进行的在线评估。如果你希望找到更多量化面试题目，可以在这里找到一些[练习题](https://openquant.co/questions)。话不多说，让我们开始吧。
+在本文中，我将分享一些统计与数学领域的练习题，这些题目可能作为你在量化面试中遇到的样题。这些题目源自从事量化研究与量化交易职位的候选人进行的在线评估。话不多说，让我们开始吧。
 
 ## 问题1
 
@@ -129,24 +108,4 @@ OpenQuant
 
 ## 结束语
 
-感谢阅读本文。希望这些问题能为你的量化金融面试提供帮助。如果你正在寻找量化金融领域的工作或实习机会，请访问[OpenQuant获取最佳量化职位](https://openquant.co/)。
-
-[阅读更多博客内容](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-功能
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [流程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-FOR EMPLOYERS
-
-[职位推广](https://openquant.co/employers) [合作伙伴](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+ 

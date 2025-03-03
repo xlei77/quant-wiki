@@ -1,59 +1,18 @@
-准备迎接下一次量化面试了吗？
-
-[在这里练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-职位
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-职业
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化开发者的职业路径
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-## 量化开发者的职责及如何进入这一领域。
+## 量化开发者的职责及如何进入这一领域
 
-O
-
-OpenQuant
-
-2022-12-19
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 你是否对计算机科学感兴趣，同时又想在金融行业发展？那么，**量化开发者**这一角色或许非常适合你。量化开发者，通常也被称为量化软件工程师，主要活跃于投资基金、自营交易公司和投资银行等领域，他们的工作是将交易模型、策略和自动化程序实现到系统中。
 
-要成为一名量化开发者，扎实的计算机科学和统计学基础是必不可少的，同时还需要具备相关领域的学士学位。虽然拥有硕士或博士学位会更有优势，但对于初级的量化开发职位来说，这些通常不是硬性要求。此外，拥有软件工程师的全职或实习经验也会对进入这一领域有所帮助。如果你正在寻找相关职位，不妨看看[OpenQuant](https://openquant.co/quant-developer-jobs)上的机会。
+要成为一名量化开发者，扎实的计算机科学和统计学基础是必不可少的，同时还需要具备相关领域的学士学位。虽然拥有硕士或博士学位会更有优势，但对于初级的量化开发职位来说，这些通常不是硬性要求。此外，拥有软件工程师的全职或实习经验也会对进入这一领域有所帮助。
 
 量化开发者的年收入通常在**10万到20万美元**之间，具体数额取决于工作经验、公司规模及具体职位。由于金融行业对技术人才的需求持续旺盛，这一职业的稳定性较高。纽约是开启量化开发者职业生涯的理想之地，因为该市许多公司常年招聘**C++工程师**。
+
 量化开发者的工作与生活平衡通常较为理想。尽管他们偶尔需要加班，但与量化交易员相比，他们的工作压力相对较小。然而，量化开发者需要持续学习和提升技能，以应对可能提升公司交易系统效率和速度的新技术和创新。
 
-虽然量化开发者的职业在金融行业中可能不如某些职位那样显赫，但它依然备受尊重。在金融行业内，量化开发者的职业晋升机会可能有限，但这些技能在金融领域之外极具价值，因此在其他行业中有着广泛的晋升空间。
-
-[阅读更多来自我们的博客](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-特色
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [流程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-
-对于雇主
-
-[职位推广](https://openquant.co/employers) [合作伙伴](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+虽然量化开发者的职业在金融行业中可能不如某些职位那样显赫，但它依然备受尊重。在金融行业内，量化开发者的职业晋升机会可能有限，但这些技能在金融领域之外极具价值，因此在其他行业中有着广泛的晋升空间。 

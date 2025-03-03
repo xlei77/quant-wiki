@@ -1,34 +1,13 @@
-准备迎接你的下一次量化面试？
-
-[在这里练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-工作
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-职业
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化金融职业的最佳城市
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 探索美国顶级量化公司的分布。
 
-O
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
-OpenQuant
-
-2022-11-04
-
-量化金融是华尔街最具盈利潜力的领域之一。由于其工作性质极具挑战性，量化分析师通常具备[卓越的教育背景](https://openquant.co/blog/quant-finance-degrees)，并在统计学、数学建模和计算机科学方面拥有深厚的专业知识。如果你对量化金融的职业感兴趣，你可能会想知道这些机会都集中在哪些地方。
+量化金融是华尔街最具盈利潜力的领域之一。由于其工作性质极具挑战性，量化分析师通常具备卓越的教育背景，并在统计学、数学建模和计算机科学方面拥有深厚的专业知识。如果你对量化金融的职业感兴趣，你可能会想知道这些机会都集中在哪些地方。
 
 本文将为你从地理角度解析量化行业的分布，并为你提供一些建议，帮助你选择适合居住的城市，以便更好地迈向量化分析师的职业生涯。请注意，本文主要关注的是那些希望在美国境内定居的量化分析师。
 
@@ -64,7 +43,7 @@ OpenQuant
 | Tower Research Capital | 纽约 | 哈德逊街395号701室 纽约, NY 10014, 美国 |
 | Hudson River Trading | 纽约 | 格林威治街175号76层 纽约, NY 10007, 美国 |
 | Flow Traders | 纽约 | 美洲大道1140号4层 纽约市, NY 10001, 美国 |
-总体而言，**自营交易公司大多集中在芝加哥和纽约**，其中芝加哥的公司数量略多于纽约。此外，一些顶级公司也在其他城市设有办事处，如德克萨斯州的奥斯汀和旧金山。例如，Citadel已决定[将其总部从芝加哥迁至迈阿密](https://www.reuters.com/business/hedge-fund-citadel-move-headquarters-miami-chicago-2022-06-23/)。
+总体而言，**自营交易公司大多集中在芝加哥和纽约**，其中芝加哥的公司数量略多于纽约。此外，一些顶级公司也在其他城市设有办事处，如德克萨斯州的奥斯汀和旧金山。例如，Citadel已决定将其总部从芝加哥迁至迈阿密。
 
 ## 对冲基金
 
@@ -80,30 +59,9 @@ OpenQuant
 | Schonfeld | 纽约 | 590 Madison Ave, New York, 10022, 美国 |
 | Square Point Capital | 纽约 | New York, New York 10019, 美国 |
 
-不出所料，大多数量化对冲基金的总部都设在纽约而非芝加哥。纽约素有[“世界对冲基金之都”](https://www.pionline.com/article/20180215/INTERACTIVE/180219915/new-york-the-hedge-fund-capital-of-the-universe)的美誉，这一点在上表中得到了充分体现。
+不出所料，大多数量化对冲基金的总部都设在纽约而非芝加哥。纽约素有"世界对冲基金之都"的美誉，这一点在上表中得到了充分体现。
 
 ## 要点
 总体而言，数据显示，**纽约和芝加哥**都是量化金融行业找工作的理想之地。如果你对自营交易公司感兴趣，芝加哥可能是你的首选。而如果你更倾向于在对冲基金工作，纽约或许更适合你。
 
-感谢阅读本文。如果你喜欢，欢迎查看我们在[量化博客](https://openquant.co/blog)上的更多内容。此外，如果你正在寻找量化工作或实习机会，请访问[OpenQuant，获取最佳量化工作](https://openquant.co/)。
-
-[阅读更多博客内容](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-特色
-
-[实习与工作](https://openquant.co/) [数学与脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [进程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-
-[量化通讯](https://openquant.substack.com/) [LinkedIn社区](https://www.linkedin.com/company/open-quant) [量化博客](https://openquant.co/blog) [教育项目](https://openquant.co/education)
-
-面向雇主
-
-[职位推广](https://openquant.co/employers) [合作伙伴](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+感谢阅读本文。希望这些信息能帮助你选择最适合你的量化金融职业发展城市。 

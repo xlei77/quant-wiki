@@ -1,38 +1,17 @@
-为你的下一次量化面试做好准备？
-
-[在这里练习！](https://openquant.co/questions)
-
-[OpenQuant](https://openquant.co/)
-
-工作
-
-学习
-
-社区
-
-[合作伙伴](https://openquant.co/partners)
-
-登录
-
-[OpenQuant](https://openquant.co/) 登录
-
-职业
+![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 量化交易员职位面试问题
+![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 一系列可能在量化交易员职位面试中出现的问题。
 
-O
-
-OpenQuant
-
-2023-02-23
+![](https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/02/06/1738823480945-798e46f7-6058-4766-bb41-43138e3f7c39.JPG)
 
 ## 量化交易员面试
 
 **量化交易面试**通常包括一系列脑筋急转弯、心算问题和统计题目。这些问题因公司而异，但通常会在多轮面试中出现，首轮通常是在线测试。这些问题在初级职位和实习岗位中尤为常见。
 
-对于心算问题，最佳的准备方法是在限定时间内反复练习。通常这些问题会以在线测试的形式出现，你需要在几分钟内尽可能多地解答。例如，Optiver会给你8分钟时间完成80道心算题，涵盖整数、小数和分数。你可以在[OpenQuant上的Optiver游戏](https://openquant.co/math-game)中练习这些题目。如果你想在竞争中脱颖而出，建议至少拿到55分。
+对于心算问题，最佳的准备方法是在限定时间内反复练习。通常这些问题会以在线测试的形式出现，你需要在几分钟内尽可能多地解答。例如，Optiver会给你8分钟时间完成80道心算题，涵盖整数、小数和分数。如果你想在竞争中脱颖而出，建议至少拿到55分。
 
 至于统计部分，建议你复习大学期间学过的统计学教材。Sheldon Ross的[《概率论初步》](https://a.co/d/6H9L2xX)是一个不错的选择，书中详细解释了概率论的数学原理，并提供了大量练习题供你练习。
 除了上述提到的资源，要想在脑筋急转弯和统计学问题上有所突破，最好的办法就是多练习各种变体问题。在本文中，我们将为你提供一些练习题，这些题目可能会出现在你下一次的量化交易面试中。滑动到页面底部，你可以找到详细的解答和解释。
@@ -173,24 +152,4 @@ d) 512/625
 
 ## 结束语
 
-感谢您阅读这篇文章。如果您正在寻找量化交易相关的工作，我们这里有许多职位发布[这里](https://openquant.co/quant-trader-jobs)。此外，如果您想了解更多关于量化交易的内容，欢迎访问我们的博客。
-
-[阅读更多来自我们的博客](https://openquant.co/blog)
-
-![](https://openquant.co/favicon.ico)
-
-OpenQuant
-
-© 2024 OpenQuant
-
-特色
-
-[实习和工作](https://openquant.co/) [数学和脑力游戏](https://openquant.co/math-game) [面试问题](https://openquant.co/questions) [流程跟踪](https://openquant.co/process-tracking) [工作薪酬](https://openquant.co/salaries)
-
-社区
-[量化资讯订阅](https://openquant.substack.com/) [领英社群](https://www.linkedin.com/company/open-quant) [量化专栏](https://openquant.co/blog) [培训课程](https://openquant.co/education)
-
-企业服务
-
-[招聘推广](https://openquant.co/employers) [合作机会](https://openquant.co/employers) [联系我们](mailto:info@openquant.co)
-
+感谢您阅读这篇文章。希望这些面试问题能帮助您为量化交易职位的面试做好准备。 
