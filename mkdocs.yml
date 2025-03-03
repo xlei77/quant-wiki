@@ -101,6 +101,9 @@ nav:
         - Fama-French三因子模型: basic/quant/Fama-French三因子模型_Fama and French Three Factor Model.md
   - 入门教程: 
     - 量化交易员带你入门:
+      - 量化术语簿: start/translated_Quant_Trading_101.md
+      - 量化交易竞赛: start/translated_Quant_Trading_Competitions.md
+      - 为有志于量化领域的人士展示他们技能给雇主的绝佳项目集: start/translated_Quantitative_Finance_Portfolio_Projects.md
       - 为什么有些交易策略能带来盈利？: start/quant_trader/为什么有些交易策略能带来盈利.md
       - 如何打造“好用”的交易策略: start/quant_trader/如何打造“好用”的交易策略.md
       - 如何如何划分交易风格？: start/quant_trader/如何如何划分交易风格.md
@@ -131,6 +134,8 @@ nav:
         - 使用大语言模型揭露企业年报中掩盖的坏消息: advanced/最新技术/llm-report.md
         - RD-Agent 革新金融量化交易的AI自动化工具: advanced/最新技术/rd-agent.md
         - 量化投资专家的投资组合管理指南: advanced/最新技术/Advanced Portfolio Management.md
+        - 量化中的常见统计学与机器学习概念: advanced/最新技术/translated_Statistics_&_ML_Concepts_for_your_Next_Quant_Finance_Interview.md
+        - 前沿论文: advanced/最新技术/translated_Important_Research_Papers_for_Quants.md
     - 研报精选:
       - 研报精选目录: advanced/研报精选/index.md
       - 多因子系列:
@@ -217,6 +222,7 @@ nav:
       - ChatGPT也能做投资分析-手把手教你利用 LangChain搭建股票研究框架: ai/aiquant/ChatGPT-langchain.md
       - DeepSeek 一家用实力“做空”美国科技股的量化背景初创: ai/aiquant/deepseek.md
       - 如何利用LLM自动获取量化投资策略: ai/aiquant/deepseek.md
+      - GPT如何影响量化金融: ai/translated_How_OpenAI_s_GPT_will_affect_Quantitative_Finance.md  
     - 全面科普：谷歌 Gemini Flash 2.0 与 DeepSeek R1、OpenAI o3-mini 的对比与应用: ai/llm-overview.md
     - 2025年AI量化论文优选41篇: ai/2025-ai-paper.md
     - AI量化交易基础: ai/ai-quant.md
@@ -324,6 +330,7 @@ nav:
           - 金融时间序列分析: library/book/【2022新书】机器学习在金融时间序列分析与预测中的应用，385页pdf/index.md
           - 金融数据科学: library/book/【开放书】经济与金融数据科学/index.md
           - 量化绿皮书: library/book/量化绿皮书/index.md
+          - 量化必读: library/book/translated_The_Best_Books_for_Learning_Quantitative_Finance.md
         - 2024独家金融干货包: library/book/2024独家金融干货包/index.md
     - Reference: library/reference.md
   - 行业内幕:
@@ -337,12 +344,28 @@ nav:
     - 大奖章基金：文艺复兴科技公司里独一无二的赚钱机器: industry/Medallion.md
     - Quadrature Capital:你从未听过的神秘自营交易公司: industry/Quadrature-Capital.md
     - 规模越大代表业绩越好？论对冲基金规模与其表现的关系: industry/size-fund.md
+    - 量化行业与雇主类型全览: industry/translated_The_Various_Types_of_Quants_and_Quant_Employers.md 
+    - 量化薪资揭秘：量化从业者赚多少钱？: industry/translated_Quantitative_Finance_Salaries_-_How_much_Money_do_Quants_Make.md
   - 求职专区:
     - 全球量化薪资大揭秘: job/quant-salary.md
     - 一文全解析对冲基金的职业路径: job/quant-job.md
     - 揭秘量化分析师的日常: job/quant-daily.md
     - 探秘Jane Street实习的亲身经历: job/Jane-Street-intern.md
     - 剑桥与北大内部培训项目: job/cambridge-and-pku.md
+    - 城市如何影响你的量化生涯: job/translated_The_Best_Cities_for_a_Career_in_Quantitative_Finance.md
+    - 量化金融最佳学位推荐: job/translated_The_Best_Quantitative_Finance_Degrees.md
+    - 量化开发者职业路径解析: job/translated_The_Quantitative_Developer_Career_Path.md
+    - 量化交易员职业路径揭秘: job/translated_The_Quantitative_Trader_Career_Path.md
+    - 两种量化面试官类型解析: job/translated_The_Two_Types_of_Quant_Interviewers.md
+    - 量化交易员的日常工作揭秘: job/translated_What_does_a_Quantitative_Trader_do.md
+    - 如何写出完美的量化简历: job/translated_Writing_the_Perfect_Quant_Resume.md
+    - 2023量化金融求职与实习指南: job/translated_How_to_get_a_Quantitative_Finance_Job_or_Internship_in_2023.md
+    - 如何拿下IMC Trading量化实习: job/translated_How_to_Land_a_Quant_Internship_at_IMC_Trading.md
+    - 如何拿下Jane Street量化实习: job/translated_How_To_Land_a_Quant_Internship_at_Jane_Street.md
+    - 如何拿下Optiver量化实习: job/translated_How_To_Land_a_Quant_Internship_at_Optiver.md
+    - 如何进入Akuna Capital做量化交易: job/translated_How_to_Land_a_Quant_Trader_Job_at_Akuna_Capital.md
+    - 量化交易员面试问题大全: job/translated_Interview_Questions_for_the_Quantitative_Trader_Job.md
+    - 量化金融面试题精选: job/translated_Practice_Questions_for_the_Quantitative_Finance_Interview.md
   - 独家Chatbot:
     - Overview: chatbot/overview.md
 
