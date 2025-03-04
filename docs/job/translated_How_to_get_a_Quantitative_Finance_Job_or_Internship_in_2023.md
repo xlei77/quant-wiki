@@ -1,6 +1,7 @@
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 2023年如何获得量化金融工作或实习机会
+
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
 ## 一份关于如何准备并成功获得2023年量化工作的全面指南
