@@ -154,6 +154,7 @@ nav:
         - 广发高频因子: advanced/研报精选/广发-高频因子系列/index.md
       - 其他系列:
         - 财通中信逐鹿: advanced/研报精选/财通中信-逐鹿系列/index.md
+      - 学术论文: advanced/学术论文/index.md
   - 量化百宝箱:  
     - 简介: repo/quant_learn.md
     - 量化学习资源: 
