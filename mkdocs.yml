@@ -184,7 +184,7 @@ nav:
       - 波动率: start/volatility.md
       - 资产组合理论: start/mpt-markowitz.md
       - 高频交易: start/high-frequency.md
-      - 极值理论(EVT)在VaR与ES计算中的应用: start/evt.md
+      - 极值理论(EVT)在VaR与ES计算中的应用: start/evt-var-es.md
     - 策略类型入门:
       - 一文解密量化策略类型: start/strategy-type.md
       - 多策略对冲基金入门: start/multi-strategy.md
@@ -475,6 +475,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+# Material directory
+docs_dir: translated
 
 # Extensions
 markdown_extensions:
