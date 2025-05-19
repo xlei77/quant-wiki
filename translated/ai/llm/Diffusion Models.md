@@ -2,44 +2,43 @@
 {}
 ---
 
-Here's the English translation of the provided Chinese text, maintaining technical accuracy, markdown formatting, math expressions, and code elements:
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 
 # Overview of Diffusion Model Training and Sampling Process
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img9@main/2024/10/20/1729465031968-b3c8959e-1d37-4b8a-91b1-b0b0dfe25143.png)
 
-**Diffusion models** are inspired by non-equilibrium thermodynamics. They define a Markov chain of diffusion steps, gradually adding random noise to the data, and then learn the reverse diffusion process to construct desired data samples from noise. Unlike VAEs or flow models, diffusion models are learned with a fixed procedure, and the latent variables have high dimensionality.
+**Diffusion models** are inspired by non-equilibrium thermodynamics. They define a Markov chain of diffusion steps that gradually add random noise to data, then learn the reverse diffusion process to construct desired data samples from noise. Unlike VAEs or flow models, diffusion models are learned through a fixed procedure, and their latent variables are high-dimensional.
 
-During the training phase, noise is added to the image, and this noisy image is input to the network. The network needs to predict the added noise.
+During the training phase, noise is added to images, and these noisy images are input to the network. The network needs to predict the noise that was added.
 
-During the usage phase, starting from randomly generated noise, the network predicts what noise was added, and then gradually removes the noise until the original is restored.
+During the usage phase, starting from randomly generated noise, the network predicts what noise was added, then gradually removes the noise until the original is restored.
 
 ---
 
 # 1. Diffusion Process
 
-- The diffusion process continuously adds noise to the image step by step until the image becomes pure noise;
-- The added noise is Gaussian noise, and each subsequent moment is obtained by adding noise to the image from the previous moment.
+- The diffusion process continuously adds noise to an image step by step until the image becomes pure noise;
+- The added noise is Gaussian noise, and each subsequent state is obtained by adding noise to the previous state's image.
 
-**Process of adding noise:**
+**The noise addition process:**
 
-Two parameters are defined here: $\alpha_t$ and $\beta_t$; ($t$ ranges from 0 to $T$ integers, $\beta_t$ changes from $\beta_1$ to $\beta_T$, gradually increasing. In the paper, it increases from 0.0001 in equal increments $T$ times, up to 0.002)
+Two parameters are defined here: $\alpha_t$ and $\beta_t$; ($t$ ranges from 0 to $T$ integers, $\beta_t$ changes from $\beta_1$ to $\beta_T$, gradually increasing; in the paper, it increases from 0.0001 in equal increments $T$ times until reaching 0.002)
 
 The relationship between $\alpha_t$ and $\beta_t$ is:
 
 $\beta_t$0             (1)
 
-$T$ represents the number of steps required for the image to completely transform into pure noise through gradual noise addition, i.e., the total number of noise addition steps needed for the image. $t$ represents a specific step within $T$.
+$T$ represents the number of steps needed for an image to transform from its original state to pure noise through gradual noise addition, which is the total number of noise addition steps required. $t$ represents a specific step within $T$.
 
-The expression for the process of adding noise to the image can be written as:
+The expression for the noise addition process can be written as:
 
 $\beta_t$4          (2)
 
-$\beta_t$5 represents the image after adding noise at the $t$ diffusion step, while $\beta_t$7 is the image obtained at time $\beta_t$8; $\beta_t$9 represents the noise added at time $t$, which is sampled from a standard normal distribution $t$1
+$\beta_t$5 represents the image after adding noise at diffusion step $t$, while $\beta_t$7 is the image obtained at time $\beta_t$8; $\beta_t$9 represents the noise added at time $t$, which is sampled from a standard normal distribution $t$1
 
-Therefore, we can gradually add noise from the original image $t$2 to $t$3 according to formula (2):
+Following formula (2), we can progressively add noise from the original image $t$2 to diffuse to $t$3:
 
 $t$4
 
@@ -53,37 +52,37 @@ $\beta_t$4
 
 $t$7
 
-From this, we can see that as $\beta_t$ gradually increases, $\alpha_t$ gradually decreases, and $T$0 gradually increases. This means that the added noise is gradually increasing, while the proportion of the original image is gradually decreasing, and the degree of noise addition is expanding step by step.
+From this, we can see that as $\beta_t$ gradually increases, $\alpha_t$ gradually decreases, and $T$0 gradually increases, meaning that the added noise increases step by step while the proportion of the original image gradually decreases, and the degree of noise addition expands progressively.
 
-However, for network training, data needs to be randomly sampled. It would be too cumbersome to recursively calculate from $t$2 every time we sample at time $t$.
+However, for network training, data needs to be randomly sampled, and it would be too cumbersome to recursively calculate from $t$2 every time we sample at time $t$.
 
-So we need to calculate it in one go:
+Therefore, we need to calculate it in one step:
 
-Substituting the equation: $T$3 into (2), we get
+Substituting the equation: $T$3 into equation (2), we get:
 
-$T$4  
+$T$4
 
 Expanding the equation:
 
-$T$5  
+$T$5
 
-$T$6  
+$T$6
 
-Where each added noise — $T$7 — follows a normal distribution $t$1
+Where each added noise—$T$7—follows a normal distribution $t$1
 
-So we can combine the coefficients between $T$9 and $\beta_t$9, because multiplying a normal distribution by a coefficient only changes the variance, and $\beta_t$1
+Therefore, we can combine the coefficients between $T$9 and $\beta_t$9, because multiplying a normal distribution by a coefficient only changes its variance, and $\beta_t$1
 
-Therefore,
+Thus:
 
-$\beta_t$2  
+$\beta_t$2
 
-$\beta_t$3  
+$\beta_t$3
 
-$\beta_t$4  
+$\beta_t$4
 
-Substituting $\beta_t$5 into the above equation, repeating the process, and substituting $\beta_t$6, we get
+Then substituting $\beta_t$5 into the above equation, repeatedly, and bringing in $\beta_t$6, we get:
 
-$\beta_t$7  
+$\beta_t$7
 
 $\beta_t$8    (3)
 
@@ -96,10 +95,10 @@ Therefore, the training process of the diffusion model is as follows:
 1. Randomly select an image from the dataset,
 2. Randomly select a diffusion step from 1 to T,
 3. Calculate $\beta_t$5 according to equation (3),
-4. Input to the network, get the output, compute the loss between the output and the added noise, update the gradient,
-5. Repeat training until satisfied.
+4. Input to the network, obtain output, calculate loss between output and added noise, update gradients,
+5. Repeat training until satisfactory.
 
-The detailed code process for the training process is as follows:
+The detailed training process code is as follows:
 
 ```python
 for i, (x_0) in enumerate(tqdm_data_loader):  # 由数据加载器加载数据，
@@ -119,17 +118,17 @@ for i, (x_0) in enumerate(tqdm_data_loader):  # 由数据加载器加载数据�
 
 # 3. Forward Usage Process
 
-The usage process is to remove noise step by step from $t$3 to predict $t$2
+The usage process involves removing noise step by step from $t$3 to estimate $t$2
 
-In other words, given $t$3, we need to first infer $\beta_t$7, then $\beta_1$7..., and finally predict $t$2
+In other words, given $t$3, we need to first reverse-derive $\beta_t$7, then derive $\beta_1$7... and finally estimate $t$2
 
 According to Bayes' formula, the derivation is:
 $\beta_1$9
-The entire algorithm is:
+The complete algorithm is:
 
 1. $t$3 is randomly sampled from a standard normal distribution;
 2. Loop from T to 1,
-3. Calculate $\beta_t$7 according to the above formula, repeating the process, where $\beta_T$2 is the network model, the input is the result of step $\beta_t$5 and step t, because the model needs to encode the position of each step, $\beta_T$4 is sampled from a standard normal distribution, and z is set to zero when t is the last step
+3. Calculate $\beta_t$7 according to the above formula iteratively, where $\beta_T$2 is the network model, taking the result from step $\beta_t$5 and step t as inputs, because the model needs to encode the position at each step, $\beta_T$4 is sampled from standard normal distribution, and z is set to zero when t is at the final step
 
 The specific code is as follows:
 
@@ -147,4 +146,4 @@ for t_step in reversed(range(T)):  # 从T开始向零迭代
 
 # 4. Network Model
 
-The model uses UNet and includes position encoding information for the t-th diffusion step.
+The model uses UNet with positional encoding information for diffusion step t.

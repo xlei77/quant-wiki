@@ -2,8 +2,6 @@
 {}
 ---
 
-Here is the English translation of the provided text, maintaining technical accuracy, formatting, and precision for financial documentation:
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
 
 # 2024 Review of Key Literature on Artificial Intelligence in Finance
@@ -13,21 +11,21 @@ Here is the English translation of the provided text, maintaining technical accu
 Over the past two years, with the rapid development of Generative AI and Large Language Models (LLMs), cutting-edge research and applications in the financial sector have also ushered in a new round of innovation. This article aims to summarize, organize, and showcase **key academic papers** and **practical cases** representative of the intersection between quantitative finance and LLMs in the past two years. Through a systematic introduction to historical evolution, methodological challenges, application scenarios, and evaluation benchmarks, this review provides readers with a clear roadmap, helping practitioners and researchers better understand and utilize LLM technology to drive innovation and transformation in the financial field.
 
 ## Table of Contents
-  
-1. Brief History of LLM Development  
-2. General Application Scenarios of LLMs  
-3. Methodology, Applications, and Challenges of FinLLMs  
-4. Panorama of Financial LLMs  
-5. Directory of 48 Key Papers on Generative AI in Finance  
-   - Financial Forecasting, Investment Strategies, and Risk Management  
-   - Sentiment Analysis and Text Mining  
-   - Time Series Analysis and Prediction  
-   - LLM Development (Fine-tuning) and Financial Data Integration  
-   - Evaluation and Benchmarking of Financial LLMs  
+
+1. Brief History of LLM Development
+2. General Application Scenarios of LLMs
+3. Methodology, Applications, and Challenges of FinLLMs
+4. Panorama of Financial LLMs
+5. Directory of 48 Key Papers on Generative AI in Finance
+   - Financial Forecasting, Investment Strategies, and Risk Management
+   - Sentiment Analysis and Text Mining
+   - Time Series Analysis and Prediction
+   - LLM Development (Fine-tuning) and Financial Data Integration
+   - Evaluation and Benchmarking of Financial LLMs
 
 ---
 
-### Brief History of LLM Development  
+### Brief History of LLM Development
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/12/14/1734186113125-da5c35e4-7718-45c6-9e72-e60a09c42d87.png)
 
@@ -37,54 +35,54 @@ Over the past two years, with the rapid development of Generative AI and Large L
 
 ![](https://fastly.jsdelivr.net/gh/bucketio/img5@main/2024/12/14/1734186140553-0f9c1d40-6c10-4dd6-857e-5edd165fb9e3.png)
 
-- **Fine Tuning**:  
+- **Fine Tuning**:
   Adjusting a general LLM to become a domain-specific expert. Starting with an LLM possessing broad knowledge, then training it with domain-specific data to understand specialized documents (e.g., medical records, legal documents) and excel in related tasks.
 
-- **Prompt Engineering**:  
+- **Prompt Engineering**:
   When insufficient fine-tuning data is available, designing clever instructions and prompts for the model to guide it in efficiently executing specific tasks despite data limitations.
 
-- **RAG (Retrieval-Augmented Generation)**:  
+- **RAG (Retrieval-Augmented Generation)**:
   When lacking suitable fine-tuning or prompt data, providing LLMs with a large, retrievable data repository. LLMs search for text similar to the query content using text embedding and encoding techniques to find relevant information, filling knowledge gaps and enhancing the reference value of responses.
 
-- **COT (Chain of Thoughts)**:  
+- **COT (Chain of Thoughts)**:
   Helping LLMs break down complex problems into several small steps for more in-depth logical reasoning.
 
-- **Agent CodeLLM (LLM with Solver)**:  
+- **Agent CodeLLM (LLM with Solver)**:
   Such as Code Interpreter, capable of directly processing code and data.
 
-- **Agent LLM Integration with Search Engines**:  
+- **Agent LLM Integration with Search Engines**:
   Like "perplexity", enabling LLMs to use search engines to obtain real-time information for answering complex queries.
 
-- **Self-Reflection**:  
+- **Self-Reflection**:
   LLMs evaluate their own outputs, selecting the most appropriate result from different answers to improve accuracy and relevance.
 
-- **Multishot Prompting**:  
+- **Multishot Prompting**:
   Providing multiple examples within the same prompt to help LLMs better understand tasks and generate higher quality, more precise responses.
 
-- **Hallucinations/Machine Unlearning/Safety**:  
+- **Hallucinations/Machine Unlearning/Safety**:
   Due to factors such as data quality, generation method bias, probabilistic nature, high temperature settings, or misleading prompts, LLMs may produce responses that do not align with facts. Safety strategies and model improvements are needed to reduce such risks.
 
 ### Methodology, Applications, and Challenges of FinLLMs
 
-- **Application Scenarios**:  
-  - Market news sentiment analysis  
-  - Financial report risk assessment  
-  - Automated financial advice  
-  - Automated trading strategies  
-  - Fraud detection  
-  - Customer service chatbots  
+- **Application Scenarios**:
+  - Market news sentiment analysis
+  - Financial report risk assessment
+  - Automated financial advice
+  - Automated trading strategies
+  - Fraud detection
+  - Customer service chatbots
   - Market trend analysis
 
-- **Challenges**:  
-  - Data privacy and security  
-  - Model interpretability  
-  - Bias reduction  
-  - Seamless integration with existing systems  
+- **Challenges**:
+  - Data privacy and security
+  - Model interpretability
+  - Bias reduction
+  - Seamless integration with existing systems
   - Accurate backtesting (avoiding GPT model temporal information leakage)
 
-- **Future Directions**:  
-  - Enhancing model transparency  
-  - Exploring unsupervised learning opportunities  
+- **Future Directions**:
+  - Enhancing model transparency
+  - Exploring unsupervised learning opportunities
   - Establishing ethical standards for AI in finance
 
 Choosing appropriate methods will significantly impact the model's effectiveness in specific financial tasks.

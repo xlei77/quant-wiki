@@ -8,78 +8,78 @@
 
 ## Introduction
 
-This section compiles cutting-edge research in the field of quantitative investment, including the latest technological developments and research reports from major securities firms.
+This section compiles cutting-edge research content in the field of quantitative investment, including the latest technical developments and research reports from major securities firms.
 
 ## Latest Research Developments
 
-### Application of Artificial Intelligence in Quantitative Investment
+### Applications of Artificial Intelligence in Quantitative Investment
 
-- [Balyasny Forms Dedicated AI Team](./最新技术/ChatGPT-Balyasny.md) - Hedge fund giant positions for AI quantitative strategies
-- [Using Large Language Models to Uncover Bad News Hidden in Corporate Annual Reports](./最新技术/llm-report.md) - Application of LLMs in financial report analysis
-- [RD-Agent: An AI Automation Tool Revolutionizing Quantitative Trading in Finance](./最新技术/rd-agent.md) - Application of AI Agents in quantitative trading
-- [Advanced Portfolio Management](./最新技术/Advanced%20Portfolio%20Management.md) - A guide to portfolio management for quantitative investment experts
+- [Balyasny Builds Dedicated AI Team](./最新技术/ChatGPT-Balyasny.md) - Hedge Fund Giant's Strategic AI Quantitative Initiative
+- [Using Large Language Models to Uncover Hidden Bad News in Corporate Annual Reports](./最新技术/llm-report.md) - Application of LLMs in Financial Report Analysis
+- [RD-Agent: An AI Automation Tool Revolutionizing Quantitative Trading](./最新技术/rd-agent.md) - Application of AI Agents in Quantitative Trading
+- [Advanced Portfolio Management](./最新技术/Advanced%20Portfolio%20Management.md) - Portfolio Management Guide for Quantitative Investment Professionals
 
-### Selected Research Reports
+### Research Report Highlights
 
-- [Multi-factor Series Research](./研报精选/index.md#多因子系列) - Multi-factor model research from various securities firms
+- [Multi-factor Research Series](./研报精选/index.md#多因子系列) - Multi-factor model research from major securities firms
   - Factor mining and construction
   - Factor effectiveness research
   - Portfolio optimization methods
   - Risk model construction
 
-- [Artificial Intelligence Series Research](./研报精选/index.md#人工智能系列) - Research on AI applications in quantitative investment
+- [Artificial Intelligence Research Series](./研报精选/index.md#人工智能系列) - AI applications in quantitative investment research
   - Machine learning models
   - Deep learning applications
   - NLP and alternative data
   - AI stock selection strategies
 
-- [High-Frequency Trading Series Research](./研报精选/index.md#高频交易系列) - High-frequency trading strategy research
+- [High-Frequency Trading Research Series](./研报精选/index.md#高频交易系列) - High-frequency trading strategy research
   - Market microstructure
   - High-frequency factor mining
   - Trading strategy design
-  - Real-world experience summary
+  - Live trading experience summary
 
 ## Research Topics
 
 ### 1. Machine Learning Strategies
 
-- Deep learning prediction
-- Reinforcement learning trading
-- NLP sentiment analysis
-- Factor mining
+- Deep Learning Prediction
+- Reinforcement Learning Trading
+- NLP Sentiment Analysis
+- Factor Mining
 
 ### 2. High-Frequency Trading Strategies
 
-- Market making strategies
-- Statistical arbitrage
-- Latency arbitrage
-- Order flow prediction
+- Market Making Strategies
+- Statistical Arbitrage
+- Latency Arbitrage
+- Order Flow Prediction
 
 ### 3. Alternative Data Strategies
 
-- Satellite image analysis
-- Social media mining
-- Alternative data applications
-- Web scraping
+- Satellite Image Analysis
+- Social Media Mining
+- Alternative Data Applications
+- Web Scraping
 
-### 4. Multi-Factor Strategies
+### 4. Multi-Factor Strategy
 
-- Factor construction
-- Factor combination
-- Risk models
-- Portfolio optimization
+- Factor Construction
+- Factor Combination
+- Risk Model
+- Portfolio Optimization
 
 ## Usage Suggestions
 
-1. It is recommended to first browse the latest research developments to understand industry frontiers
+1. It is recommended to first browse the latest research developments to understand industry frontier developments
 2. Choose specific topics for in-depth study based on personal interests
-3. Combine report content with practical cases to deepen understanding
+3. Deepen understanding by combining research report content with practical cases
 
 ## Update Plan
 
 We will continuously track:
 
-1. Technological innovations from top hedge funds
+1. Technical innovations from top hedge funds
 2. Latest research findings from academia
-3. In-depth research reports from major securities firms
-4. Industry practical experience summaries
+3. In-depth research reports from major brokerages
+4. Practical industry experience summaries

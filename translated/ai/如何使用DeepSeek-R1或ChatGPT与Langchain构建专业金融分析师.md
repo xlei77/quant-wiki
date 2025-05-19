@@ -2,313 +2,296 @@
 {}
 ---
 
-Here's the English translation of the provided text, maintaining technical accuracy, markdown formatting, math expressions, and code elements:
-
 ![](https://fastly.jsdelivr.net/gh/bucketio/img11@main/2024/10/21/1729466068183-23134fce-3131-4262-b18c-f378d71af4f6.gif)
+
 
 # Code Open Source! How to Build a Professional Financial Analyst Using DeepSeek-R1 or ChatGPT with Langchain
 
-In the rapidly changing financial markets, **how to use artificial intelligence to aid investment decisions** is becoming a focus of attention for more and more investors. Using large models for **stock analysis** and **news insights** not only allows us to efficiently obtain key data but also generates more valuable investment advice. This article will guide you step by step to build two practical scenarios:
 
-1. **Part One**: Create a **stock analysis agent** using **DeepSeek-R1**, including obtaining stock prices, calculating technical indicators, evaluating financial indicators, and outputting actionable conclusions.
-2. **Part Two**: Focus on **news content analysis** using **ChatGPT**, extracting real-time news and conducting sentiment analysis to provide more comprehensive references for investment decisions.
 
-> If you are a financial professional, quantitative engineer, or data scientist, this article will provide you with almost complete sample code to help you quickly build your own intelligent analysis Agent.
 
-## Part One: Building a Stock Analysis Agent Using DeepSeek-R1
+In the rapidly changing financial markets, **how to leverage artificial intelligence for investment decisions** is becoming a focus of attention for more and more investors. Using large language models for **stock analysis** and **news insights** not only enables us to efficiently obtain key data but also generates more valuable investment recommendations. This article will guide you through building two practical scenarios step by step:
 
-In this part, we will use the **DeepSeek-R1** model to complete the analysis of **stock prices and financial data**. The main steps include:
+1. **Part One**: Creating a **stock analysis agent** using **DeepSeek-R1**, including retrieving stock prices, calculating technical indicators, evaluating financial metrics, and outputting actionable conclusions.  
+2. **Part Two**: Focusing on **news content analysis** using **ChatGPT**, extracting real-time news and conducting sentiment analysis to provide more comprehensive reference for investment decisions.
+
+
+
+> If you are a finance professional, quantitative engineer, or data scientist, this article will provide you with nearly complete example code to help you quickly build your own intelligent analysis Agent.
+
+## Part 1: Building Stock Analysis Agent Using DeepSeek-R1
+
+In this section, we will complete the analysis of **stock prices and financial data** using the **DeepSeek-R1** model. This includes the following steps:
 
 1. Environment preparation and installation
 2. Obtaining historical stock prices and key technical indicators (RSI, MACD, VWAP, etc.)
-3. Obtaining financial indicators (such as P/E ratio, P/B ratio, debt-to-equity ratio, profit margin, etc.)
-4. Process orchestration using **LangChain** and **LangGraph**, and using **DeepSeek-R1** for analysis generation
+3. Obtaining financial metrics (such as P/E ratio, P/B ratio, debt-to-equity ratio, profit margins, etc.)
+4. Process orchestration through **LangChain** and **LangGraph**, using **DeepSeek-R1** for analysis generation
 
-### 1. Environment Installation
+### 1. Environment Setup
 
-First, install the required libraries (note that DeepSeek-R1 depends on [Ollama](https://ollama.ai/) or the corresponding local deployment environment):
+Please first install the required libraries (note that DeepSeek-R1 depends on [Ollama](https://ollama.ai/) or corresponding local deployment environment):
 
 ```bash
-pip install yfinance pandas ta langchain langchain-openai langchain-community langchain-experimental langchain_core langgraph python-dotenv
+pip install -U langgraph langchain langchain-ollama pandas ta python-dotenv yfinance
 ```
 
 And create a `.env` file in your project directory to store your custom environment variables (if any):
 
 ```
-OPENAI_API_KEY=your_openai_api_key
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
 If you don't need private APIs, you can ignore this.
 
-### 2. Obtaining Stock and Technical Indicators
+### 2. Obtaining Stock Data and Technical Indicators
 
-Before starting, make sure you have installed `yfinance` to get stock data and `ta` to calculate common technical indicators. The following example tool function will obtain the price data of the specified stock for the **last 24 weeks** and calculate common technical indicators such as **RSI**, **MACD**, **Stochastic Oscillator**, and **VWAP**.
+Before starting, ensure you have installed `yfinance` for retrieving stock data and `ta` for calculating common technical indicators. The following example utility function will obtain price data for the specified stock from the **last 24 weeks** and calculate common technical indicators including **RSI**, **MACD**, **Stochastic Oscillator**, and **VWAP**.
 
 ```python
-import yfinance as yf
+from typing import Union, Dict, TypedDict
 import pandas as pd
-import ta
+import yfinance as yf
+import datetime as dt
 
-def get_stock_data_and_indicators(symbol, period="24wk"):
-    stock = yf.Ticker(symbol)
-    df = stock.history(period=period)
-    
-    # Calculate RSI
-    df['RSI'] = ta.momentum.RSIIndicator(df['Close']).rsi()
-    
-    # Calculate MACD
-    macd = ta.trend.MACD(df['Close'])
-    df['MACD'] = macd.macd()
-    df['MACD_Signal'] = macd.macd_signal()
-    df['MACD_Histogram'] = macd.macd_diff()
-    
-    # Calculate Stochastic Oscillator
-    stoch = ta.momentum.StochasticOscillator(df['High'], df['Low'], df['Close'])
-    df['Stoch_K'] = stoch.stoch()
-    df['Stoch_D'] = stoch.stoch_signal()
-    
-    # Calculate VWAP
-    df['VWAP'] = ta.volume.VolumeWeightedAveragePrice(df['High'], df['Low'], df['Close'], df['Volume']).volume_weighted_average_price()
-    
-    return df
+# TA 库
+from ta.momentum import RSIIndicator, StochasticOscillator
+from ta.trend import MACD
+from ta.volume import volume_weighted_average_price
+
+def get_stock_prices(ticker: str) -> Union[Dict, str]:
+    """获取指定股票的历史价格数据和关键技术指标。"""
+    try:
+        data = yf.download(
+            ticker,
+            start=dt.datetime.now() - dt.timedelta(weeks=24*3),
+            end=dt.datetime.now(),
+            interval='1wk'
+        )
+        df = data.copy()
+        data.reset_index(inplace=True)
+        data.Date = data.Date.astype(str)
+        
+        indicators = {}
+        
+        rsi_series = RSIIndicator(df['Close'], window=14).rsi().iloc[-12:]
+        indicators["RSI"] = {
+            date.strftime('%Y-%m-%d'): float(value) 
+            for date, value in rsi_series.dropna().to_dict().items()
+        }
+        
+        sto_series = StochasticOscillator(
+            df['High'], df['Low'], df['Close'], window=14
+        ).stoch().iloc[-12:]
+        indicators["Stochastic_Oscillator"] = {
+            date.strftime('%Y-%m-%d'): float(value) 
+            for date, value in sto_series.dropna().to_dict().items()
+        }
+        
+        macd = MACD(df['Close'])
+        macd_series = macd.macd().iloc[-12:]
+        indicators["MACD"] = {
+            date.strftime('%Y-%m-%d'): float(value) 
+            for date, value in macd_series.to_dict().items()
+        }
+        
+        macd_signal_series = macd.macd_signal().iloc[-12:]
+        indicators["MACD_Signal"] = {
+            date.strftime('%Y-%m-%d'): float(value) 
+            for date, value in macd_signal_series.to_dict().items()
+        }
+        
+        vwap_series = volume_weighted_average_price(
+            high=df['High'],
+            low=df['Low'],
+            close=df['Close'],
+            volume=df['Volume'],
+        ).iloc[-12:]
+        indicators["vwap"] = {
+            date.strftime('%Y-%m-%d'): float(value) 
+            for date, value in vwap_series.to_dict().items()
+        }
+        
+        return {
+            'stock_price': data.to_dict(orient='records'),
+            'indicators': indicators
+        }
+
+    except Exception as e:
+        return f"Error fetching price data: {str(e)}"
 ```
 
 ### 3. Obtaining Financial Indicators
 
-Financial health indicators include **P/E, Price-to-Book, Debt-to-Equity, Profit Margins**, etc.:
+Financial health indicators include **P/E, Price-to-Book, Debt-to-Equity, Profit Margins** and others:
 
 ```python
-def get_financial_indicators(symbol):
-    stock = yf.Ticker(symbol)
-    info = stock.info
-    
-    pe_ratio = info.get('trailingPE', 'N/A')
-    pb_ratio = info.get('priceToBook', 'N/A')
-    debt_to_equity = info.get('debtToEquity', 'N/A')
-    profit_margins = info.get('profitMargins', 'N/A')
-    
-    return {
-        'P/E Ratio': pe_ratio,
-        'Price-to-Book Ratio': pb_ratio,
-        'Debt-to-Equity Ratio': debt_to_equity,
-        'Profit Margins': profit_margins
-    }
+def get_financial_metrics(ticker: str) -> Union[Dict, str]:
+    """获取指定股票的关键财务比率。"""
+    try:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+        return {
+            'pe_ratio': info.get('forwardPE'),
+            'price_to_book': info.get('priceToBook'),
+            'debt_to_equity': info.get('debtToEquity'),
+            'profit_margins': info.get('profitMargins')
+        }
+    except Exception as e:
+        return f"Error fetching ratios: {str(e)}"
 ```
 
 ### 4. Comprehensive Analysis Using LangGraph + DeepSeek-R1
 
 #### 4.1 Environment Configuration
 
-We use **LangGraph** to chain the conversation flow and tool calls. The large model we'll use is **DeepSeek-R1**, which needs to be used in conjunction with [OllamaLLM](https://pypi.org/project/langchain-ollama/) to call the local or server-side large model.
+We use **LangGraph** to connect conversation flows and tool calls. For this implementation, we will use **DeepSeek-R1** as our large language model, which needs to be used in conjunction with [OllamaLLM](https://pypi.org/project/langchain-ollama/) to call the large model either locally or on the server side.
 
 ```python
-from langchain_community.llms import Ollama
-from langchain.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
-from langgraph.graph import StateGraph, END
+import dotenv
+dotenv.load_dotenv()
+
+from langgraph.graph import StateGraph, START, END
+from langchain_core.nodes import ToolNode
+from typing import TypedDict
+
+class State(TypedDict):
+    messages: list
+    stock: str
+
+graph_builder = StateGraph(State)
 ```
 
 #### 4.2 Binding the DeepSeek-R1 Model
 
-```python
-llm = Ollama(model="deepseek-coder:6.7b")
-```
+#### 4.3 Building Prompts and Binding Tools
 
-#### 4.3 Building Prompt and Binding Tools
-
-We want the agent to:
+We want the agent to be able to:
 1. Obtain stock history and technical indicators
 2. Obtain financial indicators
-3. Comprehensively analyze and output readable conclusions
+3. Perform comprehensive analysis and output readable conclusions
 
 ```python
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a professional stock analyst. Analyze the given stock data and provide investment advice."),
-    ("human", "Please analyze the stock {symbol}. Here's the data:\n\nTechnical Indicators:\n{technical_data}\n\nFinancial Indicators:\n{financial_data}"),
-    ("human", "Based on this data, what's your analysis and investment recommendation?")
-])
+from langchain.schema import SystemMessage
+from langchain_core.tools import tool
 
-chain = prompt | llm | StrOutputParser()
+FUNDAMENTAL_ANALYST_PROMPT = """
+You are a fundamental analyst specializing in evaluating company performance based on stock prices, technical indicators, and financial metrics.
+Your task: Provide a comprehensive summary for {company}.
+
+Steps to follow:
+1. Use get_stock_prices and get_financial_metrics to gather data.
+2. Analyze trends, potential support/resistance, and financial health.
+3. Provide a concise, objective summary in JSON with:
+   - "stock": <symbol>
+   - "price_analysis": ...
+   - "technical_analysis": ...
+   - "financial_analysis": ...
+   - "final_summary": ...
+   - "recommendation": ...
+"""
+
+def fundamental_analyst(state: State):
+    system_message = SystemMessage(
+        content=FUNDAMENTAL_ANALYST_PROMPT.format(company=state['stock'])
+    )
+    messages = [system_message] + state["messages"]
+    # 直接调用 llm.invoke
+    result = llm.invoke(messages)
+    return {"messages": result}
 ```
 
-#### 4.4 Integrating Tool Nodes and Analysis Nodes into the Workflow
+#### 4.4 Connecting Tool Nodes and Analysis Nodes to the Workflow
+
+#### 4.5 Implementation Example
 
 ```python
-def analyze(state):
-    symbol = state['symbol']
-    technical_data = get_stock_data_and_indicators(symbol)
-    financial_data = get_financial_indicators(symbol)
-    
-    result = chain.invoke({
-        "symbol": symbol,
-        "technical_data": technical_data.to_string(),
-        "financial_data": str(financial_data)
-    })
-    
-    return {"result": result}
+events = graph.stream({
+    "messages": [("user", "Should I buy this stock?")],
+    "stock": "AAPL"
+}, stream_mode='values')
 
-workflow = StateGraph(initial_state={"symbol": None})
-
-workflow.add_node("analyze", analyze)
-workflow.set_entry_point("analyze")
-workflow.add_edge('analyze', END)
-
-app = workflow.compile()
+for event in events:
+    if 'messages' in event:
+        print(event['messages'][-1].content)
 ```
 
-#### 4.5 Execution Example
+The output may look like:
 
-```python
-inputs = {"symbol": "AAPL"}
-result = app.invoke(inputs)
-print(result['result'])
-```
-
-The output might look like:
-
-```
-Based on the provided technical and financial data for Apple Inc. (AAPL), here's my analysis and investment recommendation:
-
-1. Technical Analysis:
-   - The stock is currently trading at $173.50, which is above its 50-day moving average of $170.86 and its 200-day moving average of $165.94, indicating a bullish trend.
-   - The RSI (Relative Strength Index) is at 59.37, suggesting that the stock is neither overbought nor oversold.
-   - The MACD line is above the signal line, which is a bullish signal.
-   - The Stochastic Oscillator shows a reading of 80.23 for %K and 74.54 for %D, indicating that the stock might be approaching overbought territory.
-
-2. Financial Indicators:
-   - P/E Ratio: 28.61, which is relatively high compared to the overall market but not uncommon for a tech giant like Apple.
-   - Price-to-Book Ratio: 44.75, indicating that the stock is trading at a premium to its book value.
-   - Debt-to-Equity Ratio: 261.45, which is high and suggests the company is using significant leverage.
-   - Profit Margins: 25.31%, showing strong profitability.
-
-Investment Recommendation:
-Given the current data, I would recommend a HOLD position on Apple stock with a cautiously bullish outlook. Here's why:
-
-Positives:
-- The stock is in an uptrend, trading above key moving averages.
-- Strong profit margins indicate efficient operations and pricing power.
-- The MACD suggests positive momentum.
-
-Cautions:
-- The high P/E and P/B ratios suggest the stock might be somewhat overvalued.
-- The high debt-to-equity ratio is a concern and should be monitored.
-- The stock is approaching overbought levels according to the Stochastic Oscillator.
-
-For long-term investors, Apple remains a solid company with strong financials and market position. However, given the current valuation and technical indicators, it might be wise to wait for a pullback before adding to positions.
-
-For short-term traders, the current momentum could provide opportunities, but be cautious of potential overbought conditions and keep tight stop-losses.
-
-As always, this recommendation should be considered in the context of your overall investment strategy and risk tolerance. Keep an eye on upcoming earnings reports and any significant news that could impact the stock's performance.
+```json
+{
+  "stock": "AAPL",
+  "price_analysis": "Recent price shows an upward trend with moderate volatility...",
+  "technical_analysis": "RSI is around 62 indicating slightly overbought range...",
+  "financial_analysis": "PE ratio is 28.5, which is higher than industry median...",
+  "final_summary": "Apple maintains strong fundamentals but currently trades at a premium...",
+  "recommendation": "Consider a partial buy if you anticipate continued revenue growth."
+}
 ```
 
 ---
 
-## Part Two: Building a News Analysis Agent Using ChatGPT
+## Part Two: Building News Analysis Agents Using ChatGPT
 
-After completing the stock and financial data analysis, we also need to pay attention to **market sentiment** and **real-time news dynamics**. This section will introduce how to use **ChatGPT** (or OpenAI GPT-4) to analyze relevant news, provide sentiment judgments, and investment advice.
+After completing stock and financial data analysis, we also need to pay attention to **market sentiment** and **real-time news developments**. This section will introduce how to use **ChatGPT** (or OpenAI GPT-4) to analyze relevant news, provide sentiment judgments, and investment recommendations.
 
-### 1. Main Features
+### 1. Main Functions
 
-- **Scrape news related to the stock** (using Yahoo Finance)
-- **Extract full text from web pages** (using tools like MarkItDown)
-- **Conduct sentiment analysis on news** (Positive, Negative, Neutral)
-- **Provide investment advice based on comprehensive news views**
+- **Fetch stock-related news** (using Yahoo Finance)
+- **Extract full webpage content** (using tools like MarkItDown)
+- **Perform sentiment analysis on news** (Positive, Negative, Neutral)
+- **Provide investment recommendations based on aggregated news sentiment**
 
-### 2. Installation and Environment Preparation
+### 2. Installation and Environment Setup
 
-If you have already installed `yfinance`, `pandas`, etc., you can skip this step and only need to confirm that the **OpenAI** dependency is installed:
-
-```bash
-pip install openai
-```
-
-And add to the `.env` file:
+If you have already installed `langgraph`, `langchain`, etc., you can skip this step and only need to confirm that the **OpenAI** dependency is installed:
 
 ```
-OPENAI_API_KEY=your_openai_api_key
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```0
+
+And add the following to the `.env` file:
+
 ```
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```1
 
-### 3. Obtaining Relevant News Links
+### 3. Obtain Related News Links
 
-```python
-import yfinance as yf
-
-def get_news_links(symbol, limit=5):
-    stock = yf.Ticker(symbol)
-    news = stock.news
-    return [item['link'] for item in news[:limit]]
 ```
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```2
 
-### 4. Extracting and Cleaning News Content
+### 4. Extract and Clean News Content
 
-```python
-import requests
-from bs4 import BeautifulSoup
+### 5. Retrieve Complete News Content
 
-def extract_article_text(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    # Remove script and style elements
-    for script in soup(["script", "style"]):
-        script.decompose()
-    
-    # Get text
-    text = soup.get_text()
-    
-    # Break into lines and remove leading and trailing space on each
-    lines = (line.strip() for line in text.splitlines())
-    # Break multi-headlines into a line each
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    # Drop blank lines
-    text = '\n'.join(chunk for chunk in chunks if chunk)
-    
-    return text
 ```
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```4
 
-### 5. Getting Complete News Content
+### 6. Using ChatGPT for Sentiment Analysis and Investment Recommendations
 
-```python
-def get_full_news_content(symbol, limit=5):
-    links = get_news_links(symbol, limit)
-    news_contents = []
-    for link in links:
-        content = extract_article_text(link)
-        news_contents.append({"url": link, "content": content})
-    return news_contents
+Now that we have the **complete news**, let's use **LangChain** + **OpenAI** for sentiment analysis.
+
 ```
-
-### 6. Using ChatGPT for Sentiment Analysis and Investment Advice
-
-Now we have the **complete news**. Let's use **LangChain** + **OpenAI** for sentiment analysis.
-
-```python
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-
-llm = ChatOpenAI(model_name="gpt-3.5-turbo")
-
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a financial news analyst. Analyze the given news articles and provide sentiment analysis and investment advice."),
-    ("human", "Here are some recent news articles about {symbol}:\n\n{news_content}\n\nPlease analyze these articles and provide:\n1. Sentiment analysis for each article (Positive, Negative, or Neutral)\n2. Key points from each article\n3. Overall summary of the news\n4. Investment advice based on this news"),
-])
-
-chain = prompt | llm | StrOutputParser()
-```
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```5
 
 Example usage:
 
-```python
-symbol = "AAPL"
-news = get_full_news_content(symbol)
-news_content = "\n\n".join([f"Article {i+1}:\n{item['content'][:500]}..." for i, item in enumerate(news)])
-
-result = chain.invoke({"symbol": symbol, "news_content": news_content})
-print(result)
 ```
+# 可选
+DEEPSEEK_API_KEY=your_deepseek_api_key
+```6
 
-ChatGPT will output a JSON structure containing sentiment judgments for each news item, main points, overall summary, and investment advice. You can then parse this result and integrate it into the workflow built earlier to achieve a three-in-one agent analysis of **news sentiment + technical analysis + fundamental analysis**.
+ChatGPT will output a JSON structure containing sentiment analysis for each news item, key highlights, overall summary, and investment recommendations. You can parse this result and integrate it into the previously built workflow to achieve a trinity of analysis combining **sentiment factors + technical analysis + fundamental analysis**.
 
 ---
 
@@ -317,28 +300,26 @@ ChatGPT will output a JSON structure containing sentiment judgments for each new
 In this tutorial, we demonstrated in two main parts how to:
 
 1. **Use DeepSeek-R1** to create a stock analysis agent:
-   - Obtain stock prices and technical indicators
+   - Retrieve stock prices and technical indicators
    - Obtain financial data
-   - Use LangGraph to orchestrate the process and generate readable analysis reports
+   - Use LangGraph to orchestrate workflows and generate readable analysis reports
 
 2. **Use ChatGPT** for news content analysis agent:
-   - Obtain news links related to the stock
+   - Obtain news links related to stocks
    - Extract and clean webpage content
-   - Output sentiment analysis and investment advice
+   - Output sentiment analysis and investment recommendations
 
-### What can you do further?
+### What else can you do?
 
-- **Multi-Agent Integration**: Combine the "stock analysis agent" and "news analysis agent" into one LangGraph workflow, outputting comprehensive analysis including **stock prices, financials, and news**.
-- **Enhance Factor Model**: Add more factors such as industry comparisons and macroeconomic data based on market characteristics.
-- **Visualization and Automation**: Deploy analysis results in a web interface or automated task flow, generating analysis reports periodically.
-- **Use Other Open-Source Large Models**: Such as BLOOM, LLaMA, ChatGLM, etc., to compare analysis effects and performance differences.
+- **Multi-Agent Integration**: Merge the "Stock Analysis Agent" with the "News Analysis Agent" into a single LangGraph workflow, outputting comprehensive analysis that includes **stock prices, financials, and news**.
+- **Enhanced Factor Model**: Add more factors based on market characteristics, such as industry comparisons and macroeconomic data.
+- **Visualization and Automation**: Deploy analysis results in a web interface or automated workflow to generate periodic analysis reports.
+- **Alternative Open-Source Models**: Try other models like BLOOM, LLaMA, ChatGLM, etc., to compare analysis effectiveness and performance differences.
 
-> **Whether it's DeepSeek-R1 or ChatGPT, they can be flexibly replaced or complemented according to actual needs**. We hope this tutorial can help you quickly get started and build your own "agent-type financial analyst" to gain more insights and opportunities in the competitive market.
+> **Whether it's DeepSeek-R1 or ChatGPT, they can be flexibly substituted or complemented based on actual needs**. We hope this tutorial helps you quickly get started and build your own "agent-based financial analyst" to gain more insights and opportunities in the competitive market.
 
-If you have questions about the related code or want to share more ideas, feel free to discuss in the comments section. **Let's explore more possibilities of large models in the financial market together!**
+If you have questions about the code or want to share more ideas, feel free to discuss in the comments section. **Let's explore more possibilities of large language models in financial markets together!**
 
-Here's the English translation, maintaining the technical accuracy and formatting:
+## 关于LLMQuant
 
-## About LLMQuant
-
-LLMQuant is a cutting-edge community composed of individuals from the world's top universities and quantitative finance professionals, dedicated to exploring the infinite possibilities in the fields of Artificial Intelligence (AI) and Quantitative Finance (Quant). Our team members come from renowned global institutions such as the University of Cambridge, University of Oxford, Harvard University, ETH Zurich, Peking University, University of Science and Technology of China, and other world-class universities. Our external advisors are from leading companies including Microsoft, HSBC, Citadel, Man Group, Citi, Jump Trading, and top-tier private equity firms in China.
+LLMQuant是由一群来自世界顶尖高校和量化金融从业人员组成的前沿社区，致力于探索人工智能（AI）与量化（Quant）领域的无限可能。我们的团队成员来自剑桥大学、牛津大学、哈佛大学、苏黎世联邦理工学院、北京大学、中科大等世界知名高校，外部顾问来自Microsoft、HSBC、Citadel、Man Group、Citi、Jump Trading、国内顶尖私募等一流企业。

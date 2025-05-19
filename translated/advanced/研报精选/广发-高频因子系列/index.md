@@ -2,15 +2,13 @@
 {}
 ---
 
-Here's the English translation of the provided text, maintaining all formatting, technical accuracy, and precision:
-
-# GF Securities High-Frequency Factor Research Report Selection
+# Selected Research Reports on GF Securities High-Frequency Factors
 
 ## Series Introduction
 
-This series compiles research reports related to GF Securities' high-frequency factors.
+This series contains research reports related to GF Securities' high-frequency factors.
 
-## Report Directory
+## Research Report Directory
 
 ### GF Securities - High-Frequency Factor Series
 
